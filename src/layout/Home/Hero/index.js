@@ -15,9 +15,10 @@ const Index = ()=>{
                     .callFunction(() => {
                         console.log('String typed out!');
                     })
-                    .pauseFor(500)
-                    // .deleteChars(10)
-                    // .deleteAll()
+                    .pauseFor(100)
+                    .deleteChars(10)
+                    .typeString('<strong>adventures.</strong>')
+            
                     .callFunction(() => {
                         console.log('All strings were deleted');
                     })
@@ -30,6 +31,7 @@ const Index = ()=>{
            <div className="path">
                 <img src={path} />
           </div>
+          
           
          
             {/* <div className="mint">Mint</div> */}
