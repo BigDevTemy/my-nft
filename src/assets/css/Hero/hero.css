@@ -1,0 +1,68 @@
+.hero{
+    width:100%;
+    height:100vh;
+    position: relative;
+    
+}
+
+.heroOverlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    background:rgb(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s ease;
+}
+.herobanner{
+   width: 100%;
+   height: 100%;
+   transition: transform .5s ease;
+   overflow: hidden;
+   position: relative;
+  
+}
+
+.herobanner:hover{
+    transform: scale(1.5);
+    /* transform: scale(1.5); */
+    
+}
+
+.mint{
+    width: 200px;
+    height: 50px;
+    background: #FFB74A;
+    color: #000;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: candara;
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left: 45%;
+}
+.path{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top:82vh;
+}
+.path >img{
+    width: 100%;
+}
+
+.typewriter{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: candara;
+}
+
