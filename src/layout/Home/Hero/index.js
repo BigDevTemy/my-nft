@@ -13,14 +13,14 @@ const Index = ()=>{
                 onInit={(typewriter) => {
                     typewriter.typeString('We are building an immersive & inclusive digital world - a Squirrel community on Sandbox, games, shops, art galleries, parties & adventures')
                     .callFunction(() => {
-                        console.log('String typed out!');
+                        
                     })
                     .pauseFor(100)
                     .deleteChars(10)
                     .typeString('<strong>adventures.</strong>')
             
                     .callFunction(() => {
-                        console.log('All strings were deleted');
+                        
                     })
                     .start();
                 }}

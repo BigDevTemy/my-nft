@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@500;600&display=swap');
+
+
 .story{
     width: 100%;
     height: 100vh;
     margin-top: 80vh;
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.story-title > h1{
+    
+    font-family: Acme;
+    color: #fff;
+    
+}
+
+.story-title > small{
+    font-weight: bold;
+    font-family: candara;
+    color: #fff;
+}
+
+.story-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color:#fff;
+    
+    
+}
+
+.mystory{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 70%;
+    text-align: start;
+    padding: 40px;
+}
+.mystoryImg{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%;
+    
+}
+.mystory >p{
+    font-family: candara;
+    font-size: 17px;
+    display: flex;
+    text-align: left;
 }
