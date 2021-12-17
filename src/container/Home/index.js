@@ -5,6 +5,7 @@ import Story from '../../layout/Home/Story';
 import Roadmap from '../../layout/Home/Roadmap'
 import Team from '../../layout/Home/Team'
 import Faq from '../../layout/Home/Faq'
+import Footer from '../../component/footer'
 const Index=()=>{
     return(
         <div className="homeDiv">
@@ -16,6 +17,7 @@ const Index=()=>{
             <Roadmap/>
             <Team/>
             <Faq/>
+            <Footer/>
         
         </div>
     )

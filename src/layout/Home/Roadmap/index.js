@@ -7,7 +7,7 @@ import {SiEventbrite} from 'react-icons/si'
 const Index = ()=>{
      
     return(
-        <div classNameName="roadmap">
+        <div classNameName="roadmap" id="roadmap">
                
 
                     <section className="timeline_area section_padding_130">

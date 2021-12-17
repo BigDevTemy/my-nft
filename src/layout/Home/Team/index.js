@@ -7,7 +7,7 @@ import team4 from '../../../assets/images/our-team/nft-4.png'
 import PathDown from '../../../assets/images/Path.png'
 const Index=()=>{
     return (
-        <div className="ourteam">
+        <div className="ourteam" id="team">
                 <div className="pathway-div">
                     <img src={Path} className="pathway"/>
                 </div>

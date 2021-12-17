@@ -3,25 +3,32 @@ import logo from '../../assets/images/logo_white_new.png';
 import {GiGamepad} from 'react-icons/gi';
 import {VscTwitter} from 'react-icons/vsc';
 import {GiIronHulledWarship} from 'react-icons/gi'
+import {Link} from 'react-scroll'
+import { useLocation} from 'react-router';
 const Index=()=>{
+    
     return(
         <div className="header">
-                <div className="logo"><img src={logo}/></div>
+                <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={logo}/></Link></div>
                 <div className="nav-bars">
                     <div>
-                        About
+                        <Link  to="aboutus" spy={true} smooth={true}>About</Link>
                     </div>
                     <div>
-                        Story
+                    <Link  to="story" spy={true} smooth={true}> Story</Link>
+                       
                     </div>
                     <div>
-                        Roadmap
+                    <Link  to="roadmap" spy={true} smooth={true}> Roadmap</Link>
+                        
                     </div>
                     <div>
-                        Team
+                        
+                        <Link  to="team" spy={true} smooth={true}> Team</Link>
                     </div>
                     <div>
-                        Next Projects
+                    <Link  to="faq" spy={true} smooth={true}> Faq</Link>
+                    
                     </div>
                 </div>
                 <div className="connect">

@@ -5,7 +5,7 @@ import nft3 from '../../../assets/images/nft/nft-3.png'
 import nft4 from '../../../assets/images/nft/nft-4.png'
 const Index = ()=>{
     return(
-        <div className="aboutus">
+        <div className="aboutus" id="aboutus">
             <div className="title">
                 <h1>About US</h1>
                 <small>Welcome to Squireling Squirrels</small>

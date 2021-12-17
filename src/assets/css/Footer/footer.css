@@ -2,4 +2,9 @@
     width:100%;
     height: 50vh;
     background-color: #000;
+    margin-top: 50px;
+}
+.useful-link > a{
+    text-decoration: none;
+    color:#fff
 }

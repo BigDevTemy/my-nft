@@ -9,6 +9,7 @@
     justify-content: space-between;
     padding:10px
 }
+
 .logo{
     flex: 1 1 33.333%;
 }
@@ -17,17 +18,21 @@
     justify-content: space-between;
     align-items: center;
     color:#fff;
-    
     flex: 1 1 33.333%;
-    
-    
 }
 .nav-bars div{
     padding: 15px;
     font-size: 14px;
     font-family: candara;
     font-weight: bold;
+    cursor: pointer;
     
+}
+
+.nav-bars  div:hover{
+    background-color: #fff;
+    border-radius: 15px;
+    color: #000;
 }
 
 .connect{

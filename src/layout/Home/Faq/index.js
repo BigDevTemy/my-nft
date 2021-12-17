@@ -3,7 +3,7 @@ import Path from '../../../assets/images/Path.png'
 import { Accordion } from 'react-bootstrap'
 const Index=()=>{
     return (
-        <div className="faq">
+        <div className="faq" id="faq">
             <div className="faq-title">
                 <h1>Faq</h1>
                 <small>You have questions, we have answers!</small>

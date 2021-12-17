@@ -46,7 +46,7 @@ const Index = ()=>{
         }
     }
     return(
-        <div className="story">
+        <div className="story" id="story">
             <div className="story-title">
               <h1>  Story</h1>
               <small><i>Once upon a time..</i></small>
