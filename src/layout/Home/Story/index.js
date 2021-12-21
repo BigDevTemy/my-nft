@@ -73,7 +73,10 @@ const Index = ()=>{
                      Rikky returned the favor to Bailey by welcoming her and her community to his cave where they rested and got their warmth by staying close together. Years pass by throughout their time together before Bailey discovers the canal that will lead to the underground world, where the sun penetrates through the ice on top, awaiting its melting. Their community spent 9,000 years together in the underground world.
                     </p>
                     <p>
-                    Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and a scene that communicates food can be found here; Thus, Abas settled with his initially small community until they grew to 5,500 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration. Squirrels' habits 
+                        Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and a scene that communicates food can be found here; Thus, Abas settled with his initially small community until they grew to 5,500 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration. Squirrels' habits of their misplacement of nuts can be seen as our Squirreling Squirrels are environmental activists keeping our planet alive! 
+                    </p>
+                    <p>
+                    of their misplacement of nuts can be seen as our Squirreling Squirrels are environmental activists keeping our planet alive!
                     </p>
                </div>
                <div className="mystoryImg">
