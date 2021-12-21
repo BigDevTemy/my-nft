@@ -9,6 +9,7 @@ import {AiFillHome} from 'react-icons/ai';
 import {AiFillMail} from 'react-icons/ai';
 import {BsFillTelephoneForwardFill} from 'react-icons/bs';
 import {BsFillPrinterFill} from 'react-icons/bs'
+import {Link} from 'react-scroll'
 const Index = ()=>{
     return(
         <div className="footer">
@@ -24,22 +25,24 @@ const Index = ()=>{
                         
                         <div>
                         <a href="" className="me-4 text-reset">
-                            <FaFacebookF size={20}/>
+                            {/* <FaFacebookF size={20}/> */}
+                            <a href="https://twitter.com/SquirrelingSQRL" target="_blank"><FaTwitter size={20} color="#fff"/></a>
                         </a>
                         <a href="" className="me-4 text-reset">
-                            <FaTwitter size={20}/>
+                            <a href="https://www.instagram.com/squirrelingsquirrels/"><FiInstagram size={20} color="#fff"/></a>
+                            {/* <FaTwitter size={20}/> */}
                         </a>
                         <a href="" className="me-4 text-reset">
                         
-                            <BsGoogle size={20}/>
+                            {/* <BsGoogle size={20}/> */}
                             
                         </a>
                         <a href="" className="me-4 text-reset">
-                            <FiInstagram size={20}/>
+                            
                            
                         </a>
                         <a href="" className="me-4 text-reset">
-                             <FaLinkedinIn size={20}/>
+                             {/* <FaLinkedinIn size={20}/> */}
                         </a>
                         
                         </div>
@@ -69,19 +72,22 @@ const Index = ()=>{
                                 Useful links
                             </h6>
                             <p className="useful-link">
-                                <a href="#!" className="text-reset" style={{textDecoration:'none'}} >About Us</a>
+                            <Link  to="aboutus" spy={true} smooth={true} style={{cursor:'pointer'}}>About</Link>
                             </p>
                             <p>
-                                <a href="#!" className="text-reset" style={{textDecoration:'none'}} >Story</a>
+                             <Link  to="story" spy={true} smooth={true} style={{cursor:'pointer'}}>Story</Link>
+                              
                             </p>
                             <p>
-                                <a href="#!" className="text-reset" style={{textDecoration:'none'}} >Roadmap</a>
+                                <Link  to="roadmap" spy={true} smooth={true} style={{cursor:'pointer'}}>Roadmap</Link>
+                               
                             </p>
                             <p>
-                                <a href="#!" className="text-reset" style={{textDecoration:'none'}} >Team</a>
+                                <Link  to="team" spy={true} smooth={true} style={{cursor:'pointer'}}>Team</Link>
+                               
                             </p>
                             <p>
-                                <a href="#!" className="text-reset" style={{textDecoration:'none'}} >Next Project</a>
+                                <Link  to="faq" spy={true} smooth={true} style={{cursor:'pointer'}}>Faq</Link>
                             </p>
                             </div>
                             
