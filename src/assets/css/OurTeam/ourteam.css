@@ -51,17 +51,18 @@
     display: flex;
     width: 100%;
     margin-top: 30px;
-    height: 80%;
+    flex-wrap: wrap;
+    height: 100%;
     padding: 50px;
     justify-content: space-between;
     
 }
 .team-1 {
     background:#fff;
-    flex: 1 1 33.3333%;
+    flex: 1 1 25%;
     border-radius: 15px;
     height: 400px;
-    margin:20px;
+    margin:10px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -74,10 +75,10 @@
 
 .team-2 {
     background:#fff;
-    flex: 1 1 33.3333%;
+    flex: 1 1 25%;
     border-radius: 15px;
     height: 404px;
-    margin:20px;
+    margin:10px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -86,10 +87,46 @@
 }
 .team-3 {
     background:#fff;
-    flex: 1 1 33.3333%;
+    flex: 1 1 25%;
     border-radius: 15px;
     height: 404px;
-    margin:20px;
+    margin:10px;
+    text-align: center;
+    padding:50px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         1px 2px 3px 3px #ccc;
+}
+.team-4 {
+    background:#fff;
+    flex: 1 1 25%;
+    border-radius: 15px;
+    margin:10px;
+    height: 404px;
+    text-align: center;
+    padding:50px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         1px 2px 3px 3px #ccc;
+}
+.team-5 {
+    background:#fff;
+    flex: 1 1 25%;
+    border-radius: 15px;
+    margin:10px;
+    height: 404px;
+    text-align: center;
+    padding:50px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         1px 2px 3px 3px #ccc;
+}
+.team-6 {
+    background:#fff;
+    flex: 1 1 25%;
+    border-radius: 15px;
+    margin:10px;
+    height: 404px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -129,6 +166,16 @@
     cursor: pointer;
 }
 .team-4:hover{
+    background:#f2f2f2;
+    cursor: pointer;
+}
+
+.team-5:hover{
+    background:#f2f2f2;
+    cursor: pointer;
+}
+
+.team-6:hover{
     background:#f2f2f2;
     cursor: pointer;
 }

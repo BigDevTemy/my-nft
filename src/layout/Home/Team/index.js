@@ -4,6 +4,8 @@ import team1 from '../../../assets/images/our-team/nft-1.png'
 import team2 from '../../../assets/images/our-team/nft-2.png'
 import team3 from '../../../assets/images/our-team/nft-3.png'
 import team4 from '../../../assets/images/our-team/nft-4.png'
+import Anthony from '../../../assets/images/slider/4.png'
+import Marilyn from '../../../assets/images/slider/2.png'
 import PathDown from '../../../assets/images/Path.png'
 const Index=()=>{
     return (
@@ -18,7 +20,7 @@ const Index=()=>{
                 <div className="team-pic-div">
                 
                     <div className="team-1">
-                        <img src={team1}/>
+                        <img src={Marilyn}/>
                         <div className="jobTitle">
                             <span className="official-title">CEO</span>
                             <span className="officer-name">Clark</span>
@@ -26,7 +28,7 @@ const Index=()=>{
                         </div>
                     </div>
                     <div className="team-2">
-                        <img src={team2}/>
+                        <img src={team1}/>
                         <div className="jobTitle">
                                 <span className="official-title">CMO</span>
                                 <span className="officer-name">Kaylee</span>
@@ -34,11 +36,38 @@ const Index=()=>{
                         </div>
                     </div>
                     <div className="team-3">
-                        <img src={team3}/>
+                        <img src={Anthony}/>
                         <div className="jobTitle">
                             <span className="official-title">CTO</span>
                             <span className="officer-name">Jack</span>
                             <span className="job-description">Technology & Blockchain</span>
+                        </div>
+
+                    </div>
+                    <div className="team-4">
+                        <img src={Marilyn}/>
+                        <div className="jobTitle">
+                            <span className="official-title">Software Engineer</span>
+                            <span className="officer-name">Marilyn</span>
+                            <span className="job-description">Smart Contract/Developer</span>
+                        </div>
+
+                    </div>
+                    <div className="team-5">
+                        <img src={team1}/>
+                        <div className="jobTitle">
+                            <span className="official-title">Architect/Artist</span>
+                            <span className="officer-name">Chris</span>
+                            <span className="job-description">Designer</span>
+                        </div>
+
+                    </div>
+                    <div className="team-6">
+                        <img src={Anthony}/>
+                        <div className="jobTitle">
+                            <span className="official-title">Game Marker</span>
+                            <span className="officer-name">Anthony</span>
+                            <span className="job-description">Architect/Artist</span>
                         </div>
 
                     </div>
