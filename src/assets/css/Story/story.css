@@ -54,9 +54,10 @@
 }
 .mystory >p{
     font-family: candara;
-    font-size: 20px;
+    font-size: 16px;
+    text-align: justify;
     display: flex;
-    text-align: left;
+    
 }
 
 .story_pic{
