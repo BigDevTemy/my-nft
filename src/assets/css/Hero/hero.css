@@ -7,7 +7,8 @@
 .hero{
     width:100%;
     height:100vh;
-    background: url('../../images/storypic/partypic.png');
+    /* background: url('../../images/storypic/partypic.png'); */
+    background: #000;
     display: flex;
     justify-content: space-around;
     align-items: center;

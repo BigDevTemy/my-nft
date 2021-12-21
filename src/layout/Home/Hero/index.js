@@ -8,7 +8,7 @@ const Index = ()=>{
     return(
         <div className="hero">
           
-          {/* <div className="heroText">
+          <div className="heroText">
             <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString('We are building an immersive & inclusive digital world - a Squirrel community on Sandbox, games, shops, art galleries, parties & adventures')
@@ -28,7 +28,7 @@ const Index = ()=>{
           </div>
           <div className="heroLogo">
               <img src={logo}/>
-          </div> */}
+          </div>
 
         </div>
     )

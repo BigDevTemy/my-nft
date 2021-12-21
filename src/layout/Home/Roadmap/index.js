@@ -60,7 +60,7 @@ const Index = ()=>{
                                                             <div className="single-timeline-content d-flex wow fadeInLeft bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
                                                                 <div className="timeline-icon"><i className="fa fa-address-card" aria-hidden="true"></i></div>
                                                                 <div className="timeline-text soldout" onMouseOver={e=>{handleMouseOver(e.target.classList)}} >
-                                                                    <h6 className="soldout">SOLD OUT, METAVERSE HERE WE COME!</h6>
+                                                                    <h6 className="soldout">SOLD OUT, METAVERSE HERE WE COME!(JAN 22ND)</h6>
                                                                     <p className="soldout">After selling all 5,500NFTs, our journey on Metaverse starts. As an appreciation to SS community we will release many gifts during the sales and after, stay tuned!</p>
                                                                 </div>
                                                             </div>
@@ -96,7 +96,7 @@ const Index = ()=>{
                                                             <div className="single-timeline-content d-flex wow fadeInLeft  bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
                                                                 <div className="timeline-icon"><i className="fa fa-briefcase" aria-hidden="true"></i></div>
                                                                 <div className="timeline-text sandbox"  onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
-                                                                    <h6 className="sandbox">SANDBOX LAND</h6>
+                                                                    <h6 className="sandbox">SANDBOX LAND (FEB 22ND)</h6>
                                                                     <p className="sandbox">Acquire a Land on Sandbox, to build Squirrels Community, where everyone has access to join and have fun. The Land will be fully owned by SS community. Many events will be scheduled like parties, shops, art galleries…</p>
                                                                 </div>
                                                             </div>
@@ -122,7 +122,7 @@ const Index = ()=>{
                                                             <div className="single-timeline-content d-flex wow fadeInLeft  bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
                                                                 <div className="timeline-icon"><i className="fa fa-id-card" aria-hidden="true"></i></div>
                                                                 <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
-                                                                    <h6 className="ssgame">SS GAME</h6>
+                                                                    <h6 className="ssgame">SS GAME (FEB 22ND- MAY 2022)</h6>
                                                                     <p className="ssgame">Build SS 3D-Game on Metaverse. SS holders will use their wallets to join the fun, they have to completed many mission after mission, using maps, keys & other tools. It is fun and earn!</p>
                                                                 </div>
                                                             </div>
@@ -157,8 +157,8 @@ const Index = ()=>{
                                                             <div className="single-timeline-content d-flex wow fadeInLeft  bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
                                                                 <div className="timeline-icon"><i className="fa fa-id-card" aria-hidden="true"></i></div>
                                                                 <div className="timeline-text event" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
-                                                                    <h6 className="event">EVENTS ON METAVERSE</h6>
-                                                                    <p className="event">Key access to special Parties, Shopping with special discounts, Gaming events, art galleries, and many other surprises!</p>
+                                                                    <h6 className="event">OUR WAY TO FIGHT GLOBAL WARMING (MAR 22ND - JULY 22ND)</h6>
+                                                                    <p className="event">As part of our commitment to help the global community, we will launch a project of planting 1Million tree. Details will be revealed soon.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
