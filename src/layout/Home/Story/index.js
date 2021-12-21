@@ -54,16 +54,26 @@ const Index = ()=>{
                
                <div className="mystory">
                     <p>
-                        An ice age squirrel community that survived the last ice age phase from 11,000 to 20,000 year ago. The ice age hero named “Sandy”, was the best friend of a caribou called “Rikky”. Sandy and Rikky got friends after Sandy helped Rikky to free himself from a tree by grinding the tree branches with her theeth.
+                    Squirreling Squirrels "SS" is a 5,500 collection of 100% completely HAND DRAWN SQUIRRELS.
+                    Two species of squirrels: 1000 ice age squirrels and 4500 current age Squirrels, the ice age squirrels are scarce and rare. Rarity can be found in 200 plus hand drawn traits, like robot, gold & diamond Squirrels and others; All Squirreling on the Ethereum blockchain.
+                    It is been a few years after the last ice age and the  Squirrels living in joy and peace in North America. They are fun, active, curious and sometimes weird; THEY ARE NUT BEYOND NUTS!
+
                     </p>
                     <p>
-                    “Rikky” helped Sandy and her community to keep their body temp high enough to survive, while they used to stay very close to caribou’s body, inside a cave where caribou used to live. 
+                    Join us on our adventure in creating a positive community. Our journey will be full of surprises such as acquiring a land on sandbox, where we will base our community & game on along with many more projects and events!
+                    All this to help shape the future of the Squirreling Squirrels!
+
                     </p>
                     <p>
-                    They lived together for few years, until Sandy discovered a canal inside the cave that lead to an under ground world, where sun can penetrate after reflection through ice from the top, they spend all together 9,000 years.
+                    Join us on our adventure in creating a positive community. Our journey will be full of surprises such as acquiring a land on sandbox, where we will base our community & game on along with many more projects and events!
+                    All this to help shape the future of the Squirreling Squirrels!
+
                     </p>
                     <p>
-                    Coco, the first squirrel to leave the underground world at the end of the ice age, travelled long distances with some of his friends to reach area in north America full of trees where he started his life with a small community, and build this community of 5,500Squirrels.
+                     Rikky returned the favor to Bailey by welcoming her and her community to his cave where they rested and got their warmth by staying close together. Years pass by throughout their time together before Bailey discovers the canal that will lead to the underground world, where the sun penetrates through the ice on top, awaiting its melting. Their community spent 9,000 years together in the underground world.
+                    </p>
+                    <p>
+                    Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and a scene that communicates food can be found here; Thus, Abas settled with his initially small community until they grew to 5,500 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration. Squirrels' habits 
                     </p>
                </div>
                <div className="mystoryImg">
