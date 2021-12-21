@@ -5,11 +5,26 @@
 
 .ourteam{
     width: 100%;
+    min-height: 200vh;
     height: 100%;
-    background:#deffe5;
+    background: url('../../images/random/tree_house.png');
     text-align: center;
     position: relative;
-    z-index: 10;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.heroOverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background:rgb(0, 0, 0,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
     
 }
 
@@ -22,12 +37,14 @@
 }
 
 .our-team-title > h1{
-    color:#000;
+    color:#fff;
     font-family: Acme;
+    margin-top: 12vh;
 }
 .our-team-title > small{
     font-weight: bold;
     font-family: candara;
+    color: #fff;
 }
 
 .team-pic-div{

@@ -1,8 +1,20 @@
 import '../../../assets/css/About/about.css';
-import nft1 from '../../../assets/images/nft/nft-1.png'
-import nft2 from '../../../assets/images/nft/nft-2.png'
-import nft3 from '../../../assets/images/nft/nft-3.png'
-import nft4 from '../../../assets/images/nft/nft-4.png'
+import nft1 from '../../../assets/images/slider/1.png'
+import nft2 from '../../../assets/images/slider/2.png'
+import nft3 from '../../../assets/images/slider/3.png'
+import nft4 from '../../../assets/images/slider/4.png'
+import nft5 from '../../../assets/images/slider/5.png'
+import nft6 from '../../../assets/images/slider/6.png'
+import nft7 from '../../../assets/images/slider/7.png'
+import nft8 from '../../../assets/images/slider/8.png'
+import nft9 from '../../../assets/images/slider/9.png'
+import nft10 from '../../../assets/images/slider/10.png'
+import nft11 from '../../../assets/images/slider/11.png'
+import nft12 from '../../../assets/images/slider/12.png'
+
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Index = ()=>{
     return(
         <div className="aboutus" id="aboutus">
@@ -15,11 +27,47 @@ const Index = ()=>{
                 <p>Two species of squirrels: ice age squirrels and current age Squirrels, the ice age squirrels are scarce and rare. Rarity can be found as well in many traits for both species, like robot, gold, diamond Squirrels and others.</p>
             </div>
             <div className="content-image">
-                <img src={nft1} className="nft-images slideIn"/>
-                <img src={nft3} className="nft-images slideIn"/>
-                <img src={nft2} className="nft-images slideIn"/>
-                <img src={nft4} className="nft-images slideIn" />
+            <OwlCarousel className='owl-theme' loop margin={5} autoplay="true" items={4} autoplayTimeout={1200}>
+                <div class='item'>
+                    <img src={nft1} className="nft-images slideIn"/>
+                </div>
+                <div class='item'>
+                    <img src={nft3} className="nft-images slideIn"/>
+                </div>
+                <div class='item'>
+                    <img src={nft2} className="nft-images slideIn"/>
+                </div>
+                <div class='item'>
+                    <img src={nft4} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                    <img src={nft5} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                     <img src={nft6} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                    <img src={nft7} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                    <img src={nft8} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                    <img src={nft9} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                     <img src={nft10} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                     <img src={nft11} className="nft-images slideIn" />
+                </div>
+                <div class='item'>
+                    <img src={nft12} className="nft-images slideIn" />
+                </div>
+            </OwlCarousel>
             </div>
+           
+
             <div className="content">
                <p> Millions of trees in the world are accidently planted by Squirrels. Who bury nuts than forget where they hid it!</p>
             </div>

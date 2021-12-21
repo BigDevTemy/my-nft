@@ -4,7 +4,7 @@ import {FaFacebookF} from 'react-icons/fa';
 import {FiInstagram} from 'react-icons/fi';
 import {BsGoogle} from 'react-icons/bs';
 import {FaLinkedinIn} from 'react-icons/fa';
-import logo from '../../assets/images/logo_white_new.png';
+import logo from '../../assets/images/logo_new.png';
 import {AiFillHome} from 'react-icons/ai';
 import {AiFillMail} from 'react-icons/ai';
 import {BsFillTelephoneForwardFill} from 'react-icons/bs';
@@ -54,11 +54,11 @@ const Index = ()=>{
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             
                             <h6 className="text-uppercase fw-bold mb-4">
-                                <img src={logo}/>
+                                <img src={logo} style={{width:'70%'}}/>
                             </h6>
-                            <p style={{color:'#fff'}}>
+                            {/* <p style={{color:'#fff'}}>
                             We are building an immersive & inclusive digital world - a Squirrel community on Sandbox, games, shops, art galleries, parties & adventures.
-                            </p>
+                            </p> */}
                             </div>
                             
                             

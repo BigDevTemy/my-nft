@@ -8,13 +8,13 @@ import PathDown from '../../../assets/images/Path.png'
 const Index=()=>{
     return (
         <div className="ourteam" id="team">
-                <div className="pathway-div">
-                    <img src={Path} className="pathway"/>
-                </div>
-                <div className="our-team-title">
+              <div className="heroOverlay">
+
+              <div className="our-team-title">
                     <h1>Our Team</h1>
                     <small>Trust, diversity, friendship, ambition. We are more than a team. </small>
                 </div>
+                
                 <div className="team-pic-div">
                 
                     <div className="team-1">
@@ -42,25 +42,15 @@ const Index=()=>{
                         </div>
 
                     </div>
+
                     
                     
+                    
                 </div>
-                <div className="team-4-div">
-
-                    <div className="team-4">
-                        <img src={team3}/>
-                        <div className="jobTitle">
-                            <span className="official-title">CTO</span>
-                            <span className="officer-name">Jack</span>
-                            <span className="job-description">Technology & Blockchain</span>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div className="pathway-div-down">
-                    <img src={PathDown} className="pathway"/>
-                </div>
+              </div>
+               
+               
+               
 
                 
                

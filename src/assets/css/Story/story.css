@@ -6,14 +6,17 @@
 .story{
     width: 100%;
     height: 120vh;
-    margin-top: 100vh;
-    background-color: #000;
-    padding: 20px;
+    background: url('../../images/random/tree_house.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
+    position: relative;
+    margin: 0px;
 }
 
 .story-title > h1{
-    margin-top: 10vh;
+    margin-top: 12vh;
     font-family: Acme;
     color: #fff;
     
@@ -37,19 +40,44 @@
 .mystory{
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 70%;
+    flex-basis: 65%;
     text-align: start;
     padding: 40px;
+    padding: 20px;
 }
 .mystoryImg{
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 30%;
+    flex-basis:35%;
+    align-self: center;
     
 }
 .mystory >p{
     font-family: candara;
-    font-size: 17px;
+    font-size: 20px;
     display: flex;
     text-align: left;
 }
+
+.story_pic{
+    width: 100%;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.heroOverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background:rgb(0, 0, 0,0.8);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+    
+}
+
