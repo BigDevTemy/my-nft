@@ -5,7 +5,7 @@
 
 .ourteam{
     width: 100%;
-    min-height: 200vh;
+    min-height: 150vh;
     height: 100%;
     background: url('../../images/random/tree_house.png');
     text-align: center;
@@ -58,80 +58,82 @@
     
 }
 .team-1 {
-    background:#fff;
-    flex: 1 1 25%;
+    background:#000;
     border-radius: 15px;
-    height: 400px;
+    height: 300px;
     margin:10px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         1px 2px 3px 3px #ccc;
+    cursor: pointer;
 
     
     
 }
+
 
 .team-2 {
-    background:#fff;
-    flex: 1 1 25%;
+    background:#000;
     border-radius: 15px;
-    height: 404px;
+    height: 300px;
     margin:10px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         1px 2px 3px 3px #ccc;
+    cursor: pointer;
 }
 .team-3 {
-    background:#fff;
-    flex: 1 1 25%;
+    background:#000;
     border-radius: 15px;
-    height: 404px;
+    height: 300px;
     margin:10px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         1px 2px 3px 3px #ccc;
+    cursor: pointer;
 }
 .team-4 {
-    background:#fff;
-    flex: 1 1 25%;
+    background:#000;
     border-radius: 15px;
     margin:10px;
-    height: 404px;
+    height: 300px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         1px 2px 3px 3px #ccc;
+    cursor: pointer;
 }
 .team-5 {
-    background:#fff;
-    flex: 1 1 25%;
+    background:#000;
     border-radius: 15px;
     margin:10px;
-    height: 404px;
+    height: 300px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         1px 2px 3px 3px #ccc;
+    cursor: pointer;
 }
 .team-6 {
-    background:#fff;
-    flex: 1 1 25%;
+    background:#000;
+
     border-radius: 15px;
     margin:10px;
-    height: 404px;
+    height: 300px;
     text-align: center;
     padding:50px;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         1px 2px 3px 3px #ccc;
+    cursor: pointer;
 }
 
 .jobTitle{
@@ -144,49 +146,33 @@
 .official-title{
     font-size: 20px;
     font-family: Acme;
+    color:#fff
 }
 .officer-name{
     font-size: 18px;
     font-family: Acme;
+    color: #fff;
 }
 .job-description{
     font-size: 25px;
     font-family: Cookie;
-}
-.team-1:hover{
-    background:#f2f2f2;
-    cursor: pointer;
-}
-.team-2:hover{
-    background:#f2f2f2;
-    cursor: pointer;
-}
-.team-3:hover{
-    background:#f2f2f2;
-    cursor: pointer;
-}
-.team-4:hover{
-    background:#f2f2f2;
-    cursor: pointer;
+    color: #fff;
 }
 
-.team-5:hover{
-    background:#f2f2f2;
-    cursor: pointer;
+.char-img:hover{
+-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  cursor: pointer;
 }
 
-.team-6:hover{
-    background:#f2f2f2;
-    cursor: pointer;
-}
 
 
 .team-4-div{
     text-align: center;
-    
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .team-4 {
@@ -209,5 +195,9 @@
     z-index: 10;
     top: 91%;
     bottom: 0px;
+}
+
+.char-img{
+    width: 70%;
 }
 

@@ -20,7 +20,7 @@ const Index=()=>{
                 <div className="team-pic-div">
                 
                     <div className="team-1">
-                        <img src={Marilyn}/>
+                        <img src={Marilyn} className="char-img"/>
                         <div className="jobTitle">
                             <span className="official-title">CEO</span>
                             <span className="officer-name">Clark</span>
@@ -28,7 +28,7 @@ const Index=()=>{
                         </div>
                     </div>
                     <div className="team-2">
-                        <img src={team1}/>
+                        <img src={team1} className="char-img"/>
                         <div className="jobTitle">
                                 <span className="official-title">CMO</span>
                                 <span className="officer-name">Kaylee</span>
@@ -36,7 +36,7 @@ const Index=()=>{
                         </div>
                     </div>
                     <div className="team-3">
-                        <img src={Anthony}/>
+                        <img src={Anthony} className="char-img"/>
                         <div className="jobTitle">
                             <span className="official-title">CTO</span>
                             <span className="officer-name">Jack</span>
@@ -44,8 +44,17 @@ const Index=()=>{
                         </div>
 
                     </div>
-                    <div className="team-4">
+                    {/* <div className="team-4">
                         <img src={Marilyn}/>
+                        <div className="jobTitle">
+                            <span className="official-title">Software Engineer</span>
+                            <span className="officer-name">Marilyn</span>
+                            <span className="job-description">Smart Contract/Developer</span>
+                        </div>
+
+                    </div> */}
+                     <div className="team-5">
+                        <img src={team1} className="char-img"/>
                         <div className="jobTitle">
                             <span className="official-title">Software Engineer</span>
                             <span className="officer-name">Marilyn</span>
@@ -54,7 +63,7 @@ const Index=()=>{
 
                     </div>
                     <div className="team-5">
-                        <img src={team1}/>
+                        <img src={team1} className="char-img"/>
                         <div className="jobTitle">
                             <span className="official-title">Architect/Artist</span>
                             <span className="officer-name">Chris</span>
@@ -63,7 +72,7 @@ const Index=()=>{
 
                     </div>
                     <div className="team-6">
-                        <img src={Anthony}/>
+                        <img src={Anthony} className="char-img"/>
                         <div className="jobTitle">
                             <span className="official-title">Game Marker</span>
                             <span className="officer-name">Anthony</span>

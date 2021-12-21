@@ -15,7 +15,7 @@ const Index = ()=>{
                         .callFunction(() => {
                             
                         })
-                        .pauseFor(100)
+                        .pauseFor(10)
                         .deleteChars(10)
                         .typeString('<strong>adventures.</strong>')
                         .callFunction(() => {

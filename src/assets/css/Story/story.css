@@ -40,7 +40,7 @@
 .mystory{
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 65%;
+    flex-basis: 60%;
     text-align: start;
     padding: 40px;
     padding: 20px;
@@ -48,16 +48,16 @@
 .mystoryImg{
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis:40%;
-    align-self: center;
-    
+    flex-basis:45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 .mystory >p{
     font-family: candara;
     font-size: 16px;
     text-align: justify;
-    display: flex;
-    
+    display: flex;  
 }
 
 .story_pic{
