@@ -53,7 +53,14 @@ const Index=()=>{
                         </div>
 
                     </div> */}
-                     <div className="team-5">
+                     
+
+                    
+                    
+                    
+                </div>
+                <div className="team-pic-div-2">
+                <div className="team-5">
                         <img src={team1} className="char-img"/>
                         <div className="jobTitle">
                             <span className="official-title">Software Engineer</span>
@@ -80,10 +87,6 @@ const Index=()=>{
                         </div>
 
                     </div>
-
-                    
-                    
-                    
                 </div>
               </div>
                

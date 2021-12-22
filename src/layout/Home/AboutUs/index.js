@@ -23,8 +23,8 @@ const Index = ()=>{
                 <small>Welcome to Squireling Squirrels</small>
             </div>
             <div className="content">
-                <p>SS is a collection of 5,500 hand drawn Squirrels, NFTs-unique digital collectibles, Squirreling on the Ethereum blockchain, Squirrels Holders will have access to an exclusive Web3 Community, where exclusive events will be hold on Metaverse, in addition to access to SS 3D Game, where SS Holder can play and earn.</p>
-                <p>Two species of squirrels: ice age squirrels and current age Squirrels, the ice age squirrels are scarce and rare. Rarity can be found as well in many traits for both species, like robot, gold, diamond Squirrels and others.</p>
+                <p>Squirreling Squirrels "SS" is a 5,500 collection of 100% completely HAND DRAWN SQUIRRELS. Two species of squirrels: 1000 ice age squirrels and 4500 current age Squirrels, the ice age squirrels are scarce and rare. Rarity can be found in 200 plus hand drawn traits, like robot, gold & diamond Squirrels and others; All Squirreling on the Ethereum blockchain. It is been a few years after the last ice age and the Squirrels living in joy and peace in North America. They are fun, active, curious and sometimes weird; THEY ARE NUT BEYOND NUTS!.</p>
+                <p>Join us on our adventure in creating a positive community. Our journey will be full of surprises such as acquiring a land on sandbox, where we will base our community & game on along with many more projects and events! All this to help shape the future of the Squirreling Squirrels!</p>
             </div>
             <div className="content-image">
             <OwlCarousel className='owl-theme' loop margin={5} autoplay="true" items={4} autoplayTimeout={1200}>
@@ -72,7 +72,7 @@ const Index = ()=>{
                <p> Millions of trees in the world are accidently planted by Squirrels. Who bury nuts than forget where they hid it!</p>
             </div>
 
-            <section className="whyus">
+            {/* <section className="whyus">
                 <div className="whyus-header">
                     <h1>Why us?</h1>
                 </div>
@@ -81,7 +81,7 @@ const Index = ()=>{
                     Welcome to Squirreling Squirrels "SS" Community, we are happy to have you on board, Please navigate our channels to discover all about SS. After Verification #verification, we propose to start with the #rules, hope it will be respected by all "SS" members. We are all here to have fun and earn! Following will be granted to our loyal Members: - ETH and NFTs giveaways @ 20%, 40%, 60%, 80% and 100% sales. - Have a share in Sandbox Project/Community. - Access to our 3D Game on Metaverse, to play and earn. - Membership in Squirreling Squirrels Club, where you will gain special pass to many events.
 
                 </div>
-            </section>
+            </section> */}
             
         </div>
     )
