@@ -98,3 +98,19 @@
 .item{
   margin:10px;
 }
+.whyus{
+  width: 100%;
+  text-align: center;
+}
+
+.whyus-header > h1{
+  margin-top: 40px;
+  color:#fff;
+  font-family: Acme;
+}
+
+.whyus-content{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}

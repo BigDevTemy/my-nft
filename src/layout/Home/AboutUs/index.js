@@ -71,6 +71,17 @@ const Index = ()=>{
             <div className="content">
                <p> Millions of trees in the world are accidently planted by Squirrels. Who bury nuts than forget where they hid it!</p>
             </div>
+
+            <section className="whyus">
+                <div className="whyus-header">
+                    <h1>Why us?</h1>
+                </div>
+                <div className="whyus-content">
+                
+                    Welcome to Squirreling Squirrels "SS" Community, we are happy to have you on board, Please navigate our channels to discover all about SS. After Verification #verification, we propose to start with the #rules, hope it will be respected by all "SS" members. We are all here to have fun and earn! Following will be granted to our loyal Members: - ETH and NFTs giveaways @ 20%, 40%, 60%, 80% and 100% sales. - Have a share in Sandbox Project/Community. - Access to our 3D Game on Metaverse, to play and earn. - Membership in Squirreling Squirrels Club, where you will gain special pass to many events.
+
+                </div>
+            </section>
             
         </div>
     )
