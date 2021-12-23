@@ -4,16 +4,18 @@ import {GiSquirrel} from 'react-icons/gi';
 import {RiLandscapeFill} from 'react-icons/ri';
 import {SiRiotgames} from 'react-icons/si';
 import {SiEventbrite} from 'react-icons/si'
-import pic1 from '../../../assets/images/roadmap/pic1.png'
+import pic1 from '../../../assets/images/roadmap/pic_x.png'
 import pic2 from '../../../assets/images/roadmap/pic2.png'
-import pic3 from '../../../assets/images/roadmap/pic1.png'
-import pic4 from '../../../assets/images/roadmap/pic4.png'
+import pic3 from '../../../assets/images/roadmap/pic_x.png'
+import pic4 from '../../../assets/images/roadmap/pic_x.png'
 const Index = ()=>{
     const [picture,setpicture] = useState(pic1);
     const [soldout,setsoldout]=useState();
     const [sandbox,setsandbox]=useState();
     const [ssgame,setssgame]=useState();
     const[event,setevent]=useState();
+
+    
      const handleMouseOver=(x)=>{
          
          if(x.contains('event')){
@@ -64,159 +66,51 @@ const Index = ()=>{
                                     </div>
                                 </div>
                             </div>
-                            <div className="RoadmapContent">
-                                    <div className="hoverImage">
-                                        <img src={picture} />
+                            <div className="road-flex">
+                                    <div className="roadmap-pic">
+                                        <img src={picture} className="moveClass" />
+                                        
                                     </div>
 
-                                    <div className="row roadmapText">
-                                        <div className="col-12">
-                                            
-                                            <div className="apland-timeline-area">
-                                            
-                                                <div className="single-timeline-area">
-                                                    {/* <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInLeft'}}>
-                                                    
-                                                        <GiSquirrel size={35} color="#fff"/>
-                                                    </div> */}
-                                                    <div className="row">
-                                                        <div className="col-12 col-md-6 col-lg-12">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-address-card" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text soldout" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}} >
-                                                                    <h6 className="soldout">Q1 2022 - SOLD OUT, METAVERSE HERE WE COME!</h6>
-                                                                    <p className="soldout">{soldout}</p>
-                                                                </div>
+                                    <div className="roadmap-item">
+                                        <div className="row">
+                                            <div className="shape-div">
+                                                <div className="shape">
+                                                            <div className="timeline-text soldout" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}} >
+                                                                <h6 className="soldout">Q1 2022 - SOLD OUT, METAVERSE HERE WE COME!</h6>
+                                                                <p className="soldout">{soldout}</p>
                                                             </div>
-                                                        </div>
-                                                        {/* <div className="col-12 col-md-6 col-lg-4">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-archive" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text">
-                                                                    <h6>Fixed bug</h6>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
-                                                        {/* <div className="col-12 col-md-6 col-lg-4">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{visibility: 'visible', animationDelay: '0.7s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-address-book" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text">
-                                                                    <h6>Reach 1k Users</h6>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
+                                                </div>
+                                                <div className="shape">
+                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
+                                                        <h6 className="ssgame">Q1 2022 – ACQUIRING A LAND ON SANDBOX!</h6>
+                                                        <p className="ssgame">
+                                                            {/* */}
+                                                            {ssgame}
+                                                            
+                                                        </p>
+                                                    </div>                 
+                                                </div>
+                                                <div className="shape">
+                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
+                                                        <h6 className="sandbox">Q2 2022 - MAKING THE WORLD A BETTER PLACE, TREE BY TREE</h6>
+                                                        <p className="sandbox">
+                                                            {/* */}
+                                                            {sandbox}
+                                                            
+                                                        </p>
                                                     </div>
                                                 </div>
-                                            
-                                                <div className="single-timeline-area">
-                                                    {/* <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInLeft'}}>
-                                                    
-                                                        <RiLandscapeFill size={35} color="#fff"/>
-                                                    </div> */}
-                                                    <div className="row">
-                                                        <div className="col-12 col-md-6 col-lg-12">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft  bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-briefcase" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text sandbox"  onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
-                                                                    <h6 className="sandbox">Q1 2022 – ACQUIRING A LAND ON SANDBOX!</h6>
-                                                                    <p className="sandbox">
-                                                                        {sandbox}
-                                                                        
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        {/* <div className="col-12 col-md-6 col-lg-4">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-desktop" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text">
-                                                                    <h6>Fixed bug</h6>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
-                                                    </div>
+                                                <div className="shape">
+                                                <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
+                                                        <h6 className="event">Q3 2022 – SQUIRRELING SQUIRRELS GAME</h6>
+                                                        <p className="event">
+                                                            {/* */}
+                                                            {event}
+                                                            
+                                                        </p>
+                                                    </div>            
                                                 </div>
-                                                
-                                                <div className="single-timeline-area">
-                                                    {/* <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInLeft'}}>
-                                                        <SiRiotgames size={30} color="#fff"/>
-                                                    </div> */}
-                                                    <div className="row">
-                                                        <div className="col-12 col-md-6 col-lg-12">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft  bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-id-card" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
-                                                                    <h6 className="ssgame">Q2 2022 - MAKING THE WORLD A BETTER PLACE, TREE BY TREE</h6>
-                                                                    <p className="ssgame">
-                                                                        {/* */}
-                                                                        {ssgame}
-                                                                        
-                                                                        </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        {/* <div className="col-12 col-md-6 col-lg-4">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-desktop" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text">
-                                                                    <h6>Fixed bug</h6>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
-                                                        {/* <div className="col-12 col-md-6 col-lg-4">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{visibility: 'visible', animationDelay: '0.7s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-picture-o" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text">
-                                                                    <h6>Reach 500 Users</h6>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
-                                                    </div>
-                                                </div>
-
-                                                <div className="single-timeline-area">
-                                                    {/* <div className="timeline-date wow fadeInLeft  " data-wow-delay="0.1s" style={{visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInLeft'}}>
-                                                    <SiEventbrite size={35} color="#fff"/>
-                                                    </div> */}
-                                                    <div className="row">
-                                                        <div className="col-12 col-md-6 col-lg-12">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft  bg-light" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-id-card" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text event" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
-                                                                    <h6 className="event">Q3 2022 – SQUIRRELLING SQUIRRELS GAME</h6>
-                                                                    <p className="event">
-                                                                        {/*  */}
-                                                                        {event}
-                                                                        </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        {/* <div className="col-12 col-md-6 col-lg-4">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-desktop" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text">
-                                                                    <h6>Fixed bug</h6>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
-                                                        {/* <div className="col-12 col-md-6 col-lg-4">
-                                                            <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{visibility: 'visible', animationDelay: '0.7s', animationName: 'fadeInLeft'}}>
-                                                                <div className="timeline-icon"><i className="fa fa-picture-o" aria-hidden="true"></i></div>
-                                                                <div className="timeline-text">
-                                                                    <h6>Reach 500 Users</h6>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div> */}
-                                                    </div>
-                                                </div>
-                                                
                                             </div>
                                         </div>
                                     </div>
