@@ -7,7 +7,7 @@ const Index = ()=>{
     const [animateImg, setanimateImg] = useState(0)
     
     useEffect(()=>{
-        const intervalId = setInterval(changeImage,5000)
+        const intervalId = setInterval(changeImage,2000)
         return () => clearInterval(intervalId);
     },[animateImg])
     

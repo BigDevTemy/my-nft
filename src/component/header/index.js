@@ -7,6 +7,7 @@ import Squirreling from '../../assets/images/logo_50.png';
 import {GiGamepad} from 'react-icons/gi';
 import {VscTwitter} from 'react-icons/vsc';
 import {GiIronHulledWarship} from 'react-icons/gi'
+import {FaInstagram} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import { useLocation} from 'react-router';
 const Index=()=>{
@@ -61,7 +62,7 @@ const Index=()=>{
                          <a href="https://twitter.com/SquirrelingSQRL" target="_blank"><VscTwitter size={20} color="#FFF"/></a>
                     </div>
                     <div className="game">
-                         <a href="https://www.instagram.com/squirrelingsquirrels/" target="_blank"><GiIronHulledWarship size={20} color="#FFF"/></a>
+                         <a href="https://www.instagram.com/squirrelingsquirrels/" target="_blank"><FaInstagram size={20} color="#FFF"/></a>
                     </div>
                     <div className="gaming">
                             Connect to Wallet

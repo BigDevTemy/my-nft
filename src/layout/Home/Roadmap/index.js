@@ -49,8 +49,10 @@ const Index = ()=>{
     
      }
     const handleMouseLeave = ()=>{
-        setsoldout('')
-        setsandbox('')
+        setsoldout('');
+        setsandbox('');
+        setevent('');
+        setssgame('');
     }
     return(
         <div classNameName="roadmap" id="roadmap">
@@ -82,7 +84,7 @@ const Index = ()=>{
                                                             </div>
                                                 </div>
                                                 <div className="shape">
-                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
+                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}}>
                                                         <h6 className="ssgame">Q1 2022 – ACQUIRING A LAND ON SANDBOX!</h6>
                                                         <p className="ssgame">
                                                             {/* */}
@@ -92,7 +94,7 @@ const Index = ()=>{
                                                     </div>                 
                                                 </div>
                                                 <div className="shape">
-                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
+                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}}>
                                                         <h6 className="sandbox">Q2 2022 - MAKING THE WORLD A BETTER PLACE, TREE BY TREE</h6>
                                                         <p className="sandbox">
                                                             {/* */}
@@ -102,7 +104,7 @@ const Index = ()=>{
                                                     </div>
                                                 </div>
                                                 <div className="shape">
-                                                <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}}>
+                                                <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}}>
                                                         <h6 className="event">Q3 2022 – SQUIRRELING SQUIRRELS GAME</h6>
                                                         <p className="event">
                                                             {/* */}

@@ -7,11 +7,11 @@
     width: 100%;
     min-height: 150vh;
     height: 100%;
-    background: url('../../images/random/tree_house.png');
+    background: url('../../images/Squirrel.jpg');
     text-align: center;
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     
 }
@@ -50,13 +50,14 @@
 .team-pic-div{
     display: flex;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
     flex-wrap: wrap;
     height: 100%;
     padding-left: 50px;
     padding-right: 50px;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    
     
     
     
@@ -70,6 +71,7 @@
     padding-left: 50px;
     padding-right: 50px;
     justify-content: space-between;
+    
     
     
 }
@@ -171,12 +173,12 @@
     color:#fff
 }
 .officer-name{
-    font-size: 12px;
+    font-size: 14px;
     font-family: Acme;
     color: #fff;
 }
 .job-description{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Cookie;
     color: #fff;
 }
