@@ -23,7 +23,7 @@
     color:#fff;
     flex: 1 1 33.333%;
 }
-.nav-bars div{
+.nav-bars Link{
     padding: 15px;
     font-size: 14px;
     font-family: candara;
@@ -31,11 +31,18 @@
     cursor: pointer;
     
 }
+.abt{
+    padding:10px;
+    font-family: candara;
+    font-size: 17px;
+}
 
-.nav-bars  div:hover{
+.abt:hover{
     background-color: #fff;
-    border-radius: 15px;
-    color: #000;
+    border-radius: 10px;
+    cursor: pointer;  
+    color: #000; 
+    font-weight: bold;
 }
 
 .connect{

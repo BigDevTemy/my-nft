@@ -15,25 +15,43 @@ const Index=()=>{
         <div className="header">
                 <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling}/></Link></div>
                 <div className="nav-bars">
-                    <div>
-                        <Link  to="aboutus" spy={true} smooth={true}>About</Link>
-                    </div>
-                    <div>
-                    <Link  to="story" spy={true} smooth={true}> Story</Link>
-                       
-                    </div>
-                    <div>
-                    <Link  to="roadmap" spy={true} smooth={true}> Roadmap</Link>
-                        
-                    </div>
-                    <div>
-                        
-                        <Link  to="team" spy={true} smooth={true}> Team</Link>
-                    </div>
-                    <div>
-                    <Link  to="faq" spy={true} smooth={true}> Faq</Link>
                     
+                    <Link  to="aboutus" spy={true} smooth={true}>
+                        <div className="abt">   
+                            About
                     </div>
+                        
+                    </Link>
+
+                    <Link  to="story" spy={true} smooth={true}>
+                        <div className="abt">   
+                            Story
+                    </div>
+                        
+                    </Link>
+                
+                    <Link  to="roadmap" spy={true} smooth={true}>
+                        <div className="abt">   
+                        Roadmap
+                    </div>
+                        
+                    </Link>
+
+                    <Link  to="team" spy={true} smooth={true}>
+                        <div className="abt">   
+                        Team
+                        </div>
+                        
+                    </Link>
+                    <Link  to="faq" spy={true} smooth={true}>
+                        <div className="abt">   
+                            Faq
+                        </div>
+                        
+                    </Link>
+                   
+                  
+                    
                 </div>
                 <div className="connect">
                     <div className="game">
