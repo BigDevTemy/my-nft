@@ -4,19 +4,29 @@ import team1 from '../../../assets/images/our-team/nft-1.png'
 import team2 from '../../../assets/images/our-team/nft-2.png'
 import team3 from '../../../assets/images/our-team/nft-3.png'
 import team4 from '../../../assets/images/our-team/nft-4.png'
-import Anthony from '../../../assets/images/slider/4.png'
-import Marilyn from '../../../assets/images/slider/2.png'
+import team5 from '../../../assets/images/slider/4.png'
+import team6 from '../../../assets/images/slider/2.png'
 import PathDown from '../../../assets/images/Path.png'
+import logo from '../../../assets/images/logo_100.png'
+import {FiTwitter} from 'react-icons/fi'
 const Index=()=>{
     return (
         <div className="ourteam" id="team">
-              <div className="heroOverlay">
 
-              <div className="our-team-title">
-                    <h1>Our Team</h1>
-                    <small>Trust, diversity, friendship, ambition. We are more than a team. </small>
-                </div>
-                
+             <div className="title">
+                <div className="logoArea">
+                    <img src={logo}/>
+                </div>  
+                <div className="textTitle">
+                    <h2>SQUIRRELLING<br/>
+                        <span>
+                            TEAM
+                        </span>
+                    </h2>
+                </div>   
+            </div> 
+
+{/*              
                 <div className="team-pic-div">
                 
                     <div className="team-1">
@@ -44,22 +54,14 @@ const Index=()=>{
                         </div>
 
                     </div>
-                    {/* <div className="team-4">
-                        <img src={Marilyn}/>
-                        <div className="jobTitle">
-                            <span className="official-title">Software Engineer</span>
-                            <span className="officer-name">Marilyn</span>
-                            <span className="job-description">Smart Contract/Developer</span>
-                        </div>
-
-                    </div> */}
+                   
                      
 
                     
                     
                     
-                </div>
-                <div className="team-pic-div-2">
+                </div> */}
+                {/* <div className="team-pic-div-2">
                 <div className="team-5">
                         <img src={team1} className="char-img"/>
                         <div className="jobTitle">
@@ -87,7 +89,137 @@ const Index=()=>{
                         </div>
 
                     </div>
+                </div> */}
+
+                <div className="teamAll">
+                    <div className="team-member">
+                        <div className="teamImg">
+                            <img src={team5}/>
+                        </div>
+                        <div className='teamInfor'>
+                            <div className='mytitle'>
+                                Clark
+                            </div>
+                            <div className='teamposition'>
+                                {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                                CEO of Squirreling Squirrels (Operations).
+                            </div>
+                            <div className='twitterIcon'>
+                                <div className='twitter'>
+                                    <FiTwitter size={20} color='#fff' />
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div className="team-member">
+                    <div className="teamImg">
+                            <img src={team6}/>
+                        </div>
+                        <div className='teamInfor'>
+                            <div className='mytitle'>
+                                Kaylee
+                            </div>
+                            <div className='teamposition'>
+                                {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                                CMO of Squirreling Squirrels (Marketing)
+                            </div>
+                            <div className='twitterIcon'>
+                                <div className='twitter'>
+                                    <FiTwitter size={20} color='#fff' />
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div className="team-member">
+                        <div className="teamImg">
+                            <img src={team6}/>
+                        </div>
+                        <div className='teamInfor'>
+                            <div className='mytitle'>
+                                Jack
+                            </div>
+                            <div className='teamposition'>
+                                {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                                CTO of Squirreling Squirrels (Technology & Blockchain)
+                            </div>
+                            <div className='twitterIcon'>
+                                <div className='twitter'>
+                                    <FiTwitter size={20} color='#fff' />
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div className="team-member">
+                        <div className="teamImg">
+                            <img src={team5}/>
+                        </div>
+                        <div className='teamInfor'>
+                            <div className='mytitle'>
+                                Marilyn
+                            </div>
+                            <div className='teamposition'>
+                                {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                                Software Engineer @ Squirreling Squirrels (Smart Contract/Developer)
+
+                            </div>
+                            <div className='twitterIcon'>
+                                <div className='twitter'>
+                                    <FiTwitter size={20} color='#fff' />
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div className="team-member">
+                    <div className="teamImg">
+                            <img src={team6}/>
+                        </div>
+                        <div className='teamInfor'>
+                            <div className='mytitle'>
+                                Chris
+                            </div>
+                            <div className='teamposition'>
+                                {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                                Architect/Artist @ Squirreling Squirrels (Designer)
+
+                            </div>
+                            <div className='twitterIcon'>
+                                <div className='twitter'>
+                                    <FiTwitter size={20} color='#fff' />
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div className="team-member">
+                    <div className="teamImg">
+                            <img src={team5}/>
+                        </div>
+                        <div className='teamInfor'>
+                            <div className='mytitle'>
+                                Anthony
+                            </div>
+                            <div className='teamposition'>
+                                {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                                Game Marker @ Squirreling Squirrels (Game Scriptwriter/Animator)
+
+                            </div>
+                            <div className='twitterIcon'>
+                                <div className='twitter'>
+                                    <FiTwitter size={20} color='#fff' />
+                                </div>
+                               
+                            </div>
+                        </div>  
+                    </div>
+
                 </div>
+                
+
+
               </div>
                
                
@@ -96,7 +228,7 @@ const Index=()=>{
                 
                
                
-        </div>
+        
     )
 }
 

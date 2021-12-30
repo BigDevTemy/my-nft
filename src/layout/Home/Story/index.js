@@ -3,6 +3,7 @@ import '../../../assets/css/Story/story.css'
 import character from '../../../assets/images/storypic/iceage.png'
 import characterII from '../../../assets/images/storypic/icecave.png'
 import characterIII from '../../../assets/images/storypic/partypic.png'
+import logo from '../../../assets/images/logo_100.png'
 const Index = ()=>{
     const [animateImg, setanimateImg] = useState(0)
     
@@ -44,12 +45,20 @@ const Index = ()=>{
     }
     return(
         <div className="story" id="story">
-            <div className="heroOverlay">
-
-            <div className="story-title">
-              <h1>  Story</h1>
-              <small><i>Once upon a time..</i></small>
+            <div className="title">
+                <div className="logoArea">
+                    <img src={logo}/>
+                </div>  
+                <div className="textTitle">
+                    <h2>OUR<br/>
+                        <span>
+                            STORY
+                        </span>
+                    </h2>
+                </div>   
             </div>
+
+            
             <div className="story-content">
                
                <div className="mystory">
@@ -77,7 +86,7 @@ const Index = ()=>{
             
             </div>
             
-        </div>
+        
     )
 }
 

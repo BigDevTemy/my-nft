@@ -1,38 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cookie&family=Estonia&family=Inter:wght@500;600&family=Satisfy&family=Source+Code+Pro:ital,wght@0,200;1,500&display=swap');
 
+@font-face {
+  font-family: RammettoOne-Regular;
+  src: url('../../../font/RammettoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Sora;
+  src: url('../../../font/Sora-VariableFont_wght.ttf');
+}
 
 .story{
     width: 100%;
     height: 120vh;
-    background: url('../../images/storypic/icecave.png');
+    background-color: #07081d;
+    padding-top: 15vh;
+    /* background: url('../../images/storypic/icecave.png');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     text-align: center;
-    position: relative;
-    margin: 0px;
+   
 }
 
-.story-title > h1{
-    margin-top: 12vh;
-    font-family: Acme;
-    color: #fff;
-    
-}
-
-.story-title > small{
-    font-weight: bold;
-    font-family: candara;
-    color: #fff;
-}
+.title{
+    display: flex;
+    justify-content: start;
+    margin-left: 70px;
+  
+  }
+  .textTitle > h2 > span{
+    font-family: RammettoOne-Regular;
+    font-size: 50px;
+    font-weight: 400;
+    color: #3bb9ff;
+  }
+  
+  .textTitle > h2{
+    color: #b0ecff;
+  }
 
 .story-content{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
     color:#fff;
+    padding: 50px;
     
     
 }
@@ -54,7 +69,7 @@
     align-items: center;   
 }
 .mystory >p{
-    font-family: candara;
+    font-family: Sora;
     font-size: 16px;
     text-align: justify;
     display: flex;  

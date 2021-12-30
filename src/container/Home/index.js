@@ -15,9 +15,9 @@ const Index=()=>{
             <HeroBanner/>
             <Aboutus/>
             <Story/>
-            <Roadmap/>
+            {/* <Roadmap/> */}
             <Team/>
-            <Faq/>
+            {/* <Faq/> */}
             <Footer/>
         
         </div>

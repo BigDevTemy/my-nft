@@ -3,18 +3,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@500;600&display=swap');
 
+
+@font-face {
+    font-family: RammettoOne-Regular;
+    src: url('../../../font/RammettoOne-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Sora;
+    src: url('../../../font/Sora-VariableFont_wght.ttf');
+  }
+
 .ourteam{
     width: 100%;
     min-height: 150vh;
     height: 100%;
-    background: url('../../images/Squirrel.jpg');
+    background-color: #07081d;
+    padding-top: 15vh;
+    /* background: url('../../images/Squirrel.jpg');
     text-align: center;
     position: relative;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
 }
+
+
+.title{
+    display: flex;
+    justify-content: start;
+    margin-left: 100px;
+  
+  }
+  .textTitle > h2 > span{
+    font-family: RammettoOne-Regular;
+    font-size: 50px;
+    font-weight: 400;
+    color: #3bb9ff;
+  }
+  
+  .textTitle > h2{
+    color: #b0ecff;
+  }
 .heroOverlay{
     width: 100%;
     height: 100%;
@@ -225,3 +256,58 @@
     width: 70%;
 }
 
+
+/*****/
+
+.teamAll{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    margin-left: 100px;
+}
+.team-member{
+    flex:1 1 calc(50% - 25px);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.teamInfor{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.mytitle{
+    font-family: Sora;
+    font-size: 17px;
+    color:#3bb9ff;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.teamposition{
+    font-family: Sora;
+    font-size: 17px;
+    color: #fff;
+    padding: 10px;
+}
+.twitterIcon{
+    padding-left: 10px;
+}
+.twitter{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #fbaf41;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    border:2px solid #fbaf41
+}

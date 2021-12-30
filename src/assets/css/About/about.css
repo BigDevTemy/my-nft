@@ -20,7 +20,7 @@
     height: 100%;
     padding:40px;
     background-color: #07081d;
-    
+    padding-top: 15vh;
     /* background: url('../../images/random/tree_house.jpg');
     background-position: center;
     background-repeat: no-repeat; */
@@ -45,13 +45,15 @@
 .aboutusContainer{
   display: flex;
   
-  padding: 100px;
+  padding: 50px;
+  
 }
 .carousel-images{
   flex: 1 1 40%;
  
 }
-.carousel-images > img{
+
+.abt-pic{
   margin: 5px;
   border-radius: 10px;
 }
