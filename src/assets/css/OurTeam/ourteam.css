@@ -262,9 +262,11 @@
 .teamAll{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
     justify-content: center;
-    margin-left: 100px;
+   
 }
 .team-member{
     flex:1 1 calc(50% - 25px);
