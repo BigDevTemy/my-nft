@@ -1,19 +1,28 @@
 import '../../assets/css/Header/header.css';
 import logo from '../../assets/images/logo_white_new.png';
 import Squirreling from '../../assets/images/logo_50.png';
-
-
-
 import {GiGamepad} from 'react-icons/gi';
 import {VscTwitter} from 'react-icons/vsc';
 import {GiIronHulledWarship} from 'react-icons/gi'
 import {FaInstagram} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import { useLocation} from 'react-router';
+import { useEffect, useState } from 'react';
 const Index=()=>{
-    
+    const [scroll,setscrollPosition] = useState(0);
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setscrollPosition(position)
+        console.log(scroll)
+    };
+    useEffect(()=>{
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    },[])
     return(
-        <div className="header">
+        <div className={scroll === 0 ? 'header':'headerScroll'}>
                 <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling}/></Link></div>
                 <div className="nav-bars">
                     

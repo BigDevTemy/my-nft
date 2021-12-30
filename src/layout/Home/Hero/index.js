@@ -7,9 +7,9 @@ import logo from '../../../assets/images/logo_new.png'
 const Index = ()=>{
     return(
         <div className="hero">
-          
+{/*           
           <div className="heroText">
-            {/* <Typewriter
+            <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString('We are building an immersive & inclusive digital world - a Squirrel community on Sandbox, games, shops, art galleries, parties & adventures')
                         .callFunction(() => {
@@ -24,14 +24,14 @@ const Index = ()=>{
                         .start();
                         
                     }}
-                /> */}
+                />
 
-We are building an immersive & inclusive digital world - a Squirrel community on Sandbox, games, shops, art galleries, parties & adventures
+            We are building an immersive & inclusive digital world - a Squirrel community on Sandbox, games, shops, art galleries, parties & adventures
 
           </div>
           <div className="heroLogo">
               <img src={logo}/>
-          </div>
+          </div> */}
 
         </div>
     )

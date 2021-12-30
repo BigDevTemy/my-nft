@@ -1,17 +1,42 @@
+
+@font-face {
+    font-family: Sora;
+    src: url('../../../font/Sora-VariableFont_wght.ttf');
+  }
+
 .header{
     width: 100%;
     height: 80px;
-    background: #000;
     position: fixed;
+    background:transparent;
     top: 0;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-    padding:10px;
-    border-bottom: 1px solid #fff;
+    padding:20px;
+    /* border-bottom: 1px solid #fff; */
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 10px;
+    
 }
+
+.headerScroll{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #fff;
+    /* border-bottom: 1px solid #fff; */
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
 
 .logo{
     flex: 1 1 40%;
@@ -20,20 +45,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:#fff;
+    color:#000;
+    font-weight: bold;
     flex: 1 1 33.333%;
 }
 .nav-bars Link{
     padding: 15px;
     font-size: 14px;
-    font-family: candara;
+    font-family: Sora;
     font-weight: bold;
     cursor: pointer;
     
 }
 .abt{
-    padding:10px;
-    font-family: candara;
+    padding:20px;
+    font-family: Sora;
     font-size: 17px;
 }
 
