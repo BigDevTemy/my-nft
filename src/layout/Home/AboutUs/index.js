@@ -1,16 +1,11 @@
 import '../../../assets/css/About/about.css';
-import nft1 from '../../../assets/images/slider/1.png'
-import nft2 from '../../../assets/images/slider/2.png'
-import nft3 from '../../../assets/images/slider/3.png'
-import nft4 from '../../../assets/images/slider/4.png'
-import nft5 from '../../../assets/images/slider/5.png'
-import nft6 from '../../../assets/images/slider/6.png'
-import nft7 from '../../../assets/images/slider/7.png'
-import nft8 from '../../../assets/images/slider/8.png'
-import nft9 from '../../../assets/images/slider/9.png'
-import nft10 from '../../../assets/images/slider/10.png'
-import nft11 from '../../../assets/images/slider/11.png'
-import nft12 from '../../../assets/images/slider/12.png'
+import nft1 from '../../../assets/images/aboutus/edit/1.png'
+import nft2 from '../../../assets/images/aboutus/edit/2.png'
+import nft3 from '../../../assets/images/aboutus/edit/3.png'
+import nft4 from '../../../assets/images/aboutus/edit/4.png'
+import nft5 from '../../../assets/images/aboutus/edit/5.png'
+import nft6 from '../../../assets/images/aboutus/edit/6.png'
+
 
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
