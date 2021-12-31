@@ -1,0 +1,65 @@
+<section className="timeline_area section_padding_130 bg-dark-new" >
+                        <div className="contain" >
+                            <div className="row justify-content-center">
+                                <div className="col-12 col-sm-8 col-lg-6">
+                                    
+                                    <div className="section_heading text-center p-4 roadmap-title myroadmap">
+                                        <h1>Roadmap</h1>
+                                        <small>We’re in this for the Long Haul</small>
+                                        <div className="line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="road-flex">
+                                    <div className="roadmap-pic">
+                                        <img src={picture} className="moveClass" />
+                                        
+                                    </div>
+
+                                    <div className="roadmap-item">
+                                        <div className="row">
+                                            <div className="shape-div">
+                                                <div className="shape">
+                                                            <div className="timeline-text soldout" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}} >
+                                                                <h6 className="soldout">Q1 2022 - SOLD OUT, METAVERSE HERE WE COME!</h6>
+                                                                <p className="soldout">{soldout}</p>
+                                                            </div>
+                                                </div>
+                                                <div className="shape">
+                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}}>
+                                                        <h6 className="ssgame">Q1 2022 – ACQUIRING A LAND ON SANDBOX!</h6>
+                                                        <p className="ssgame">
+                                                            {/* */}
+                                                            {ssgame}
+                                                            
+                                                        </p>
+                                                    </div>                 
+                                                </div>
+                                                <div className="shape">
+                                                    <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}}>
+                                                        <h6 className="sandbox">Q2 2022 - MAKING THE WORLD A BETTER PLACE, TREE BY TREE</h6>
+                                                        <p className="sandbox">
+                                                            {/* */}
+                                                            {sandbox}
+                                                            
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div className="shape">
+                                                <div className="timeline-text ssgame" onMouseOver={e=>{handleMouseOver(e.target.classList)}} onMouseLeave={e=>{handleMouseLeave()}}>
+                                                        <h6 className="event">Q3 2022 – SQUIRRELING SQUIRRELS GAME</h6>
+                                                        <p className="event">
+                                                            {/* */}
+                                                            {event}
+                                                            
+                                                        </p>
+                                                    </div>            
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+                            
+                        </div>
+                    </section>
