@@ -11,6 +11,10 @@ import {FaSchool} from 'react-icons/fa'
 import {FaStar} from 'react-icons/fa'
 import logo from '../../../assets/images/logo_100.png'
 import roadmap from '../../../assets/images/roadmap.png'
+import item1 from '../../../assets/images/roadmap/edit/1.png'
+import item2 from '../../../assets/images/roadmap/edit/2.png'
+import item3 from '../../../assets/images/roadmap/edit/3.png'
+import item4 from '../../../assets/images/roadmap/edit/4.png'
 const Index = ()=>{
     
     return(
@@ -60,7 +64,7 @@ const Index = ()=>{
                                                     </div>
                                                </div>
                                                <div className='roadmap-flex-2'>
-                                                    <img src={roadmap}/>
+                                                    <img src={item1}/>
                                                </div>
                                             </div>
                                         </div>
@@ -90,7 +94,7 @@ const Index = ()=>{
                                                     </div>
                                                </div>
                                                <div className='roadmap-flex-2'>
-                                                    <img src={roadmap}/>
+                                                    <img src={item2}/>
                                                </div>
                                             </div>
                                         </div>
@@ -122,7 +126,7 @@ const Index = ()=>{
                                                     </div>
                                                </div>
                                                <div className='roadmap-flex-2'>
-                                                    <img src={roadmap}/>
+                                                    <img src={item3}/>
                                                </div>
                                             </div>
                                         </div>
@@ -154,7 +158,7 @@ const Index = ()=>{
                                                     </div>
                                                </div>
                                                <div className='roadmap-flex-2'>
-                                                    <img src={roadmap}/>
+                                                    <img src={item4}/>
                                                </div>
                                             </div>
                                         </div>
