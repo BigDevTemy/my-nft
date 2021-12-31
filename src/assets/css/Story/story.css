@@ -41,6 +41,7 @@
   
   .textTitle > h2{
     color: #b0ecff;
+    text-align: start;
   }
 
 .story-content{

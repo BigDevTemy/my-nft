@@ -16,7 +16,7 @@ const Index = ()=>{
     const [animateImg, setanimateImg] = useState(0)
     
     useEffect(()=>{
-        const intervalId = setInterval(changeImage,4000)
+        const intervalId = setInterval(changeImage,2000)
         return () => clearInterval(intervalId);
     },[animateImg])
     
@@ -71,7 +71,7 @@ const Index = ()=>{
                     <img src={logo}/>
                 </div>  
                 <div className="textTitle">
-                    <h2>aboutus<br/>
+                    <h2>WHO WE ARE<br/>
                         <span>
                             ABOUT US
                         </span>

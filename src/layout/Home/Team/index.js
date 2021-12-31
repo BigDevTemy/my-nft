@@ -122,7 +122,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                CMO of Squirreling Squirrels (Marketing)
+                                CMO <br/> Marketing.
                             </div>
                             <div className='twitterIcon'>
                                 <div className='twitter'>
@@ -142,7 +142,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                CTO of Squirreling Squirrels (Technology & Blockchain)
+                                CTO <br/>Technology & Blockchain.
                             </div>
                             <div className='twitterIcon'>
                                 <div className='twitter'>
@@ -162,7 +162,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                Software Engineer @ Squirreling Squirrels (Smart Contract/Developer)
+                                Software Engineer<br/>Smart Contract/Developer.
 
                             </div>
                             <div className='twitterIcon'>
@@ -183,7 +183,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                Architect/Artist @ Squirreling Squirrels (Designer)
+                                Architect/Artist <br/>Designer.
 
                             </div>
                             <div className='twitterIcon'>
@@ -204,7 +204,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                Game Marker @ Squirreling Squirrels (Game Scriptwriter/Animator)
+                                Game Marker <br/>Game Scriptwriter/Animator
 
                             </div>
                             <div className='twitterIcon'>
