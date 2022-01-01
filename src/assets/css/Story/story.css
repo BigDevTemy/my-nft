@@ -18,11 +18,13 @@
     height: 120vh;
     background-color: #07081d;
     padding-top: 15vh;
+    
     /* background: url('../../images/storypic/icecave.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; */
     text-align: center;
+
    
 }
 
@@ -43,6 +45,9 @@
     color: #b0ecff;
     text-align: start;
   }
+  .textTitle{
+    padding:20px;
+}
 
 .story-content{
     display: flex;

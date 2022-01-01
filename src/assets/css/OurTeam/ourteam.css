@@ -36,6 +36,9 @@
     margin-left: 100px;
   
   }
+  .textTitle{
+      padding:20px;
+  }
   .textTitle > h2 > span{
     font-family: RammettoOne-Regular;
     font-size: 50px;

@@ -9,6 +9,7 @@ import {FaInstagram} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import { useLocation} from 'react-router';
 import { useEffect, useState } from 'react';
+import opensea from '../../assets/images/opensea.png'
 const Index=()=>{
     const [scroll,setscrollPosition] = useState(0);
     const handleScroll = () => {
@@ -73,6 +74,9 @@ const Index=()=>{
                     </div>
                     <div className="game">
                          <a href="https://www.instagram.com/squirrelingsquirrels/" target="_blank"><FaInstagram size={20} color="#FFF"/></a>
+                    </div>
+                    <div className="game">
+                         <a href="https://www.opensea.io/" target="_blank"><img src={opensea} style={{width:25}}/></a>
                     </div>
                     <div className="gaming">
                             Connect to Wallet

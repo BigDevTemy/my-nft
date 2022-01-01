@@ -42,6 +42,9 @@
 .textTitle > h2{
   color: #b0ecff;
 }
+.textTitle{
+  padding:20px;
+}
 .aboutusContainer{
   display: flex;
   padding-left: 100px;

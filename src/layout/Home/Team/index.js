@@ -102,12 +102,12 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                CEO of Squirreling Squirrels (Operations).
+                                CEO <br/> Operations.
                             </div>
                             <div className='twitterIcon'>
-                                <div className='twitter'>
+                                {/* <div className='twitter'>
                                     <FiTwitter size={20} color='#fff' />
-                                </div>
+                                </div> */}
                                
                             </div>
                         </div>
@@ -118,16 +118,16 @@ const Index=()=>{
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
-                                Kaylee
+                                Karim
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
                                 CMO <br/> Marketing.
                             </div>
                             <div className='twitterIcon'>
-                                <div className='twitter'>
+                                {/* <div className='twitter'>
                                     <FiTwitter size={20} color='#fff' />
-                                </div>
+                                </div> */}
                                
                             </div>
                         </div>
@@ -145,9 +145,9 @@ const Index=()=>{
                                 CTO <br/>Technology & Blockchain.
                             </div>
                             <div className='twitterIcon'>
-                                <div className='twitter'>
+                                {/* <div className='twitter'>
                                     <FiTwitter size={20} color='#fff' />
-                                </div>
+                                </div> */}
                                
                             </div>
                         </div>
@@ -166,9 +166,9 @@ const Index=()=>{
 
                             </div>
                             <div className='twitterIcon'>
-                                <div className='twitter'>
+                                {/* <div className='twitter'>
                                     <FiTwitter size={20} color='#fff' />
-                                </div>
+                                </div> */}
                                
                             </div>
                         </div>
@@ -187,9 +187,9 @@ const Index=()=>{
 
                             </div>
                             <div className='twitterIcon'>
-                                <div className='twitter'>
+                                {/* <div className='twitter'>
                                     <FiTwitter size={20} color='#fff' />
-                                </div>
+                                </div> */}
                                
                             </div>
                         </div>
@@ -208,9 +208,9 @@ const Index=()=>{
 
                             </div>
                             <div className='twitterIcon'>
-                                <div className='twitter'>
+                                {/* <div className='twitter'>
                                     <FiTwitter size={20} color='#fff' />
-                                </div>
+                                </div> */}
                                
                             </div>
                         </div>  
