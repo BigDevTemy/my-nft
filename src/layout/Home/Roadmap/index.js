@@ -94,7 +94,7 @@ const Index = ()=>{
                                                     </div>
                                                </div>
                                                <div className='roadmap-flex-2'>
-                                                    <img src={item2}/>
+                                                    <img src={item4}/>
                                                </div>
                                             </div>
                                         </div>
@@ -158,7 +158,7 @@ const Index = ()=>{
                                                     </div>
                                                </div>
                                                <div className='roadmap-flex-2'>
-                                                    <img src={item4}/>
+                                                    <img src={item2}/>
                                                </div>
                                             </div>
                                         </div>
