@@ -154,7 +154,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                         <div className="teamImg">
-                            <img src={team4}/>
+                            <img src={team5}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
@@ -175,7 +175,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                     <div className="teamImg">
-                            <img src={team5}/>
+                            <img src={team4}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>

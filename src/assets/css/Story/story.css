@@ -15,7 +15,8 @@
 
 .story{
     width: 100%;
-    height: 120vh;
+    min-height: 120vh;
+    height: 100%;
     background-color: #07081d;
     padding-top: 15vh;
     
