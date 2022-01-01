@@ -17,7 +17,7 @@ const Index=()=>{
             <Story/>
             <Roadmap/>
             <Team/>
-            {/* <Faq/> */}
+            <Faq/>
             <Footer/>
         
         </div>

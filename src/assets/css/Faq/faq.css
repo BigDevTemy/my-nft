@@ -2,13 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@500;600&display=swap');
 
+@font-face {
+    font-family: RammettoOne-Regular;
+    src: url('../../../font/RammettoOne-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Sora;
+    src: url('../../../font/Sora-VariableFont_wght.ttf');
+  }
 
 .faq{
     width: 100%;
-    height: 80vh;
-    background-color: rgb(0, 0, 0,0.8);
+    min-height: 100vh;
+    height: 100%;
+    background-color: #07081d;
     text-align: center;
-    padding: 40px;
+    padding-top: 15vh;
+    padding-bottom: 50px;
 }
 
 
@@ -35,3 +46,39 @@
     text-align: center;
 }
 
+
+.faq-question{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    padding: 40px;
+    color: #fff;
+
+    border-top: 1px solid #3bb9ff;
+    border-bottom: 1px solid #3bb9ff;
+}
+
+.faq-title{
+    font-size: 16px;
+    font-family: Sora;
+    flex:1 1 50%;
+    text-transform: uppercase;
+    text-align: start;
+    color:#3bb9ff ;
+    cursor: pointer;
+}
+
+.faq-icon{
+    cursor: pointer;
+    flex:1 1 50%;
+    text-align: end;
+}
+
+.faq-answer{
+    display: flex;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: Sora;
+    margin-left: 20px;
+}
