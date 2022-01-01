@@ -2,6 +2,7 @@ import '../../assets/css/Header/header.css';
 import logo from '../../assets/images/logo_white_new.png';
 import Squirreling from '../../assets/images/logo_50.png';
 import {GiGamepad} from 'react-icons/gi';
+import {FaDiscord} from 'react-icons/fa';
 import {VscTwitter} from 'react-icons/vsc';
 import {GiIronHulledWarship} from 'react-icons/gi'
 import {FaInstagram} from 'react-icons/fa'
@@ -24,7 +25,7 @@ const Index=()=>{
     return(
         <div className={scroll === 0 ? 'header':'headerScroll'}>
                 <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling}/></Link></div>
-                <div className="nav-bars">
+                <div className={scroll === 0 ? 'nav-bars':'nav-bars-scroll'}>
                     
                     <Link  to="aboutus" spy={true} smooth={true}>
                         <div className="abt">   
@@ -65,7 +66,7 @@ const Index=()=>{
                 </div>
                 <div className="connect">
                     <div className="game">
-                      <a href="https://discord.gg/dQr9nAeB" target="_blank">  <GiGamepad size={20} color="#FFF"/></a>
+                      <a href="https://discord.gg/dQr9nAeB" target="_blank">  <FaDiscord size={20} color="#FFF"/></a>
                     </div>
                     <div className="game">
                          <a href="https://twitter.com/SquirrelingSQRL" target="_blank"><VscTwitter size={20} color="#FFF"/></a>

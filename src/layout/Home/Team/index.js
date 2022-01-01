@@ -18,7 +18,7 @@ const Index=()=>{
                     <img src={logo}/>
                 </div>  
                 <div className="textTitle">
-                    <h2>SQUIRRELLING<br/>
+                    <h2>SQUIRRELING<br/>
                         <span>
                             TEAM
                         </span>

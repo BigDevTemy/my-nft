@@ -46,7 +46,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 
 }
 
@@ -55,12 +55,13 @@
     text-transform: uppercase;
     color: #3bb9ff;
     cursor: pointer;
+    
 }
-.roadmapComponent-title > h6:hover{
+/* .roadmapComponent-title > h6:hover{
     color: #f1c40f;
-}
+} */
 .roadmapComponent-text {
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: justify;
 }
 

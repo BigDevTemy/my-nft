@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     padding:20px;
-    background-color: #fff;
+    background: #1f2327;
     /* border-bottom: 1px solid #fff; */
     padding-left: 40px;
     padding-right: 40px;
@@ -49,6 +49,14 @@
     font-weight: bold;
     flex: 1 1 33.333%;
 }
+.nav-bars-scroll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    font-weight: bold;
+    flex: 1 1 33.333%;
+}
 .nav-bars Link{
     padding: 15px;
     font-size: 14px;
@@ -61,6 +69,7 @@
     padding:20px;
     font-family: Sora;
     font-size: 17px;
+
 }
 
 .abt:hover{
@@ -94,12 +103,14 @@
 
 .gaming{
     color:#fff;
-    width: 130px;
-    font-size: 13px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
     font-family: candara;
     background-color:#1DA1F2;
     padding: 10px;
     border-radius: 5px;
     margin-left: 5px;
+    text-align: center;
 }
 

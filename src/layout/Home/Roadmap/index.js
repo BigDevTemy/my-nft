@@ -76,7 +76,7 @@ const Index = ()=>{
                                         <p className='leadTitle' style={{color:'#fff'}}>Q1 2022</p>
                                     </div>
                                     <div className="row">
-                                        <div className="col-12 col-md-12 col-lg-12 space-down">
+                                        <div className="col-12 col-md-12 col-lg-12">
                                             {/* <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
                                                 <div className="timeline-icon"><i className="fa fa-address-card" aria-hidden="true"></i></div>
                                                 <div className="timeline-text">
