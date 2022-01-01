@@ -62,7 +62,7 @@
 .faq-title{
     font-size: 16px;
     font-family: Sora;
-    flex:1 1 50%;
+    flex:1 1 90%;
     text-transform: uppercase;
     text-align: start;
     color:#3bb9ff ;
@@ -71,7 +71,7 @@
 
 .faq-icon{
     cursor: pointer;
-    flex:1 1 50%;
+    flex:1 1 10%;
     text-align: end;
 }
 

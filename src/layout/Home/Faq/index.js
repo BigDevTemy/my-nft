@@ -112,7 +112,7 @@ const Index=()=>{
                         1 &nbsp;	What does SS mean?
                     </div>
                     <div className='faq-icon'> 
-                        <RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/>
+                    {isOpenEvent1 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/> }
                     </div>
                     <div>
                         {isOpenEvent1 && 
@@ -128,7 +128,7 @@ const Index=()=>{
                         2 &nbsp;	What is NFT?
                     </div>
                     <div className='faq-icon'> 
-                        <RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/>
+                    {isOpenEvent2 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/> }
                     </div>
                     <div>
                         {isOpenEvent2 && 
@@ -145,7 +145,7 @@ const Index=()=>{
                         3 &nbsp;	What is SS build on?
                     </div>
                     <div className='faq-icon'> 
-                        <RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/>
+                        {isOpenEvent3 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/> }
                     </div>
                     <div>
                         {isOpenEvent3 && 
@@ -161,7 +161,7 @@ const Index=()=>{
                     4	&nbsp; Pre sale and public sale date?
                     </div>
                     <div className='faq-icon'> 
-                        <RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>
+                    {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/> }
                     </div>
                     <div>
                         {isOpenEvent4&& 
