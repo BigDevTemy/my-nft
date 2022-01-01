@@ -98,11 +98,11 @@ const Index=()=>{
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
-                                Clark
+                                Ceekay
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                CEO <br/> Operations.
+                                CEO <br/> Operations
                             </div>
                             <div className='twitterIcon'>
                                 {/* <div className='twitter'>
@@ -122,7 +122,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                CMO <br/> Marketing.
+                                CMO <br/> Marketing
                             </div>
                             <div className='twitterIcon'>
                                 {/* <div className='twitter'>
@@ -138,11 +138,11 @@ const Index=()=>{
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
-                                Jack
+                                Jade
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                CTO <br/>Technology & Blockchain.
+                                CTO <br/>Technology & Blockchain
                             </div>
                             <div className='twitterIcon'>
                                 {/* <div className='twitter'>
@@ -162,7 +162,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                Software Engineer<br/>Smart Contract/Developer.
+                                Software Engineer<br/>Smart Contract/Developer
 
                             </div>
                             <div className='twitterIcon'>
@@ -183,7 +183,7 @@ const Index=()=>{
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                Architect/Artist <br/>Designer.
+                                Architect/Artist <br/>Designer
 
                             </div>
                             <div className='twitterIcon'>
