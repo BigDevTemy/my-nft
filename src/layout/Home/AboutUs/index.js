@@ -15,21 +15,21 @@ import { useEffect, useState } from 'react';
 const Index = ()=>{
     const [animateImg, setanimateImg] = useState(0)
     
-    useEffect(()=>{
-        const intervalId = setInterval(changeImage,2000)
-        return () => clearInterval(intervalId);
-    },[animateImg])
+    // useEffect(()=>{
+    //     const intervalId = setInterval(changeImage,2000)
+    //     return () => clearInterval(intervalId);
+    // },[animateImg])
     
-    const changeImage=()=>{
-        if(animateImg === 2){
-            setanimateImg(0)
+    // const changeImage=()=>{
+    //     if(animateImg === 2){
+    //         setanimateImg(0)
             
-        }
-        else{
-            setanimateImg(animateImg + 1)
-        }
+    //     }
+    //     else{
+    //         setanimateImg(animateImg + 1)
+    //     }
         
-    }
+    // }
     // setInterval(changeImage(),10000)
 
     
@@ -92,15 +92,22 @@ const Index = ()=>{
                 </div>
                 <div className="carousel-images">
                   
-                    <OwlCarousel className='owl-theme' loop margin={1} autoplay="true" items={4} autoplayTimeout={1200} nav>
+                    <OwlCarousel 
+                        className='owl-theme' 
+                        loop margin={1} 
+                        autoplay="true"
+                        items={4} 
+                        autoplayTimeout={1200} 
+                        
+                        nav="true">
                         <div class='item'>
                             <img src={nft1} className="nft-images"/>
                         </div>
                         <div class='item'>
-                            <img src={nft3} className="nft-images"/>
+                            <img src={nft2} className="nft-images"/>
                         </div>
                         <div class='item'>
-                            <img src={nft2} className="nft-images"/>
+                            <img src={nft3} className="nft-images"/>
                         </div>
                         <div class='item'>
                             <img src={nft4} className="nft-images" />

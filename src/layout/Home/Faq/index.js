@@ -14,33 +14,45 @@ const Index=()=>{
     const [isOpenEvent2, setOpenEvent2] = useState(false);
     const [isOpenEvent3, setOpenEvent3] = useState(false);
     const [isOpenEvent4, setOpenEvent4] = useState(false);
-
+    const [isOpenEvent5, setOpenEvent5] = useState(false);
 
     const _handleOpen =(event)=>{
+        console.log(event)
         switch (event) {
             case 'event1':
                 setOpenEvent1(!isOpenEvent1)
                 setOpenEvent2(false)
                 setOpenEvent3(false)
                 setOpenEvent4(false)
+                setOpenEvent5(false)
                 break;
             case 'event2':
                 setOpenEvent2(!isOpenEvent2)
                 setOpenEvent1(false)
                 setOpenEvent3(false)
                 setOpenEvent4(false)
+                setOpenEvent5(false)
                 break;
             case 'event3':
                 setOpenEvent3(!isOpenEvent3)
                 setOpenEvent2(false)
                 setOpenEvent1(false)
                 setOpenEvent4(false)
+                setOpenEvent5(false)
                 break;
             case 'event4':
                 setOpenEvent4(!isOpenEvent4)
                 setOpenEvent2(false)
                 setOpenEvent3(false)
                 setOpenEvent1(false)
+                setOpenEvent5(false)
+                break;
+            case 'event5':
+                setOpenEvent5(!isOpenEvent5)
+                setOpenEvent2(false)
+                setOpenEvent3(false)
+                setOpenEvent1(false)
+                setOpenEvent4(false)
                 break;
                 
             default:
@@ -109,7 +121,7 @@ const Index=()=>{
 
                 <div className='faq-question'>
                     <div className='faq-title' onClick={()=>{_handleOpen('event1')}}>  
-                        1 &nbsp;	I am new to NFT’s where do I start?
+                        1. &nbsp;	I am new to NFT’s where do I start?
                     </div>
                     <div className='faq-icon'> 
                     {isOpenEvent1 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/> }
@@ -133,7 +145,7 @@ const Index=()=>{
                 </div>
                 <div className='faq-question'>
                     <div className='faq-title' onClick={()=>{_handleOpen('event2')}}>  
-                        2 &nbsp;	What is Squirreling Squirrels?
+                        2. &nbsp;	What is Squirreling Squirrels?
                     </div>
                     <div className='faq-icon'> 
                     {isOpenEvent2 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/> }
@@ -153,7 +165,7 @@ const Index=()=>{
 
                 <div className='faq-question'>
                     <div className='faq-title' onClick={()=>{_handleOpen('event3')}}>  
-                        3 &nbsp;	When is the launch date? 
+                        3. &nbsp;	When is the launch date? 
                     </div>
                     <div className='faq-icon'> 
                         {isOpenEvent3 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/> }
@@ -169,7 +181,7 @@ const Index=()=>{
                 </div>
                 <div className='faq-question'>
                     <div className='faq-title' onClick={()=>{_handleOpen('event4')}}>  
-                    4	&nbsp; How much will it cost to mint a Squirreling Squirrel NFT?
+                    4.	&nbsp; How much will it cost to mint a Squirreling Squirrel NFT?
                     </div>
                     <div className='faq-icon'> 
                     {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/> }
@@ -185,14 +197,14 @@ const Index=()=>{
                 </div>
                 
                 <div className='faq-question'>
-                    <div className='faq-title' onClick={()=>{_handleOpen('event4')}}>  
-                    5	&nbsp; How many Squirreling Squirrels NFT’s will there be?
+                    <div className='faq-title' onClick={()=>{_handleOpen('event5')}}>  
+                    5.	&nbsp; How many Squirreling Squirrels NFT’s will there be?
                     </div>
                     <div className='faq-icon'> 
-                    {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/> }
+                    {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
                     </div>
                     <div>
-                        {isOpenEvent4&& 
+                        {isOpenEvent5&& 
                             <div className='faq-answer'>
                                   <p> Squirreling Squirrels will be comprised of 5,500unique NFT’s on the Ethereum Blockchain.</p>
                             </div> 
