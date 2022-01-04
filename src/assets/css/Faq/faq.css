@@ -54,9 +54,11 @@
     justify-content: space-between;
     padding: 40px;
     color: #fff;
-
-    border-top: 1px solid #3bb9ff;
-    border-bottom: 1px solid #3bb9ff;
+    border:1px solid #3bb9ff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    /* border-top: 1px solid #3bb9ff;
+    border-bottom: 1px solid #3bb9ff; */
 }
 
 .faq-title{

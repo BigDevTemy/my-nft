@@ -47,6 +47,7 @@
 }
 .aboutusContainer{
   display: flex;
+  flex-direction: column;
   padding-left: 100px;
   padding-right: 100px;
   margin-top: 50px;
@@ -56,7 +57,7 @@
   
 }
 .carousel-images{
-  flex: 1 1 40%;
+  flex: 1 1 50%;
  
 }
 
@@ -65,7 +66,7 @@
   border-radius: 10px;
 }
 .aboutus-Text{
-  flex:1 1 60%;
+  flex:1 1 50%;
   color: #fff;
 
 }
@@ -76,5 +77,14 @@
 }
 .aboutus-Text >p >span{
   color: #3bb9ff;
+}
+
+.item{
+  margin-top: 10px;
+  width: 90%;
+}
+
+.nft-images{
+ border-radius: 15px;
 }
 
