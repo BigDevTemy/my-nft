@@ -85,7 +85,7 @@ const Index = ()=>{
                                         <div className='roadmapComponent-title'><h6>Making the world a better place, tree by tree</h6></div>
                                             <div className='roadmapComponent-text'>
                                                 <p>
-                                                A million starts with one, that one starts with each holder of our SS collection. As part of our commitment to help the global community, we will be planting 1 million trees. And as a thank you to our community, each holder will get a certification in their name for the trees that have been planted. More details to be revealed soon.
+                                                A million starts with one, that one starts with each holder of our SS collection. As part of our commitment to help the global community, we will be planting 100,000 trees. And as a thank you to our community, each holder will get a certification in their name for the trees that have been planted. More details to be revealed soon.
                                                 </p>
                                             </div>
                                         </div>
