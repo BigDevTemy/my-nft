@@ -32,12 +32,23 @@ const Index = ()=>{
                 </div>   
             </div>
 
-            <div class="container mt-4">
+            <div class="roadmapStyle mt-4">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 styledRoadmap">
+                        <div class="timerliner-div">
+                            <ul className='timeliner'>
+                                <li className='q1'>Q1 2022</li>
+                                <li className='q2'>Q1 2022</li>
+                                <li className='q3'>Q2 2022</li>
+                                <li className='q3'>Q3 2022</li>
+                                {/* <li>Q2</li>
+                                <li>Q3</li>
+                                <li>Q14</li> */}
+                            </ul>
+                        </div>
                         
                         <ul class="timeline">
-                           
+                        
                             <li>
                                     <div className='roadmapComponent'>
                                         <div className='roadmap-flex-1'>

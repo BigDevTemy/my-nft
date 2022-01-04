@@ -6,6 +6,7 @@ import Roadmap from '../../layout/Home/Roadmap'
 import Team from '../../layout/Home/Team'
 import Faq from '../../layout/Home/Faq'
 import Footer from '../../component/footer'
+import SecondHeader from '../../component/SecondHeader'
 import '../../../src/App.css'
 const Index=()=>{
     return(
@@ -13,6 +14,7 @@ const Index=()=>{
             
             <Header/>
             <HeroBanner/>
+             <SecondHeader/>
             <Aboutus/>
             <Story/>
             <Roadmap/>

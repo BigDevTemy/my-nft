@@ -1,7 +1,7 @@
 import '../../assets/css/Header/header.css';
 import logo from '../../assets/images/logo_white_new.png';
 import Squirreling from '../../assets/images/logo_50.png';
-import logo_newest from '../../assets/images/logo_3.png'
+import logo_new from '../../assets/images/logo_new.png'
 import {GiGamepad} from 'react-icons/gi';
 import {FaDiscord} from 'react-icons/fa';
 import {VscTwitter} from 'react-icons/vsc';
@@ -16,19 +16,18 @@ const Index=()=>{
     const handleScroll = () => {
         const position = window.pageYOffset;
         setscrollPosition(position)
-        //console.log(scroll)
-        console.log(position)
+        console.log('myScroll',scroll)
     };
     useEffect(()=>{
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scrolls', handleScroll);
         };
     },[])
     return(
-        <div className='header'>
-                <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={logo_newest}/></Link></div>
-                <div className='nav-bars'>
+        <div className={scroll >= 583 ? 'headerScroll':'Displaynone'}>
+                <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling}/></Link></div>
+                <div className='nav-bars-scroll'>
                     
                     <Link  to="aboutus" spy={true} smooth={true}>
                         <div className="abt">   
