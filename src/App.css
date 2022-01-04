@@ -9,3 +9,35 @@
 html, body  {
   margin: 0px;
 }
+.scroller{
+  position: absolute;
+  z-index: 2000000;
+  bottom: 50px;
+  width: 100%;
+  height: 100px;
+  text-align: right;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+  
+}
+
+.scroll{
+  background-color:#000;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.homeDiv{
+  position:relative;
+  width:100%;
+  min-height: 100vh;
+  height: 100%;
+}

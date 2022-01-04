@@ -26,7 +26,7 @@ const Index=()=>{
     },[])
     return(
         <div className={scroll >= 583 ? 'headerScroll':'Displaynone'}>
-                <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling}/></Link></div>
+                <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling} onClick={()=>{window.scroll(0,0)}}/></Link></div>
                 <div className='nav-bars-scroll'>
                     
                     <Link  to="aboutus" spy={true} smooth={true}>
@@ -79,9 +79,9 @@ const Index=()=>{
                     <div className="game">
                          <a href="https://www.opensea.io/" target="_blank"><img src={opensea} style={{width:25}}/></a>
                     </div>
-                    <div className="gaming">
+                    {/* <div className="gaming">
                             Connect to Wallet
-                    </div>
+                    </div> */}
 
 
                 </div>

@@ -8,10 +8,15 @@ import Faq from '../../layout/Home/Faq'
 import Footer from '../../component/footer'
 import SecondHeader from '../../component/SecondHeader'
 import '../../../src/App.css'
+import {BsFileArrowUp} from 'react-icons/bs'
 const Index=()=>{
     return(
         <div className="homeDiv">
-            
+            <div className='scroller'>
+                <div className='scroll'>
+                    <BsFileArrowUp size={25} color="#fff" style={{cursor:'pointer'}} onClick={()=>window.scroll(0,0)}/>
+                </div>
+            </div>
             <Header/>
             <HeroBanner/>
              <SecondHeader/>

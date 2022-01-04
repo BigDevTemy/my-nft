@@ -80,9 +80,9 @@ const Index=()=>{
                     <div className="game">
                          <a href="https://www.opensea.io/" target="_blank"><img src={opensea} style={{width:25}}/></a>
                     </div>
-                    <div className="gaming">
+                    {/* <div className="gaming">
                             Connect to Wallet
-                    </div>
+                    </div> */}
 
 
                 </div>

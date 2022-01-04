@@ -120,6 +120,7 @@ const Index = ()=>{
                         </div>
                     
                     </OwlCarousel>
+                    
                 </div>
                 
             </div>
