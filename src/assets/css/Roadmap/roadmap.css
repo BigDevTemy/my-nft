@@ -221,5 +221,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 700px) 
 and (max-device-width: 899px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  
+    .roadmapComponent{
+        flex-direction: column;
+    }
+    .q1,.q2,.q3{
+        display: none;
+    }
+    .roadmapStyle{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
 }
