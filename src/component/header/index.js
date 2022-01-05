@@ -5,18 +5,25 @@ import logo_newest from '../../assets/images/logo_3.png'
 import {GiGamepad} from 'react-icons/gi';
 import {FaDiscord} from 'react-icons/fa';
 import {VscTwitter} from 'react-icons/vsc';
-import {GiIronHulledWarship} from 'react-icons/gi'
+import {BiMenuAltRight} from 'react-icons/bi'
 import {FaInstagram} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import { useLocation} from 'react-router';
 import { useEffect, useState } from 'react';
 import opensea from '../../assets/images/opensea.png'
+import Drawer from './drawer.js';
+import { Offcanvas,Button } from "react-bootstrap";
 const Index=()=>{
     const [scroll,setscrollPosition] = useState(0);
+    const [showDrawer,setShowDrawer] = useState(0);
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     const handleScroll = () => {
         const position = window.pageYOffset;
         setscrollPosition(position)
-        //console.log(scroll)
+        
         console.log(position)
     };
     useEffect(()=>{
@@ -25,8 +32,13 @@ const Index=()=>{
             window.removeEventListener('scroll', handleScroll);
         };
     },[])
+    const _handleDrawer = ()=>{
+        
+        setShowDrawer(true)
+    }
     return(
         <div className='header'>
+              {/* <Drawer sendState={showDrawer}/> */}
                 <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={logo_newest}/></Link></div>
                 <div className='nav-bars'>
                     
@@ -86,6 +98,18 @@ const Index=()=>{
 
 
                 </div>
+                <div className='hamburger' onClick={handleShow}>
+                    <BiMenuAltRight  size={40} color='#ffff' />
+                </div>
+                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'30%'}}>
+                    <Offcanvas.Header closeButton>
+                        <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                        Some text as placeholder. In real life you can have the elements you
+                        have chosen. Like, text, images, lists, etc.
+                    </Offcanvas.Body>
+                </Offcanvas>
         </div>
     )
 }

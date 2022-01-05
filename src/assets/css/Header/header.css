@@ -118,6 +118,23 @@
     margin-left: 5px;
     text-align: center;
 }
+.hamburger{
+    text-align: center;
+    width: 80px;
+    height: 50px;
+    background-color: #1f2327;
+    border: 2px solid #1f2327;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (min-device-width: 900px){
+    .hamburger{
+        display: none;
+    }
+}
+
+
 
 @media only screen 
 and (min-device-width: 900px) 
@@ -125,6 +142,9 @@ and (max-device-width: 1000px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
         width: 80%;
+    }
+    .hamburger{
+        display: none;
     }
 }
 
