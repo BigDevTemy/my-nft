@@ -154,51 +154,51 @@ and (min-device-width: 400px)
 and (max-device-width: 499px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
+      
+  .title{
+      display: flex;
+      justify-content: center; 
+    }
+    .textTitle{
+      padding-top: 10px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      
+    }
+    .textTitle > h2{
+    font-size: 18px;
+    margin-top: 20px;
+    }
+    .title > div > img{
+      width: 70%;
+    }
+    .logoArea{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .textTitle > h2 > span{
+      font-size: 25px !important;
+    }
+    .faq{
     
-.title{
-    display: flex;
-    justify-content: center;
-   
-    
+      padding-top: 0px;
+      padding-bottom: 30px;
+    }
+  .faq-resp{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
   }
-  .textTitle{
-    padding-top: 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    
+  .faq-title{
+      font-size: 14px;
+     
   }
-  .textTitle > h2{
-   font-size: 18px;
-   margin-top: 20px;
+  .faq-answer{
+      font-size: 14px;
   }
-  .title > div > img{
-    width: 70%;
-  }
-  .logoArea{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .textTitle > h2 > span{
-    font-size: 25px !important;
-  }
-  .faq{
-   
-    padding-top: 0px;
-    padding-bottom: 30px;
-  }
-.faq-resp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.faq-title{
-    font-size: 14px;
-}
-.faq-answer{
-    font-size: 14px;
-}
 
 
 }

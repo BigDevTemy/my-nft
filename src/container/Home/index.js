@@ -14,7 +14,7 @@ const Index=()=>{
         <div className="homeDiv">
             <div className='scroller'>
                 <div className='scroll'>
-                    <BsFileArrowUp size={25} color="#fff" style={{cursor:'pointer'}} onClick={()=>window.scroll(0,0)}/>
+                    <BsFileArrowUp size={15} color="#fff" style={{cursor:'pointer'}} onClick={()=>window.scroll(0,0)}/>
                 </div>
             </div>
             <Header/>
