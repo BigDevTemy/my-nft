@@ -86,6 +86,7 @@
     display: flex;
     flex-direction: column;
 
+
 }
 
 .roadmap-flex-2{
@@ -108,6 +109,7 @@
 ul.timeline {
     list-style-type: none;
     position: relative;
+    
     
     /* display: flex;
     flex-direction: row;
@@ -234,4 +236,153 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .roadmapComponent-text{
         padding-right: 20px;
     }
+}
+
+@media only screen 
+and (min-device-width: 500px) 
+and (max-device-width: 699px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .title{
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  .textTitle{
+    padding-top: 10px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    
+  }
+  .textTitle > h2{
+   font-size: 18px;
+   margin-top: 20px;
+  }
+  .title > div > img{
+    width: 70%;
+    
+  }
+  .logoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .textTitle > h2 > span{
+    font-size: 30px !important;
+  }
+
+  .roadmapComponent{
+    flex-direction: column;
+    
+}
+.q1,.q2,.q3{
+    display: none;
+}
+.roadmapStyle{
+    margin: 0px;
+    padding-right:20px;
+    
+    
+}
+.roadmapComponent-text{
+    padding-right: 20px;
+}
+ 
+.roadmap{
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    
+    
+}
+.roadmapStyle{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.roadmapComponent-title > h6{
+    font-size: 18px;
+}
+
+.roadmapComponent-text >p{
+    font-size: 15px;
+}
+
+
+}
+
+
+
+@media only screen 
+and (min-device-width: 400px) 
+and (max-device-width: 499px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .title{
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  .textTitle{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .textTitle > h2{
+   font-size: 18px;
+   margin-top: 20px;
+  }
+  .title > div > img{
+    width: 70%;
+    
+  }
+  .logoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .textTitle > h2 > span{
+    font-size: 25px !important;
+  }
+
+  .roadmapComponent{
+    flex-direction: column;
+    
+}
+.q1,.q2,.q3{
+    display: none;
+}
+.roadmapStyle{
+    margin: 0px;
+    padding-right:20px;
+    
+    
+}
+.roadmapComponent-text{
+    padding-right: 20px;
+}
+ 
+.roadmap{
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.roadmapStyle{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.roadmapComponent-title > h6{
+    font-size: 16px;
+}
+
+.roadmapComponent-text >p{
+    font-size: 13px;
+}
+
+
 }

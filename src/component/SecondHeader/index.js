@@ -5,14 +5,19 @@ import logo_new from '../../assets/images/logo_new.png'
 import {GiGamepad} from 'react-icons/gi';
 import {FaDiscord} from 'react-icons/fa';
 import {VscTwitter} from 'react-icons/vsc';
-import {GiIronHulledWarship} from 'react-icons/gi'
+import {BiMenuAltRight} from 'react-icons/bi'
 import {FaInstagram} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import { useLocation} from 'react-router';
 import { useEffect, useState } from 'react';
 import opensea from '../../assets/images/opensea.png'
+import { Offcanvas,Button } from "react-bootstrap";
 const Index=()=>{
     const [scroll,setscrollPosition] = useState(0);
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     const handleScroll = () => {
         const position = window.pageYOffset;
         setscrollPosition(position)
@@ -83,8 +88,20 @@ const Index=()=>{
                             Connect to Wallet
                     </div> */}
 
-
+                    
                 </div>
+                <div className='hamburger' onClick={handleShow}>
+                        <BiMenuAltRight  size={40} color='#ffff' />
+                </div>
+                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'40%'}}>
+                    <Offcanvas.Header closeButton>
+                        <Offcanvas.Title>Menu</Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                        Some text as placeholder. In real life you can have the elements you
+                        have chosen. Like, text, images, lists, etc.
+                    </Offcanvas.Body>
+                </Offcanvas>
         </div>
     )
 }

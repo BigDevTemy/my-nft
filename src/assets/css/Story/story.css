@@ -124,4 +124,124 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 }
 
+@media only screen 
+and (min-device-width: 500px) 
+and (max-device-width: 699px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .story-content{
+    flex-wrap: wrap;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  .textTitle{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .textTitle > h2{
+   font-size: 18px;
+   margin-top: 20px;
+  }
+  .title > div > img{
+    width: 70%;
+    
+  }
+  .logoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .textTitle > h2 > span{
+    font-size: 30px !important;
+  }
+  .story-content{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+    
+}
+.story{
+  padding-bottom: 20px;
+}
+
+
+}
+
+
+
+@media only screen 
+and (min-device-width: 400px) 
+and (max-device-width: 499px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .story-content{
+    flex-wrap: wrap;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  .textTitle{
+    padding-top: 10px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    
+  }
+  .textTitle > h2{
+   font-size: 16px;
+   margin-top: 20px;
+  }
+  .title > div > img{
+    width: 70%;
+    
+  }
+  .logoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .textTitle > h2 > span{
+    font-size: 25px !important;
+  }
+  .story-content{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+}
+.story{
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+.mystory >p{
+  font-family: Sora;
+  font-size: 14px;
+  text-align: justify;
+  display: flex;  
+}
+.mystoryImg{
+  padding: 30px;  
+}
+
+
+}
+
 

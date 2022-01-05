@@ -71,9 +71,9 @@ const Index=()=>{
                     <img src={logo}/>
                 </div>  
                 <div className="textTitle">
-                    <h2>FREQUENTLY ASKED<br/>
+                    <h2><br/>
                         <span>
-                             QUESTIONS
+                             FAQ
                         </span>
                     </h2>
                 </div>   
