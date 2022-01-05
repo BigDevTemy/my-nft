@@ -114,7 +114,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                     <div className="teamImg">
-                            <img src={team2}/>
+                            <img src={team5}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
@@ -154,7 +154,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                         <div className="teamImg">
-                            <img src={team5}/>
+                            <img src={team2}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
@@ -179,7 +179,7 @@ const Index=()=>{
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
-                                Chris
+                                Anthony
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
@@ -194,27 +194,7 @@ const Index=()=>{
                             </div>
                         </div>
                     </div>
-                    <div className="team-member">
-                    <div className="teamImg">
-                            <img src={team6}/>
-                        </div>
-                        <div className='teamInfor'>
-                            <div className='mytitle'>
-                                Anthony
-                            </div>
-                            <div className='teamposition'>
-                                {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                                Game Marker <br/>Game Scriptwriter/Animator
-
-                            </div>
-                            <div className='twitterIcon'>
-                                {/* <div className='twitter'>
-                                    <FiTwitter size={20} color='#fff' />
-                                </div> */}
-                               
-                            </div>
-                        </div>  
-                    </div>
+                   
 
                 </div>
                 

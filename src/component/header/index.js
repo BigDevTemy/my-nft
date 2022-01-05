@@ -103,7 +103,7 @@ const Index=()=>{
                 </div>
                 <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'30%'}}>
                     <Offcanvas.Header closeButton>
-                        <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                        <Offcanvas.Title>Menu</Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         Some text as placeholder. In real life you can have the elements you
