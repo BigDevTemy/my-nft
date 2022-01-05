@@ -318,3 +318,15 @@
 .twitter:hover{
     border:2px solid #fbaf41
 }
+
+@media only screen 
+and (min-device-width: 900px) 
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .teamAll{
+        justify-content: space-between;
+    }
+    .team-member{
+        flex:1 1 25%;
+    }
+}

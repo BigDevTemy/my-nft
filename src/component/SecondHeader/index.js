@@ -16,7 +16,7 @@ const Index=()=>{
     const handleScroll = () => {
         const position = window.pageYOffset;
         setscrollPosition(position)
-        console.log('myScroll',scroll)
+        // console.log('myScroll',scroll)
     };
     useEffect(()=>{
         window.addEventListener('scroll', handleScroll, { passive: true });
