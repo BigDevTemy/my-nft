@@ -11,9 +11,10 @@
    
 }
 .logo > a > img{
-    padding-top: 50px;
+    margin-top: 50px;
     width: 100%;
     align-self: center;
+  
 }
 
   .tag{
@@ -174,7 +175,7 @@
     }
     .logo > a > img{
         padding-top: 25px;
-      
+        margin-top: 0px;
     }
     
 }
@@ -188,7 +189,8 @@ and (-webkit-min-device-pixel-ratio: 2){
        
     }
     .logo > a > img{
-        padding-top: 50px;
+        padding-top: 60px;
+        margin-top: 0px;
         width: 90%;
         align-self: center;
     }
@@ -210,6 +212,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
         width: 90%;
         padding-top: 25px;
+        margin-top: 0px;
         align-self: center;
     }
     .hamburger{
@@ -241,6 +244,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
         width: 70%;
         padding-top: 25px;
+        margin-top: 0px;
     }
     
 
@@ -276,6 +280,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 70%;
         align-self: center;
         padding-top: 25px;
+        margin-top: 0px;
     }
 
     .nav-bars{display: none;}
@@ -308,6 +313,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 40%;
         align-self: center;
         padding-top: 25px;
+        margin-top: 0px;
     }
     .nav-bars{display: none;}
     .connect{display: none;}
@@ -348,6 +354,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 40%;
         align-self: center;
         padding-top: 15px;
+        margin-top: 0px;
     }
     
     .nav-bars{display: none;}
@@ -386,6 +393,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 40%;
         align-self: center;
         padding-top: 10px;
+        margin-top: 0px;
     }
     
     .nav-bars{display: none;}
