@@ -96,7 +96,7 @@ const Index=()=>{
 
                     
                 </div>
-                <div className='hamburger' onClick={handleShow}>
+                <div className='' onClick={handleShow}>
                         <BiMenuAltRight  size={40} color='#fff' />
                 </div>
                 <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'50%',backgroundColor:'#07081d'}}>
