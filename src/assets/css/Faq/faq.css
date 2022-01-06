@@ -205,3 +205,30 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
+
+@media only screen 
+and (min-device-width: 300px) 
+and (max-device-width: 399px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .faq{
+      
+      padding-top: 0px;
+      padding-bottom: 30px;
+    }
+  .faq-resp{
+      display: flex;
+      padding-left: 30px;
+      padding-right: 10px;
+      flex-direction: column;
+      justify-content: center;
+      
+  }
+  .faq-title{
+      font-size: 14px;
+    
+  }
+  .faq-answer{
+      font-size: 14px;
+  }
+}
