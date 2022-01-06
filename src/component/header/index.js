@@ -13,6 +13,12 @@ import { useEffect, useState } from 'react';
 import opensea from '../../assets/images/opensea.png'
 import Drawer from './drawer.js';
 import { Offcanvas,Button } from "react-bootstrap";
+import {AiOutlineHome} from 'react-icons/ai'
+import {FcAbout} from 'react-icons/fc'
+import {BiHistory} from 'react-icons/bi'
+import {RiRoadMapLine} from 'react-icons/ri'
+import {MdOutlineGroups} from 'react-icons/md'
+import {FcAnswers} from 'react-icons/fc'
 const Index=()=>{
     const [scroll,setscrollPosition] = useState(0);
     const [showDrawer,setShowDrawer] = useState(0);
@@ -99,15 +105,51 @@ const Index=()=>{
 
                 </div>
                 <div className='hamburger' onClick={handleShow}>
-                    <BiMenuAltRight  size={40} color='#ffff' className='hamburgerIcon' />
+                        <BiMenuAltRight  size={40} color='#fff' />
                 </div>
-                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'40%'}}>
-                    <Offcanvas.Header closeButton>
-                        <Offcanvas.Title>Menu</Offcanvas.Title>
+                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'50%',backgroundColor:'#07081d'}}>
+                    <Offcanvas.Header closeButton closeVariant='white' >
+                        <Offcanvas.Title></Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        Some text as placeholder. In real life you can have the elements you
-                        have chosen. Like, text, images, lists, etc.
+                        <div className=''>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <AiOutlineHome color='#fff' className='myicons' />
+                                </div>
+                                <div className='tagName'>Home</div>
+                            </div>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <FcAbout color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>About Us</div>
+                            </div>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <BiHistory color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Story</div>
+                            </div>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <RiRoadMapLine color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Roadmap</div>
+                            </div>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <MdOutlineGroups color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Team</div>
+                            </div>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <FcAnswers color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Faq</div>
+                            </div>
+                        </div>
                     </Offcanvas.Body>
                 </Offcanvas>
         </div>

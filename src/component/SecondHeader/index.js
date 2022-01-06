@@ -91,15 +91,16 @@ const Index=()=>{
                     
                 </div>
                 <div className='hamburger' onClick={handleShow}>
-                        <BiMenuAltRight  size={40} color='#ffff' />
+                        <BiMenuAltRight  size={40} color='#07081d' />
                 </div>
                 <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'40%'}}>
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title>Menu</Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        Some text as placeholder. In real life you can have the elements you
-                        have chosen. Like, text, images, lists, etc.
+                        <div className='container'>
+
+                        </div>
                     </Offcanvas.Body>
                 </Offcanvas>
         </div>
