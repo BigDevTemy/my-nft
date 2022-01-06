@@ -12,7 +12,7 @@
 }
 .logo > a > img{
     padding-top: 50px;
-    width: 90%;
+    width: 100%;
     align-self: center;
 }
 
@@ -73,7 +73,9 @@
     display: none;
 }
 
-
+.logoII{
+    width: 300px;
+}
 .logo{
     flex: 1 1 35%;
     
@@ -92,7 +94,8 @@
     align-items: center;
     color:#fff;
     font-weight: bold;
-    flex: 1 1 33.333%;
+    flex: 1 1 50%;
+   
 }
 .nav-bars Link{
     padding: 15px;
