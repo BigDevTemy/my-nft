@@ -194,3 +194,27 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 20%;
     }
 }
+
+@media only screen 
+and (min-device-width: 300px) 
+and (max-device-width: 399px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .logo > a > img{
+        width: 50%;
+        align-self: center;
+    }
+    
+    .nav-bars{display: none;}
+    .connect{display: none;}
+    .nav-bars-scroll{display: none}
+    .hamburger{
+        width: 15%;
+    }
+    .header{
+        padding:10px
+    }
+}
+
+
+
+

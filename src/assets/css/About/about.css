@@ -20,6 +20,10 @@
     height: 100%;
     background-color: #07081d;
     padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 
     /* background: url('../../images/random/tree_house.jpg');
     background-position: center;
@@ -196,6 +200,86 @@ and (-webkit-min-device-pixel-ratio: 2) {
   
   
 
+
+}
+
+
+@media only screen 
+and (min-device-width: 300px) 
+and (max-device-width: 399px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .title{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    
+    
+  }
+  .textTitle{
+    padding-top: 0px;
+    flex:1 1 50%;
+    
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    
+  }
+  .textTitle > h2{
+   font-size: 12px;
+   margin-top: 10px;
+   
+  }
+  .title > div > img{
+    width: 50%;
+  
+  }
+  
+  .logoArea{
+    display: flex;
+    flex:1 1 50%;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .textTitle > h2 > span{
+    font-size: 12px !important;
+  }
+  .aboutus{
+    margin-top: 0px;
+    padding: 0px;
+   
+  }
+  .aboutusContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+   
+  }
+  .aboutus-Text > p{
+    font-family: Sora;
+    font-size: 10px;
+    text-align: justify;
+    
+  }
+  .aboutus-Text{
+    padding: 20px;
+  }
+  .aboutus{
+    
+   
+    display: flex;
+    text-align: center;
+    
+    
+
+
+    /* background: url('../../images/random/tree_house.jpg');
+    background-position: center;
+    background-repeat: no-repeat; */
+}
 
 }
 

@@ -188,6 +188,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
   .faq-resp{
       display: flex;
+      padding-left: 30px;
+      padding-right: 10px;
       flex-direction: column;
       justify-content: center;
       

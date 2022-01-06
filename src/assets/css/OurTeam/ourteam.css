@@ -90,8 +90,7 @@
     padding-right: 50px;
     justify-content: space-between;
     align-items: center;
-    
-    
+
     
     
 }
@@ -452,6 +451,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .teamImg > img{
     width: 140px;
+}
+.mytitle{
+   
+    font-size: 12px;
+    
+}
+.teamposition{
+    
+    font-size: 12px;
+  
 }
 
 }

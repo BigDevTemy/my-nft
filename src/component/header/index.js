@@ -99,7 +99,7 @@ const Index=()=>{
 
                 </div>
                 <div className='hamburger' onClick={handleShow}>
-                    <BiMenuAltRight  size={40} color='#ffff' />
+                    <BiMenuAltRight  size={40} color='#ffff' className='hamburgerIcon' />
                 </div>
                 <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'40%'}}>
                     <Offcanvas.Header closeButton>
