@@ -11,8 +11,9 @@
    
 }
 .logo > a > img{
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 50vh;
+    padding-top: 50px;
+    width: 70%;
     align-self: center;
   
 }
