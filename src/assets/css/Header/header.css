@@ -4,6 +4,17 @@
     src: url('../../../font/Sora-VariableFont_wght.ttf');
   }
 
+  .logo{
+    display: flex;
+    align-items: center;
+    
+   
+}
+.logo > a > img{
+    width: 100%;
+    align-self: center;
+}
+
   .tag{
       display: flex;
       justify-content: flex-start;
@@ -154,14 +165,36 @@
     }
 }
 
+@media only screen 
+and (min-device-width: 1001px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
+    .logo > a > img{
+        width: 70%;
+        align-self: center;
+    }
+}
 
 
 @media only screen 
 and (min-device-width: 900px) 
 and (max-device-width: 1000px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    .logo > a > img{
+    /* .logo > a > img{
         width: 80%;
+    } */
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
+    .logo > a > img{
+        width: 70%;
+        align-self: center;
     }
     .hamburger{
         display: none;
@@ -172,9 +205,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 700px) 
 and (max-device-width: 899px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
     .logo > a > img{
-        width: 30%;
-        align-self: center;
+        width: 70%;
+      
     }
     
 
@@ -187,11 +225,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 500px) 
 and (max-device-width: 699px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
     .logo > a > img{
-        width: 30%;
+        width: 70%;
         align-self: center;
     }
-    
 
     .nav-bars{display: none;}
     .connect{display: none;}
@@ -202,11 +244,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 400px) 
 and (max-device-width: 499px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
     .logo > a > img{
-        width: 40%;
+        width: 100%;
         align-self: center;
     }
-    
     .nav-bars{display: none;}
     .connect{display: none;}
     .nav-bars-scroll{display: none}
@@ -220,8 +266,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 300px) 
 and (max-device-width: 399px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    .logo > a > img{
+    /* .logo > a > img{
         width: 30%;
+        align-self: center;
+    } */
+
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
+    .logo > a > img{
+        width: 100%;
         align-self: center;
     }
     

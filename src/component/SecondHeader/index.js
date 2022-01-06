@@ -105,42 +105,67 @@ const Index=()=>{
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <div className=''>
-                            <div className='tag'>
-                                <div className='tagIcon'>
-                                     <AiOutlineHome color='#fff' className='myicons' />
-                                </div>
-                                <div className='tagName'>Home</div>
+                        <Link  to="/" spy={true} smooth={true}  >
+
+                            <div className='tag' onClick={()=>{window.scroll(0,0)}}>
+                                    <div className='tagIcon'>
+                                        <AiOutlineHome color='#fff' className='myicons' />
+                                    </div>
+                                    <div className='tagName'>Home</div>
                             </div>
+
+                        </Link>
+                        <Link  to="aboutus" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <FcAbout color='#fff' size={20} />
                                 </div>
                                 <div className='tagName'>About Us</div>
                             </div>
+                        </Link>
+
+                        <Link  to="story" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <BiHistory color='#fff' size={20} />
                                 </div>
                                 <div className='tagName'>Story</div>
                             </div>
-                            <div className='tag'>
+
+                        </Link>
+
+                        <Link  to="roadmap" spy={true} smooth={true} onClick={handleClose}>
+                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <RiRoadMapLine color='#fff' size={20} />
                                 </div>
                                 <div className='tagName'>Roadmap</div>
                             </div>
+                            
+                        </Link>
+                        
+                        
+                        <Link  to="team" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <MdOutlineGroups color='#fff' size={20} />
                                 </div>
                                 <div className='tagName'>Team</div>
                             </div>
+
+                        </Link>
+
+
+                        <Link to='faq' spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <FcAnswers color='#fff' size={20} />
                                 </div>
                                 <div className='tagName'>Faq</div>
                             </div>
+                        </Link>
+                            
+                            
                         </div>
                     </Offcanvas.Body>
                 </Offcanvas>
