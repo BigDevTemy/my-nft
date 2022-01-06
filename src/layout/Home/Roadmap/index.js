@@ -100,7 +100,7 @@ const Index = ()=>{
         
                             </div>
                             <div className="newtimeline">
-                                <div>Q3 2022</div>
+                                <div className='timeState'>Q3 2022</div>
                                 <ul className='me'>
                                     <li>
                                     
