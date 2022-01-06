@@ -261,6 +261,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media only screen 
+and (min-device-width: 700px)
 and (max-device-width: 899px)
 and (-webkit-min-device-pixel-ratio: 2) {
    
@@ -282,6 +283,32 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     }
 }
+
+@media only screen 
+
+and (max-device-width: 699px)
+and (-webkit-min-device-pixel-ratio: 2) {
+   
+    .tag{
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .tagIcon{
+        width: 25px;
+    }
+    .tagName{
+        padding: 5px;
+        font-size: 14px;
+        font-family: Sora;
+        font-weight: bold;
+        color: #fff;
+    
+    }
+}
+
+
 
 
 
