@@ -17,9 +17,9 @@ const Index = ()=>{
                    
                    
                    
-                    <div className="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
+                    <div className="text-center p-4 copyright" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
                         © 2021 Copyright:
-                        <a className="text-reset fw-bold" href="#!">Squirreling Squirrels</a>
+                        <a className="text-reset fw-bold copyright" href="#!">Squirreling Squirrels</a>
                     </div>
                     
                     </footer>

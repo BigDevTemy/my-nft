@@ -369,8 +369,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
  
 .roadmap{
     height: 100%;
-    padding-top: 0px;
+    
     padding-bottom: 20px;
+    padding: 30px;
 }
 .roadmapStyle{
     margin-left: 0px;
@@ -383,17 +384,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .roadmapComponent-text >p{
     font-size: 13px;
 }
+.timerliner-div{
+    display: none;
+}
 
 
 }
 
 @media only screen 
-and (min-device-width: 300px) 
+/* and (min-device-width: 300px)  */
 and (max-device-width: 399px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
     .roadmapComponent{
         flex-direction: column;
+        
         
     }
     .q1,.q2,.q3{
@@ -425,5 +430,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .roadmapComponent-text >p{
         font-size: 13px;
     }
-
+    .timeline{
+        
+        flex: 1 1 100%;
+    }
+    .roadmap{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 30px;
+    }
+    .timerliner-div{
+        display: none;
+    }
 }

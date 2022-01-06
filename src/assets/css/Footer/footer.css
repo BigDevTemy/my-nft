@@ -8,3 +8,17 @@
     text-decoration: none;
     color:#fff
 }
+
+
+@media only screen 
+and (max-device-width: 399px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+        .copyright{
+            font-size: 12px;
+        }
+
+       
+        
+
+}

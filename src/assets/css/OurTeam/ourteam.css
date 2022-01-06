@@ -575,3 +575,53 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 }
+
+
+
+@media only screen 
+/* and (min-device-width: 300px)  */
+and (max-device-width: 299px)
+and (-webkit-min-device-pixel-ratio: 2) {
+ 
+  .ourteam{
+    padding-top: 0px;
+    padding-bottom: 30px;
+
+  }
+  .teamAll{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    justify-content: center;
+   
+}
+.mytitle{
+   
+    font-size: 14px;
+    
+}
+.teamposition{
+    
+    font-size: 15px;
+  
+}
+.teamImg > img{
+    width: 100px;
+}
+.mytitle{
+   
+    font-size: 12px;
+    
+}
+.teamposition{
+    
+    font-size: 12px;
+  
+}
+.team-member{
+    flex-direction: column;
+}
+
+}
