@@ -221,7 +221,7 @@ and (min-device-width: 300px)
 and (max-device-width: 399px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
-        width: 50%;
+        width: 30%;
         align-self: center;
     }
     
