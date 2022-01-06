@@ -30,23 +30,48 @@
     background-repeat: no-repeat; */
 }
 
-.title{
+   
+.SoleHeader{
   display: flex;
-  justify-content: start;
-
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
 }
-.textTitle > h2 > span{
-  font-family: RammettoOne-Regular;
-  font-size: 50px;
-  font-weight: 400;
-  color: #3bb9ff;
+.mylogo{
+ 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 10%;
+ 
 }
-
-.textTitle > h2{
+.mylogo > img{
+  width: 50%;
+}
+.myTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 60%;
+  padding-top: 50px;
+  
+}
+.myTitle >h2{
+  font-family: Sora;
+  font-size: 20px;
   color: #b0ecff;
 }
-.textTitle{
-  padding:20px;
+.myTitle > span{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: RammettoOne-Regular;
+  color: #3bb9ff;
 }
 .aboutusContainer{
   display: flex;
@@ -91,36 +116,49 @@
 and (min-device-width: 500px) 
 and (max-device-width: 699px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  .title{
-    display: flex;
-    justify-content: center;
+
    
-    
-  }
-  .textTitle{
-    padding-top: 10px;
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    
-  }
-  .textTitle > h2{
-   font-size: 18px;
-   margin-top: 20px;
-  }
-  .title > div > img{
-    width: 70%;
-    
-  }
-  .logoArea{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .textTitle > h2 > span{
-    font-size: 30px !important;
-  }
+.SoleHeader{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+.mylogo{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 10%;
+}
+.mylogo > img{
+  width: 50%;
+}
+.myTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 60%;
+  padding-top: 20px;
+}
+.myTitle >h2{
+  font-family: Sora;
+  font-size: 16px;
+  color: #b0ecff;
+}
+.myTitle > span{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: RammettoOne-Regular;
+  color: #3bb9ff;
+}
+  
   .aboutusContainer{
     display: flex;
     flex-direction: column;
@@ -144,36 +182,51 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 400px) 
 and (max-device-width: 499px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  .title{
-    display: flex;
-    justify-content: start;
-    
-  }
-  .textTitle{
-    padding-top: 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    
-  }
-  .textTitle > h2{
-   font-size: 18px;
-   margin-top: 20px;
-   
-  }
-  .title > div > img{
-    width: 70%;
+
   
-  }
+.SoleHeader{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+ 
   
-  .logoArea{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .textTitle > h2 > span{
-    font-size: 25px !important;
-  }
+}
+.mylogo{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 10%;
+}
+.mylogo > img{
+  width: 50%;
+}
+.myTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 60%;
+  padding-top: 10px;
+}
+.myTitle >h2{
+  font-family: Sora;
+  font-size: 14px;
+  color: #b0ecff;
+}
+.myTitle > span{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: RammettoOne-Regular;
+  color: #3bb9ff;
+}
+  
   .aboutus{
     margin-top: 0px;
     padding: 0px;
@@ -197,9 +250,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding: 20px;
   }
  
-  
-  
-
 
 }
 
@@ -208,50 +258,58 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 and (max-device-width: 399px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  .title{
-    display: flex;
-    justify-content: center;
-    padding-right: 100px;
-    
-    
-  }
-  .textTitle{
-    padding:0px;
-    flex:1 1 70%;
-    
-    justify-content: start;
-    display: flex;
-    align-items: center;
-    
-  }
-  .textTitle > h2{
-   font-size: 12px;
-   margin-top: 10px;
-   
-  }
-  .title > div > img{
-    width: 100%;
+  
+
+.SoleHeader{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+ 
+  
+}
+.mylogo{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 10%;
+}
+.mylogo > img{
+  width: 50%;
+}
+.myTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 60%;
+}
+.myTitle >h2{
+  font-family: Sora;
+  font-size: 12px;
+  color: #b0ecff;
+}
+.myTitle > span{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: RammettoOne-Regular;
+  color: #3bb9ff;
+}
+
+
+
+.aboutus{
+  padding: 0px;
+}
 
   
-  }
   
-  
-  .textTitle > h2 > span{
-    font-size: 12px !important;
-  }
-
-  .logoArea{
-       
-    display: flex;
-    justify-content: right;
-    flex: 1 1 30%;
-  
- }
-  .aboutus{
-    margin-top: 0px;
-    padding: 0px;
-   
-  }
   .aboutusContainer{
     display: flex;
     flex-direction: column;
@@ -270,18 +328,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .aboutus-Text{
     padding: 20px;
   }
-  .aboutus{
-    
-   
-    display: flex;
-    text-align: center;
-    
-    
-
-
-    /* background: url('../../images/random/tree_house.jpg');
-    background-position: center;
-    background-repeat: no-repeat; */
-}
+  
 
 }

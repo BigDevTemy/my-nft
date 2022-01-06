@@ -21,11 +21,11 @@ const Index=()=>{
             <HeroBanner/>
              <SecondHeader/>
             <Aboutus/>
-            <Story/>
+             <Story/> 
             <Roadmap/>
             <Team/>
             <Faq/>
-            <Footer/>
+            <Footer/> 
         
         </div>
     )

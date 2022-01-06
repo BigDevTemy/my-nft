@@ -397,21 +397,10 @@ and (max-device-width: 399px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
 
-
-
-    .title{
-        padding: 0px;
-    }
-    .logoArea{
-       
-       display: flex;
-       justify-content: right;
-       flex: 1 1 10%;
-    }
+  
+    
     .roadmapComponent{
         flex-direction: column;
-        
-        
     }
     .q1,.q2,.q3{
         display: none;
@@ -462,19 +451,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (max-device-width: 299px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
+    
+
     .roadmapComponent{
         flex-direction: column;
-        
-        
     }
     .q1,.q2,.q3{
         display: none;
     }
     .roadmapStyle{
         margin: 0px;
-        padding-right:20px;
-        
-        
+        padding-right:20px;  
     }
     .roadmapComponent-text{
         padding-right: 20px;
@@ -483,7 +470,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .roadmap{
         height: 100%;
         padding-top: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .roadmapStyle{
         margin-left: 0px;
@@ -500,12 +487,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         
         flex: 1 1 100%;
     }
-    .roadmap{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       padding: 30px;
-    }
+   
     .timerliner-div{
         display: none;
     }

@@ -66,17 +66,16 @@ const Index = ()=>{
 
     return(
         <div className="aboutus" id="aboutus">
-            <div className="title">
-                <div className="logoArea">
-                    <img src={logo}/>
-                </div>  
-                <div className="textTitle">
-                    <h2>WHO WE ARE<br/>
-                        <span>
-                            ABOUT US
-                        </span>
-                    </h2>
-                </div>   
+            <div className="SoleHeader">
+
+                <div className='mylogo'>
+                     <img src={logo}/>
+                </div>
+                <div className='myTitle'>
+                    <h2>WHO WE ARE</h2>
+                    <span>about us</span>
+                </div>
+               
             </div>
             <div className="aboutusContainer">
                 <div className="aboutus-Text">

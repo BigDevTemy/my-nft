@@ -13,18 +13,17 @@ const Index=()=>{
     return (
         <div className="ourteam" id="team">
 
-             <div className="title">
-                <div className="logoArea">
+            <div className="SoleHeader">
+
+                <div className='mylogo'>
                     <img src={logo}/>
-                </div>  
-                <div className="textTitle">
-                    <h2>SQUIRRELING<br/>
-                        <span>
-                            TEAM
-                        </span>
-                    </h2>
-                </div>   
-            </div> 
+                </div>
+                <div className='myTitle'>
+                    <h2>OUR</h2>
+                    <span>Team</span>
+                </div>
+
+            </div>
 
 {/*              
                 <div className="team-pic-div">

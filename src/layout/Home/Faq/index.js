@@ -66,18 +66,17 @@ const Index=()=>{
                 <h1>Faq</h1>
                 <small>You have questions, we have answers!</small>
             </div> */}
-             <div className="title">
-                <div className="logoArea">
-                    <img src={logo}/>
-                </div>  
-                <div className="textTitle">
-                    <h2><br/>
-                        <span>
-                             FAQ
-                        </span>
-                    </h2>
-                </div>   
-            </div>
+               <div className="SoleHeader">
+
+                    <div className='mylogo'>
+                        <img src={logo}/>
+                    </div>
+                    <div className='myTitle'>
+                        <br/>
+                        <span>FAQ</span>
+                    </div>
+
+                </div>
 
             <div className="faq-resp">
                 {/* <Accordion>
