@@ -216,10 +216,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
   }
   .textTitle{
-    padding-top: 0px;
-    flex:1 1 50%;
+    padding:0px;
+    flex:1 1 70%;
     
-    justify-content: flex-start;
+    justify-content: start;
     display: flex;
     align-items: center;
     
@@ -230,20 +230,23 @@ and (-webkit-min-device-pixel-ratio: 2) {
    
   }
   .title > div > img{
-    width: 50%;
+    width: 100%;
+
   
   }
   
-  .logoArea{
-    display: flex;
-    flex:1 1 50%;
-    align-items: center;
-    justify-content: center;
-   
-  }
+  
   .textTitle > h2 > span{
     font-size: 12px !important;
   }
+
+  .logoArea{
+       
+    display: flex;
+    justify-content: right;
+    flex: 1 1 30%;
+  
+ }
   .aboutus{
     margin-top: 0px;
     padding: 0px;
