@@ -211,7 +211,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .title{
     display: flex;
     justify-content: center;
-    margin-right: 50px;
+    padding-right: 100px;
     
     
   }

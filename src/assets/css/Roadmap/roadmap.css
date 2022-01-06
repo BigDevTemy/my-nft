@@ -396,6 +396,18 @@ and (min-device-width: 300px)
 and (max-device-width: 399px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
+
+
+
+    .title{
+        padding: 0px;
+    }
+    .logoArea{
+       
+       display: flex;
+       justify-content: right;
+       flex: 1 1 10%;
+    }
     .roadmapComponent{
         flex-direction: column;
         
@@ -443,6 +455,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .timerliner-div{
         display: none;
     }
+   
 }
 
 @media only screen 
