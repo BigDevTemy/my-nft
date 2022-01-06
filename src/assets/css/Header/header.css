@@ -75,6 +75,7 @@
 
 .logoII{
     width: 300px;
+   
 }
 .logo{
     flex: 1 1 35%;
@@ -164,12 +165,18 @@
 }
 
 @media screen and (min-device-width: 900px){
+    
     .hamburger{
         display: none;
     }
     .hamburgerII{
         display: none;
     }
+    .logo > a > img{
+        padding-top: 25px;
+      
+    }
+    
 }
 
 @media only screen 
@@ -181,7 +188,8 @@ and (-webkit-min-device-pixel-ratio: 2){
        
     }
     .logo > a > img{
-        width: 70%;
+        padding-top: 50px;
+        width: 90%;
         align-self: center;
     }
 }
@@ -200,7 +208,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
        
     }
     .logo > a > img{
-        width: 70%;
+        width: 90%;
+        padding-top: 25px;
         align-self: center;
     }
     .hamburger{
@@ -212,6 +221,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 700px) 
 and (max-device-width: 899px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .headerScroll{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .header{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
     .logo{
         display: flex;
         align-items: center;
@@ -219,7 +240,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .logo > a > img{
         width: 70%;
-      
+        padding-top: 25px;
     }
     
 
@@ -232,6 +253,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 500px) 
 and (max-device-width: 699px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .headerScroll{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .header{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    
+    
     .logo{
         display: flex;
         align-items: center;
@@ -240,6 +275,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
         width: 70%;
         align-self: center;
+        padding-top: 25px;
     }
 
     .nav-bars{display: none;}
@@ -251,6 +287,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 400px) 
 and (max-device-width: 499px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .headerScroll{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .header{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
     .logo{
         display: flex;
         align-items: center;
@@ -259,6 +307,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
         width: 40%;
         align-self: center;
+        padding-top: 25px;
     }
     .nav-bars{display: none;}
     .connect{display: none;}
@@ -277,6 +326,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 30%;
         align-self: center;
     } */
+    .header{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .headerScroll{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
 
     .logo{
         display: flex;
@@ -286,6 +347,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
         width: 40%;
         align-self: center;
+        padding-top: 15px;
     }
     
     .nav-bars{display: none;}
@@ -303,6 +365,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen 
 and (max-device-width: 299px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .header{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .headerScroll{
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
     .logo{
         display: flex;
         align-items: center;
@@ -311,6 +385,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .logo > a > img{
         width: 40%;
         align-self: center;
+        padding-top: 10px;
     }
     
     .nav-bars{display: none;}
