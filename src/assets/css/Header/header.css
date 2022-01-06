@@ -253,7 +253,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
        
     }
     .logo > a > img{
-        width: 100%;
+        width: 40%;
         align-self: center;
     }
     .nav-bars{display: none;}
@@ -280,7 +280,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
        
     }
     .logo > a > img{
-        width: 100%;
+        width: 40%;
         align-self: center;
     }
     
@@ -299,8 +299,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen 
 and (max-device-width: 299px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
     .logo > a > img{
-        width: 35%;
+        width: 40%;
         align-self: center;
     }
     
