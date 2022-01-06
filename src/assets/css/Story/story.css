@@ -125,6 +125,10 @@ and (max-device-width: 899px)
 and (-webkit-min-device-pixel-ratio: 2) {
   .story-content{
     flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .story{
+    padding-top: 100px;
   }
 }
 

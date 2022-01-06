@@ -29,6 +29,11 @@ const Index=()=>{
         setscrollPosition(position)
         // console.log('myScroll',scroll)
     };
+    const handleHome = ()=>{
+       
+        window.scroll(0,0);
+        handleClose();
+    }
     useEffect(()=>{
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => {
@@ -96,7 +101,7 @@ const Index=()=>{
 
                     
                 </div>
-                <div className='' onClick={handleShow}>
+                <div className='hamburgerII' onClick={handleShow}>
                         <BiMenuAltRight  size={40} color='#fff' />
                 </div>
                 <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'50%',backgroundColor:'#07081d'}}>
@@ -107,7 +112,7 @@ const Index=()=>{
                         <div className=''>
                         <Link  to="/" spy={true} smooth={true}  >
 
-                            <div className='tag' onClick={()=>{window.scroll(0,0)}}>
+                            <div className='tag' onClick={handleHome}>
                                     <div className='tagIcon'>
                                         <AiOutlineHome color='#fff' className='myicons' />
                                     </div>
@@ -164,8 +169,46 @@ const Index=()=>{
                                 <div className='tagName'>Faq</div>
                             </div>
                         </Link>
-                            
-                            
+                        <a href="https://discord.gg/dQr9nAeB" style={{ textDecoration: 'none'}}>
+                            <div className='tag'>
+                                    <div className='tagIcon'>
+                                        
+                                        <FaDiscord size={20} color="#5865F2"/>
+                                    </div>
+                                    <div className='tagName'>Discord</div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://twitter.com/SquirrelingSQRL" style={{ textDecoration: 'none'}} >
+                            <div className='tag'>
+                                    <div className='tagIcon'>
+                                        
+                                        <VscTwitter size={20} color="#1DA1F2"/>
+                                    </div>
+                                    <div className='tagName'>Twitter</div>
+                            </div>
+                        </a>
+                       
+                        <a href="https://www.instagram.com/squirrelingsquirrels/" style={{ textDecoration: 'none'}}>
+                            <div className='tag'>
+                                    <div className='tagIcon'>
+                                        
+                                    <FaInstagram size={20} color="#fbad50"/>
+                                    </div>
+                                    <div className='tagName'>Instagram</div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.opensea.io/" style={{ textDecoration: 'none'}}>
+                            <div className='tag'>
+                                    <div className='tagIcon'>
+                                        
+                                    <img src={opensea} style={{width:25}}/>
+                                    </div>
+                                    <div className='tagName'>Opensea</div>
+                            </div>
+                        </a>    
+                          
                         </div>
                     </Offcanvas.Body>
                 </Offcanvas>

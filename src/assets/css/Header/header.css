@@ -163,6 +163,9 @@
     .hamburger{
         display: none;
     }
+    .hamburgerII{
+        display: none;
+    }
 }
 
 @media only screen 
