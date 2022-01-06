@@ -245,6 +245,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media only screen 
+and (min-device-width: 300px)
 and (max-device-width: 399px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -277,4 +278,38 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
+
+@media only screen 
+
+and (max-device-width: 299px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .story-content{
+    flex-wrap: wrap;
+  }
+ 
+  .story-content{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+}
+.story{
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+.mystory >p{
+  font-family: Sora;
+  font-size: 11px;
+  text-align: justify;
+  display: flex;  
+}
+.mystoryImg{
+  padding: 30px;  
+}
+
+}
 
