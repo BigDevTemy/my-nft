@@ -145,7 +145,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   flex-grow: 0.5;
   flex-shrink: 1;
   flex-basis: 60%;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .myTitle >h2{
   font-family: Sora;
@@ -213,7 +213,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   flex-grow: 0.5;
   flex-shrink: 1;
   flex-basis: 60%;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .myTitle >h2{
   font-family: Sora;
@@ -289,6 +289,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   flex-grow: 0.5;
   flex-shrink: 1;
   flex-basis: 60%;
+  padding: 5px;
 }
 .myTitle >h2{
   font-family: Sora;
