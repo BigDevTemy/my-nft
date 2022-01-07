@@ -15,10 +15,10 @@ import Drawer from './drawer.js';
 import { Offcanvas,Button } from "react-bootstrap";
 import {AiOutlineHome} from 'react-icons/ai'
 import {FcAbout} from 'react-icons/fc'
-import {BiHistory} from 'react-icons/bi'
+import {GiOpenBook} from 'react-icons/gi'
 import {RiRoadMapLine} from 'react-icons/ri'
 import {MdOutlineGroups} from 'react-icons/md'
-import {FcAnswers} from 'react-icons/fc'
+import {FcFaq} from 'react-icons/fc'
 const Index=()=>{
     const [scroll,setscrollPosition] = useState(0);
     const [showDrawer,setShowDrawer] = useState(0);
@@ -140,7 +140,7 @@ const Index=()=>{
                         <Link  to="story" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
-                                     <BiHistory color='#fff' size={20} />
+                                     <GiOpenBook color='#fff' size={20} />
                                 </div>
                                 <div className='tagName'>Story</div>
                             </div>
@@ -172,7 +172,7 @@ const Index=()=>{
                         <Link to='faq' spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
-                                     <FcAnswers color='#fff' size={20} />
+                                     <FcFaq color='#fff' size={20} />
                                 </div>
                                 <div className='tagName'>Faq</div>
                             </div>
@@ -201,7 +201,7 @@ const Index=()=>{
                             <div className='tag'>
                                     <div className='tagIcon'>
                                         
-                                    <FaInstagram size={20} color="#fbad50"/>
+                                    <FaInstagram size={20} color="#d72f82"/>
                                     </div>
                                     <div className='tagName'>Instagram</div>
                             </div>

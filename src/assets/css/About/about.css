@@ -65,12 +65,12 @@
 }
 .myTitle >h2{
   font-family: Sora;
-  font-size: 20px;
+  font-size: 25px;
   color: #b0ecff;
 }
 .myTitle > span{
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 50px;
   font-family: RammettoOne-Regular;
   color: #3bb9ff;
 }
