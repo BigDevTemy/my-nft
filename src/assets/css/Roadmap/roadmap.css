@@ -146,7 +146,7 @@ ul.me::before{
     position: absolute;
     left: 29px;
     width: 2px;
-    height: 110%;
+    height: 105%;
     z-index: 400;
 }
 ul.me > li {
