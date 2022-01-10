@@ -200,7 +200,7 @@ const Index=()=>{
                             </div>
                         </a>
                         
-                        <a href="https://www.opensea.io/" style={{ textDecoration: 'none'}}>
+                        <a href="https://opensea.io/collection/squirrelingsquirrels" style={{ textDecoration: 'none'}}>
                             <div className='tag'>
                                     <div className='tagIcon'>
                                         

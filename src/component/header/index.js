@@ -101,7 +101,7 @@ const Index=()=>{
                          <a href="https://www.instagram.com/squirrelingsquirrels/" target="_blank"><FaInstagram size={20} color="#FFF"/></a>
                     </div>
                     <div className="game">
-                         <a href="https://www.opensea.io/" target="_blank"><img src={opensea} style={{width:25}}/></a>
+                         <a href="https://opensea.io/collection/squirrelingsquirrels" target="_blank"><img src={opensea} style={{width:25}}/></a>
                     </div>
                     {/* <div className="gaming">
                             Connect to Wallet
