@@ -170,7 +170,7 @@ const Index=()=>{
                                 <div className='tagName'>Faq</div>
                             </div>
                         </Link>
-                        <a href="https://discord.gg/dQr9nAeB" style={{ textDecoration: 'none'}}>
+                        <a href="https://discord.gg/JPwkNtvgqd" style={{ textDecoration: 'none'}}>
                             <div className='tag'>
                                     <div className='tagIcon'>
                                         
