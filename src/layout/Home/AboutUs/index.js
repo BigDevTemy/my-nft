@@ -81,7 +81,7 @@ const Index = ()=>{
                 <div className="aboutus-Text">
                     {/* {_renderImage()} */}
                     <p>
-                        Squirreling Squirrels "SS" is a 5,555 collection of 100% completely HAND DRAWN SQUIRRELS. <span>Two species of squirrels:</span> 1000 ice age squirrels and 4,555 current age Squirrels, the ice age squirrels are scarce and rare. Rarity can be found in 200 plus hand drawn traits, many one of a kind squirrels, in addition to robot, gold & diamond Squirrels and others; All Squirreling on the Ethereum blockchain. It is been a few years after the last ice age and the Squirrels living in joy and peace in North America. <span>They are fun, active, curious and sometimes weird;</span> THEY ARE NUT BEYOND NUTS!
+                        Squirreling Squirrels "SS" is a 5,555 collection of 100% completely HAND DRAWN SQUIRRELS. <span>Two species of squirrels:</span> 1,000 ice age squirrels and 4,555 current age Squirrels, the ice age squirrels are scarce and rare. Rarity can be found in 200 plus hand drawn traits, many one of a kind squirrels, in addition to robot, gold & diamond Squirrels and others; All Squirreling on the Ethereum blockchain. It is been a few years after the last ice age and the Squirrels living in joy and peace in North America. <span>They are fun, active, curious and sometimes weird;</span> THEY ARE NUT BEYOND NUTS!
                     </p>
                     <p>
                         Join us on our adventure in creating a positive community. Our journey will be full of surprises such as acquiring a land on sandbox, where we will base our community & game on along with many more projects and events! <span>All this to help shape the future of the Squirreling Squirrels!</span>
