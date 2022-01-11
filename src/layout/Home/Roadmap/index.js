@@ -66,7 +66,7 @@ const Index = ()=>{
                                             <div className='roadmapComponent-title'><h6>Acquire land on Sandbox!</h6></div>
                                                 <div className='roadmapComponent-text'>
                                                     <p>
-                                                    Acquire land on Sandbox, to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land will be open to all holders for them to experience a new and beautiful adventure on the metaverse full of surprises! Key access to social & gaming events, art galleries, and more! Join our Discord to know more of what is coming
+                                                    Acquire land on Sandbox, to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land will be open to all holders for them to experience a new and beautiful adventure on the metaverse full of surprises! Key access to social & gaming events, art galleries, and more! Join our Discord to know more of what is coming.
                                                     </p>
                                                 </div>
                                             </div>
