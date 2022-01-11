@@ -157,7 +157,7 @@ const Index=()=>{
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
-                                Marilyn
+                                Koby
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
@@ -178,7 +178,7 @@ const Index=()=>{
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
-                                Anthony
+                                Yellogre
                             </div>
                             <div className='teamposition'>
                                 {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
