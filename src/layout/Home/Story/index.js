@@ -62,7 +62,7 @@ const Index = ()=>{
                
                <div className="mystory">
                     <p>
-                        At the beginning of the last ice age, 11,000 to 20,000 thousand years ago, our squirrel hero Bailey became best friends with Rikky, the reindeer, after Bailey helped Rikky free himself from a tree as Bailey ground the tree branches with her rugged teeth! Since squirrels' front teeth never stop growing, Bailey was quick!
+                        At the beginning of the last ice age, 11,000 to 20,000 thousand years ago, our squirrel hero Bailey became best friends with Rikky, the reindeer. Ricky was under a heap of trouble after getting his antlers stuck in a big old tree branch. Seconds before ricky was losing hope, Bailey came to the rescue where she quickly ground the branch with her rugged teeth!
                     </p>
                    
                     <p>
@@ -71,7 +71,7 @@ const Index = ()=>{
                     </p>
                     
                     <p>
-                    Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and a scene that communicates food can be found here; Thus, Abas settled with his initially small community until they grew to 5,500 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration.
+                    Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and all the food one can dream of. Thus, Abas settled with his initially small community until they grew to 6,600 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration.
                     </p>
                     
                    
