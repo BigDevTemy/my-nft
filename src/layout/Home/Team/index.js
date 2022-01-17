@@ -1,10 +1,10 @@
 import '../../../assets/css/OurTeam/ourteam.css'
 import Path from '../../../assets/images/Path-2.png'
-import team1 from '../../../assets/images/team/edit/team1.png'
-import team2 from '../../../assets/images/team/edit/team2.png'
-import team3 from '../../../assets/images/team/edit/team3.png'
-import team4 from '../../../assets/images/team/edit/team4.png'
-import team5 from '../../../assets/images/team/edit/team5.png'
+import Andrea from '../../../assets/images/team/team/Andrea.png'
+import Ceekay from '../../../assets/images/team/team/ceekay.png'
+import Jade from '../../../assets/images/team/team/jade.png'
+import Karim from '../../../assets/images/team/team/karim.png'
+import KOby from '../../../assets/images/team/team/koby.png'
 import team6 from '../../../assets/images/team/edit/team6.png'
 import PathDown from '../../../assets/images/Path.png'
 import logo from '../../../assets/images/logo_100.png'
@@ -93,7 +93,7 @@ const Index=()=>{
                 <div className="teamAll">
                     <div className="team-member">
                         <div className="teamImg">
-                            <img src={team1}/>
+                            <img src={Ceekay}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
@@ -113,7 +113,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                     <div className="teamImg">
-                            <img src={team5}/>
+                            <img src={Karim}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
@@ -133,7 +133,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                         <div className="teamImg">
-                            <img src={team3}/>
+                            <img src={Jade}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
@@ -153,7 +153,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                         <div className="teamImg">
-                            <img src={team2}/>
+                            <img src={KOby}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
@@ -174,7 +174,7 @@ const Index=()=>{
                     </div>
                     <div className="team-member">
                     <div className="teamImg">
-                            <img src={team4}/>
+                            <img src={Andrea}/>
                         </div>
                         <div className='teamInfor'>
                             <div className='mytitle'>
