@@ -62,7 +62,7 @@ const Index = ()=>{
                
                <div className="mystory">
                     <p>
-                        At the beginning of the last ice age, 11,000 to 20,000 thousand years ago, our squirrel hero Bailey became best friends with Rikky, the reindeer. Ricky was under a heap of trouble after getting his antlers stuck in a big old tree branch. Seconds before ricky was losing hope, Bailey came to the rescue where she quickly ground the branch with her rugged teeth!
+                        At the beginning of the last ice age, 11,000 to 20,000 thousand years ago, our squirrel hero Bailey became best friends with Rikky, the reindeer. Rikky was under a heap of trouble after getting his antlers stuck in a big old tree branch. Seconds before ricky was losing hope, Bailey came to the rescue where she quickly ground the branch with her rugged teeth!
                     </p>
                    
                     <p>

@@ -1,10 +1,10 @@
 import '../../../assets/css/About/about.css';
-import nft1 from '../../../assets/images/aboutus/edit/1.png'
-import nft2 from '../../../assets/images/aboutus/edit/2.png'
-import nft3 from '../../../assets/images/aboutus/edit/3.png'
-import nft4 from '../../../assets/images/aboutus/edit/4.png'
-import nft5 from '../../../assets/images/aboutus/edit/5.png'
-import nft6 from '../../../assets/images/aboutus/edit/6.png'
+import nft1 from '../../../assets/images/aboutus_new/NFT1.png'
+import nft2 from '../../../assets/images/aboutus_new/NFT2.png'
+import nft3 from '../../../assets/images/aboutus_new/NFT3.png'
+import nft4 from '../../../assets/images/aboutus_new/NFT4.png'
+import nft5 from '../../../assets/images/aboutus_new/NFT5.png'
+import nft6 from '../../../assets/images/aboutus_new/NFT1.png'
 
 
 import OwlCarousel from 'react-owl-carousel';
