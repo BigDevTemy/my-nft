@@ -363,6 +363,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .textTitle > h2 > span{
     font-size: 30px !important;
   }
+  
   .ourteam{
     padding-top: 3vh;
     padding-bottom: 30px;
@@ -370,12 +371,34 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .teamAll{
     display: flex;
-    flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 50px;
-    justify-content: center;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    justify-content: space-between;
+    background-color: #fbaf41;
    
+}
+
+.team-member{
+  
+    flex:1 1 calc(10% - 25px);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamInfor{
+  background-color: #000;
+  display: none;
+}
+.teamposition{
+  
+  width: 50%;
+}
+
+.teamImg >img{
+  width: 150px;
 }
 .mytitle{
    
@@ -387,6 +410,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 15px;
   
 }
+
   
 
 }

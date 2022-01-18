@@ -4,7 +4,7 @@ import nft2 from '../../../assets/images/aboutus_new/NFT2.png'
 import nft3 from '../../../assets/images/aboutus_new/NFT3.png'
 import nft4 from '../../../assets/images/aboutus_new/NFT4.png'
 import nft5 from '../../../assets/images/aboutus_new/NFT5.png'
-import nft6 from '../../../assets/images/aboutus_new/NFT1.png'
+import nft6 from '../../../assets/images/aboutus_new/NFT6.png'
 
 
 import OwlCarousel from 'react-owl-carousel';
@@ -78,6 +78,39 @@ const Index = ()=>{
                
             </div>
             <div className="aboutusContainer">
+
+            <div className="carousel-images">
+                  
+                  <OwlCarousel 
+                      className='owl-theme' 
+                      loop margin={1} 
+                      autoplay="true"
+                      items={4} 
+                      autoplayTimeout={1200} 
+                      
+                      nav="true">
+                      <div class='item'>
+                          <img src={nft1} className="nft-images"/>
+                      </div>
+                      <div class='item'>
+                          <img src={nft2} className="nft-images"/>
+                      </div>
+                      <div class='item'>
+                          <img src={nft3} className="nft-images"/>
+                      </div>
+                      <div class='item'>
+                          <img src={nft4} className="nft-images" />
+                      </div>
+                      <div class='item'>
+                          <img src={nft5} className="nft-images" />
+                      </div>
+                      <div class='item'>
+                          <img src={nft6} className="nft-images" />
+                      </div>
+                  
+                  </OwlCarousel>
+                  
+              </div>
                 <div className="aboutus-Text">
                     {/* {_renderImage()} */}
                     <p>
@@ -89,38 +122,7 @@ const Index = ()=>{
 
                    
                 </div>
-                <div className="carousel-images">
-                  
-                    <OwlCarousel 
-                        className='owl-theme' 
-                        loop margin={1} 
-                        autoplay="true"
-                        items={4} 
-                        autoplayTimeout={1200} 
-                        
-                        nav="true">
-                        <div class='item'>
-                            <img src={nft1} className="nft-images"/>
-                        </div>
-                        <div class='item'>
-                            <img src={nft2} className="nft-images"/>
-                        </div>
-                        <div class='item'>
-                            <img src={nft3} className="nft-images"/>
-                        </div>
-                        <div class='item'>
-                            <img src={nft4} className="nft-images" />
-                        </div>
-                        <div class='item'>
-                            <img src={nft5} className="nft-images" />
-                        </div>
-                        <div class='item'>
-                            <img src={nft6} className="nft-images" />
-                        </div>
-                    
-                    </OwlCarousel>
-                    
-                </div>
+                
                 
             </div>
             

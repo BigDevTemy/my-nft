@@ -30,7 +30,7 @@ const Index=()=>{
         const position = window.pageYOffset;
         setscrollPosition(position)
         
-        console.log(position)
+      
     };
     const handleHome = ()=>{
        
