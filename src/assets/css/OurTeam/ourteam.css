@@ -369,46 +369,44 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding-bottom: 30px;
 
   }
-  .teamAll{
-    display: flex;
-    flex-wrap: nowrap;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-top: 0px;
-    justify-content: space-between;
-    background-color: #fbaf41;
-   
-}
-
-.team-member{
   
-    flex:1 1 calc(10% - 25px);
-    margin: 10px;
+  .newTeam{
     display: flex;
     justify-content: space-between;
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:50px;
+  }
 
-.teamInfor{
-  background-color: #000;
-  display: none;
-}
-.teamposition{
-  
-  width: 50%;
-}
+  .TeamImg{
+    flex:1 1 calc(25% - 20px);
+    display: flex;
+    background-color: chartreuse;
+  }
+  .TeamImg >img{
+    border-radius: 10px;
+  }
+  .TeamInfor{
+    flex:1 1 calc(25% - 20px);
+    background-color: #000;
+  }
 
-.teamImg >img{
-  width: 150px;
-}
+  .myTitle{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 10px;
+  }
+
+
+
+
 .mytitle{
    
     font-size: 14px;
     
-}
-.teamposition{
-    
-    font-size: 15px;
-  
 }
 
   
