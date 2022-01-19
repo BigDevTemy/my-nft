@@ -90,7 +90,7 @@ const Index = ()=>{
                       
                       nav="true">
                       <div class='item'>
-                          <img src={nft1} className="nft-images"/>
+                          <img src={nft5} className="nft-images"/>
                       </div>
                       <div class='item'>
                           <img src={nft2} className="nft-images"/>
@@ -99,13 +99,13 @@ const Index = ()=>{
                           <img src={nft3} className="nft-images"/>
                       </div>
                       <div class='item'>
-                          <img src={nft4} className="nft-images" />
-                      </div>
-                      <div class='item'>
-                          <img src={nft5} className="nft-images" />
-                      </div>
-                      <div class='item'>
                           <img src={nft6} className="nft-images" />
+                      </div>
+                      <div class='item'>
+                          <img src={nft1} className="nft-images" />
+                      </div>
+                      <div class='item'>
+                          <img src={nft4} className="nft-images" />
                       </div>
                   
                   </OwlCarousel>
