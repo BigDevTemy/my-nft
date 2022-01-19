@@ -152,10 +152,10 @@ const Index=()=>{
                     <div>
                         {isOpenEvent2 && 
                             <div className='faq-answer'>
-                                  <p>Squirreling Squirrels "SS" is a 5,500 collection of 100% completely HAND DRAWN SQUIRRELS.</p>
-                                  <p>Two species of squirrels: 1000 ice age squirrels and 4500 current age Squirrels, the ice age squirrels are scarce and rare. Rarity can be found in 200 plus hand drawn traits.</p>
-                                  <p>It has been a few years after the last ice age and the Squirrels are now living in joy and peace in North America. They are fun, active, curious, and sometimes weird; THEY ARE NUT BEYOND NUTS!</p>
-                                 <p>Join us on our adventure in creating an active, positive community. Our journey will be full of surprises such as acquiring a land on sandbox, where we will base our community & game on, along with many more projects, events, and giveaways! So, make sure you join our Discord!</p>
+                                  <p>Squirreling Squirrels "SS" is an NFT collection of 6,600 fully hand drawn squirrels.</p>
+                                  <p>Two species of squirrels: 1,600 ice age squirrels and 5,000 current age squirrels. Rarity can be found in 200 plus hand drawn traits.</p>
+                                  <p>It has been a few years after the last ice age and the squirrels are currently living in joy and peace in their new homeland. They are fun, active, curious and sometimes weird; THEY ARE NUT BEYOND NUTS!</p>
+                                 
                             </div> 
                         }
                     </div>
@@ -188,7 +188,7 @@ const Index=()=>{
                     <div>
                         {isOpenEvent4&& 
                             <div className='faq-answer'>
-                                  <p> Squirreling Squirrels prices are to be announced. Pre-Sale and Public Sale prices will differ.</p>
+                                  <p> Squirreling Squirrels prices are TBA. Whitelisted people will benefit from a discounted price.</p>
                             </div> 
                         }
                     </div>
@@ -205,7 +205,7 @@ const Index=()=>{
                     <div>
                         {isOpenEvent5&& 
                             <div className='faq-answer'>
-                                  <p> Squirreling Squirrels will be comprised of 5,500unique NFT’s on the Ethereum Blockchain.</p>
+                                  <p> Squirreling Squirrels will be comprised of 6,600unique NFT’s on the Ethereum Blockchain.</p>
                             </div> 
                         }
                     </div>
