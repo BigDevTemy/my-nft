@@ -62,16 +62,19 @@ const Index = ()=>{
                
                <div className="mystory">
                     <p>
-                        At the beginning of the last ice age, 11,000 to 20,000 thousand years ago, our squirrel hero Bailey became best friends with Rikky, the reindeer. Rikky was under a heap of trouble after getting his antlers stuck in a big old tree branch. Seconds before ricky was losing hope, Bailey came to the rescue where she quickly ground the branch with her rugged teeth!
+                        At the beginning of the last ice age, 11,000 to 20,000 thousand years ago, our squirrel hero Bailey became best friends with Rikky, the reindeer. Rikky was under a heap of trouble after getting his antlers stuck in a big old tree branch. Seconds before Rikky was about to lose hope, Bailey came to the rescue where she quickly ground the branch with her rugged teeth!
                     </p>
                    
                     <p>
-                    Rikky returned the favor to Bailey by welcoming her and her community to his cave where they rested and got their warmth by staying close together, which helped the squirrel community to survive the ice age phase. Years pass by throughout their time together before Bailey discovers the canal that will lead to the underground world, where the sun penetrates through the ice on top, awaiting its melting. Their community spent 9,000 years together in the underground world.
+                    Rikky returned the favor to Bailey by welcoming her and her community to his cave where they sheltered and worked as one community to survive the ice age phase. Their community spent 9,000 years together in the underground world.
 
                     </p>
                     
                     <p>
-                    Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and all the food one can dream of. Thus, Abas settled with his initially small community until they grew to 6,600 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration.
+                    Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and all the food one can dream of. 
+                    </p>
+                    <p>
+                    Thus, Abas settled with his initially small community until they grew to 6,600 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration.
                     </p>
                     
                    

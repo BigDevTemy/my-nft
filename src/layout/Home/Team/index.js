@@ -36,7 +36,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            CEO <br/> Operations
+                            CEO <br/> <span style={{fontSize:15.5}}>Business Owner. Harvard Certified. Crypto, Stock & NFT Investor.</span>
                         </div>
                         <div className='twitterIcon'>
                             {/* <div className='twitter'>
@@ -56,7 +56,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            CMO <br/> Marketing
+                           CMO  <br/> <span style={{fontSize:15.5}}> Marketing. Entrepreneur. NFT & Crypto Enthusiast. Gamer.</span>
                         </div>
                         <div className='twitterIcon'>
                             {/* <div className='twitter'>
@@ -76,7 +76,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            CTO <br/>Technology & Blockchain
+                            CTO - Tech & Blockchain <br/><span style={{fontSize:15}}> Computer Engineer. PMI Certified. Tech Business Owner. Crypto Investor.</span>
                         </div>
                         <div className='twitterIcon'>
                             {/* <div className='twitter'>
@@ -96,7 +96,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            Software Engineer<br/>Smart Contract/Developer
+                            Smart Contract Developer<br/> <span style={{fontSize:15}}>Software Engineer. Full Stack Developer. AI & Blockchain Enthusiast. </span>
 
                         </div>
                         <div className='twitterIcon'>
@@ -117,7 +117,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            Architect/Artist <br/>Designer
+                            Artist <br/><span style={{fontSize:15.5}}>Graphic Designer. Illustrator. Cartoonist & Animator.</span>
 
                         </div>
                         <div className='twitterIcon'>

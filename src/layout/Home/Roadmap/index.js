@@ -45,7 +45,7 @@ const Index = ()=>{
                                             <div className='roadmapComponent-title'><h6>Sell out, Metaverse here we come!</h6></div>
                                                 <div className='roadmapComponent-text'>
                                                     <p>
-                                                        Our goal is to build a long lasting community of Squirreling Squirrels, through creating value and trust. As an appreciation, our community will be rewarded with many upcoming surprises, campaigns and giveaways before, during and after our launch! Stay tuned and follow our discord for more on what's to come!
+                                                        Our goal is to build a long lasting community of Squirreling Squirrels, through creating value and trust. As an appreciation, our community will be rewarded with many upcoming surprises, giveaways and airdrops before, during and after our launch! Stay tuned and follow our Discord for the chance to experience the premiere of the Squirreling Squirrels!
                                                     </p>
                                                 </div>
                                             </div>
@@ -66,7 +66,7 @@ const Index = ()=>{
                                             <div className='roadmapComponent-title'><h6>Acquire land on Sandbox!</h6></div>
                                                 <div className='roadmapComponent-text'>
                                                     <p>
-                                                    Acquire land on Sandbox, to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land will be open to all holders for them to experience a new and beautiful adventure on the metaverse full of surprises! Key access to social & gaming events, art galleries, and more! Join our Discord to know more of what is coming.
+                                                    Acquire land on Sandbox, to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land will be open to all holders for them to experience a new and beautiful adventure on the metaverse full of surprises! Key access to social & gaming events, art galleries, and more! Join our Discord for more on what's to come!
                                                     </p>
                                                 </div>
                                             </div>
@@ -87,7 +87,7 @@ const Index = ()=>{
                                             <div className='roadmapComponent-title'><h6>Making the world a better place, tree by tree</h6></div>
                                                 <div className='roadmapComponent-text'>
                                                     <p>
-                                                    A million starts with one, that one starts with each holder of our SS collection. As part of our commitment to help the global community, we will start by planting 100,000 trees as a first milestone, with a goal of reaching up to a million trees. And as a thank you to our community, All SS holders will get a certificate for the trees that they have contributed in planting. More details & collabs to be revealed soon.
+                                                    A million starts with one, that one starts with each holder of our SS collection. As part of our commitment to help the global community, we will start by planting 100,000 trees as a first milestone, with a goal of reaching up to a million trees. And as a thank you to our community, All SS holders will get a certificate for the trees that they have contributed in planting. More glamorous details & collabs to be revealed soon, and you know where to find us!
                                                     </p>
                                                 </div>
                                             </div>
@@ -107,10 +107,10 @@ const Index = ()=>{
                                     
                                         <div className='roadmapComponent'>
                                             <div className='roadmap-flex-1'>
-                                            <div className='roadmapComponent-title'><h6>Squirreling Squirrels Game</h6></div>
+                                            <div className='roadmapComponent-title'><h6>Squirreling Squirrels P2E Game</h6></div>
                                                 <div className='roadmapComponent-text'>
                                                     <p>
-                                                    Our goal is to develop a play to earn game on our metaverse land. Development stages are ongoing, and all our SS community will be able to join in on the fun. Nevertheless, SS NFT holders will have additional benefits with their unique characters and more. The game will consist of different levels where players will progress by completing certain games, tasks and challenges to find the acorn.
+                                                    Our goal is to develop a play to earn game on our Metaverse land. Game & Token ($ACORN) development stages are ongoing, and all our SS community will be able to join in on the fun. Nevertheless, SS NFT holders will have additional benefits with their unique characters and more. The game will consist of different levels where players will progress by completing certain games, tasks and challenges to find the Acorn.
                                                     </p>
                                                 </div>
                                             </div>
