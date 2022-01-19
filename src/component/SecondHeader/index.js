@@ -85,7 +85,7 @@ const Index=()=>{
                 </div>
                 <div className="connect">
                     <div className="game">
-                      <a href="https://discord.gg/dQr9nAeB" target="_blank">  <FaDiscord size={20} color="#FFF"/></a>
+                      <a href="https://discord.com/invite/squirrelingsquirrels" target="_blank">  <FaDiscord size={20} color="#FFF"/></a>
                     </div>
                     <div className="game">
                          <a href="https://twitter.com/SquirrelingSQRL" target="_blank"><VscTwitter size={20} color="#FFF"/></a>

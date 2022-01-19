@@ -266,18 +266,27 @@
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: flex-start;
    
 }
 .team-member{
-    flex:1 1 calc(50% - 25px);
+    flex:0 1 calc(50% - 25px);
     margin: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
+    
 
 }
+.teamImg{
+  
+  width: 100%;
+}
 .teamImg > img{
+  
     border-radius: 15px;
+    width: 100%;
+    align-self: center;
+   
 }
 .teamInfor{
     color: #fff;
@@ -285,6 +294,7 @@
     display: flex;
     flex-direction: column;
     padding:10px;
+    
 }
 .mytitle{
     font-family: Sora;
@@ -324,9 +334,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .teamAll{
         justify-content: space-between;
     }
-    .team-member{
-        flex:1 1 25%;
+    /* .team-member{
+        flex:1 0 40%;
+
     }
+    .teamImg > img{
+      width: 100%;
+    } */
 }
 
 
