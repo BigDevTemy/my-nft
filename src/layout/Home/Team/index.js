@@ -1,12 +1,12 @@
 import '../../../assets/css/OurTeam/ourteam.css'
-import Path from '../../../assets/images/Path-2.png'
+
 import Andrea from '../../../assets/images/team/team/Andrea.png'
 import Ceekay from '../../../assets/images/team/team/Ceekay.png'
 import Jade from '../../../assets/images/team/team/Jade.png'
 import Karim from '../../../assets/images/team/team/Karim.png'
 import KOby from '../../../assets/images/team/team/koby.png'
 import team6 from '../../../assets/images/team/edit/team6.png'
-import PathDown from '../../../assets/images/Path.png'
+
 import logo from '../../../assets/images/logo_100.png'
 import {FiTwitter} from 'react-icons/fi'
 const Index=()=>{
@@ -36,7 +36,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            CEO <br/> <span style={{fontSize:15.5}}>Business Owner. Harvard Certified. Crypto, Stock & NFT Investor.</span>
+                            CEO  <div className='teamposition-span'>Business Owner. Harvard Certified. Crypto, Stock & NFT Investor.</div>
                         </div>
                         <div className='twitterIcon'>
                             {/* <div className='twitter'>
@@ -56,7 +56,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                           CMO  <br/> <span style={{fontSize:15.5}}> Marketing. Entrepreneur. NFT & Crypto Enthusiast. Gamer.</span>
+                           CMO   <div className='teamposition-span'> Marketing. Entrepreneur. NFT & Crypto Enthusiast. Gamer.</div>
                         </div>
                         <div className='twitterIcon'>
                             {/* <div className='twitter'>
@@ -76,7 +76,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            CTO - Tech & Blockchain <br/><span style={{fontSize:15}}> Computer Engineer. PMI Certified. Tech Business Owner. Crypto Investor.</span>
+                            CTO - Tech & Blockchain <div className='teamposition-span'> Computer Engineer. PMI Certified. Tech Business Owner. Crypto Investor.</div>
                         </div>
                         <div className='twitterIcon'>
                             {/* <div className='twitter'>
@@ -96,7 +96,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            Smart Contract Developer<br/> <span style={{fontSize:15}}>Software Engineer. Full Stack Developer. AI & Blockchain Enthusiast. </span>
+                            Smart Contract Developer<div className='teamposition-span'>Software Engineer. Full Stack Developer. AI & Blockchain Enthusiast. </div>
 
                         </div>
                         <div className='twitterIcon'>
@@ -117,7 +117,7 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            Artist <br/><span style={{fontSize:15.5}}>Graphic Designer. Illustrator. Cartoonist & Animator.</span>
+                            Artist <div className='teamposition-span'>Graphic Designer. Illustrator. Cartoonist & Animator.</div>
 
                         </div>
                         <div className='twitterIcon'>

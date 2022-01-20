@@ -1,5 +1,5 @@
 import '../../assets/css/Header/header.css';
-import logo from '../../assets/images/logo_white_new.png';
+
 import Squirreling from '../../assets/images/logo_50.png';
 import logo_newest from '../../assets/images/logo_3.png'
 import {GiGamepad} from 'react-icons/gi';

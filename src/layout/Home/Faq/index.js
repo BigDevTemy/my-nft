@@ -1,5 +1,5 @@
 import '../../../assets/css/Faq/faq.css'
-import Path from '../../../assets/images/Path.png'
+
 import logo from '../../../assets/images/logo_100.png'
 
 import Accordion from 'react-bootstrap/Accordion';

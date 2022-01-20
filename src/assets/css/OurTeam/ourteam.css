@@ -327,6 +327,10 @@
     border:2px solid #fbaf41
 }
 
+.teamposition-span{
+  font-size:15.5
+}
+
 @media only screen 
 and (min-device-width: 900px) 
 and (max-device-width: 1000px)
@@ -555,7 +559,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
 }
 .teamposition{
-    
+
     font-size: 15px;
   
 }
@@ -577,8 +581,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .teamAll{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 50px;
     justify-content: center;
    
@@ -586,28 +590,43 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .mytitle{
    
     font-size: 14px;
+    text-align: center;
     
 }
-.teamposition{
-    
-    font-size: 15px;
-  
+.teamImg{
+  text-align: center;
 }
 .teamImg > img{
     width: 150px;
 }
 .mytitle{
    
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
     
 }
 .teamposition{
     
-    font-size: 12px;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
   
+}
+.teamposition-span{
+  font-size:12;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
 }
 .team-member{
     flex-direction: column;
+    display: flex;
 }
 
 }
@@ -627,37 +646,52 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .teamAll{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
-    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
     justify-content: center;
    
 }
 .mytitle{
    
     font-size: 14px;
+    text-align: center;
     
 }
-.teamposition{
-    
-    font-size: 15px;
-  
+.teamImg{
+  text-align: center;
 }
 .teamImg > img{
-    width: 100px;
+    width: 150px;
 }
 .mytitle{
    
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
     
 }
 .teamposition{
     
-    font-size: 12px;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
   
+}
+.teamposition-span{
+  font-size:12;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
 }
 .team-member{
     flex-direction: column;
+    display: flex;
 }
 
 }

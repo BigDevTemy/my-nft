@@ -1,7 +1,7 @@
 import Button from '@restart/ui/esm/Button';
 import '../../../assets/css/Hero/hero.css'
 import banner from '../../../assets/images/nft.png';
-import path from '../../../assets/images/Path.png'
+
 import Typewriter from 'typewriter-effect';
 import logo from '../../../assets/images/logo_new.png'
 const Index = ()=>{
