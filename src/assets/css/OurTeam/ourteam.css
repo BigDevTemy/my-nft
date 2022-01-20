@@ -332,19 +332,35 @@
 }
 
 @media only screen 
-and (min-device-width: 900px) 
+and (min-device-width: 700px) 
 and (max-device-width: 1000px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .teamAll{
+      padding-left:50px;
+      padding-right: 20px;
         justify-content: space-between;
     }
-    /* .team-member{
+    /* /* .team-member{
         flex:1 0 40%;
 
     }
     .teamImg > img{
       width: 100%;
-    } */
+    }  */
+    .teamImg > img{
+      width: 100%;
+    } 
+
+    .myTitle{
+      font-size: 18px;
+    }
+    .teamposition{
+      font-size: 16px;
+    }
+    .teamposition-span{
+      font-size: 14px;
+    }
+    
 }
 
 
@@ -473,34 +489,48 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .teamAll{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 50px;
     justify-content: center;
    
 }
-.mytitle{
-   
-    font-size: 14px;
-    
-}
-.teamposition{
-    
-    font-size: 15px;
-  
+
+.teamImg{
+  text-align: center;
 }
 .teamImg > img{
-    width: 140px;
+    width: 70%;
 }
 .mytitle{
    
-    font-size: 12px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
     
 }
 .teamposition{
     
-    font-size: 12px;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
   
+}
+.teamposition-span{
+  font-size:13;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
+.team-member{
+    flex-direction: column;
+    display: flex;
 }
 
 }
@@ -544,25 +574,54 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding-bottom: 30px;
 
   }
+  
   .teamAll{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 50px;
     justify-content: center;
    
 }
+
+.teamImg{
+  text-align: center;
+}
+.teamImg > img{
+    width: 70%;
+}
 .mytitle{
    
-    font-size: 14px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
     
 }
 .teamposition{
-
-    font-size: 15px;
+    
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
   
 }
+.teamposition-span{
+  font-size:13;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
+.team-member{
+    flex-direction: column;
+    display: flex;
+}
+
   
 
 }
