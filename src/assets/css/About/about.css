@@ -51,6 +51,7 @@
 }
 .mylogo > img{
   width: 50%;
+  
 }
 .myTitle{
   display: flex;
@@ -105,13 +106,24 @@
 }
 
 .item{
+  
   margin-top: 10px;
   width: 90%;
+  position: relative;
 }
 
 .nft-images{
  border-radius: 15px;
 }
+.overlayDiv{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  z-index: 2;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
 
 
 @media only screen 
@@ -216,6 +228,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .mylogo > img{
   width: 50%;
 }
+
+
 .myTitle{
   display: flex;
   flex-direction: column;

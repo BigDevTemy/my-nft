@@ -50,6 +50,7 @@ const Index = ()=>{
                                                 </div>
                                             </div>
                                             <div className='roadmap-flex-2'>
+                                                <div className='overlayDiv'></div>
                                                 <img src={item1}/>
                                             </div>
                                         </div>
@@ -71,6 +72,7 @@ const Index = ()=>{
                                                 </div>
                                             </div>
                                             <div className='roadmap-flex-2'>
+                                                <div className='overlayDiv'></div>
                                                 <img src={item4}/>
                                             </div>
                                         </div>
@@ -92,6 +94,7 @@ const Index = ()=>{
                                                 </div>
                                             </div>
                                             <div className='roadmap-flex-2'>
+                                                <div className='overlayDiv'></div>
                                                 <img src={item3}/>
                                             </div>
                                         </div>
@@ -115,6 +118,7 @@ const Index = ()=>{
                                                 </div>
                                             </div>
                                             <div className='roadmap-flex-2'>
+                                                <div className='overlayDiv'></div>
                                                 <img src={item2}/>
                                             </div>
                                         </div>

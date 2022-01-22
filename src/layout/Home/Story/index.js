@@ -80,6 +80,7 @@ const Index = ()=>{
                    
                </div>
                <div className="mystoryImg">
+                   <div className='overlayDiv'></div>
                     {_renderImage()}
                </div>
                

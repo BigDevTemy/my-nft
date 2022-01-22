@@ -16,6 +16,7 @@ const Index=()=>{
             <div className="SoleHeader">
 
                 <div className='mylogo'>
+                   <div className='overlayDiv'></div>
                     <img src={logo}/>
                 </div>
                 <div className='myTitle'>
@@ -28,6 +29,7 @@ const Index=()=>{
             <div className="teamAll">
                 <div className="team-member">
                     <div className="teamImg">
+                        <div className='overlayDiv'></div>
                         <img src={Ceekay}/>
                     </div>
                     <div className='teamInfor'>
@@ -48,6 +50,7 @@ const Index=()=>{
                 </div>
                 <div className="team-member">
                 <div className="teamImg">
+                        <div className='overlayDiv'></div>
                         <img src={Karim}/>
                     </div>
                     <div className='teamInfor'>
@@ -68,6 +71,7 @@ const Index=()=>{
                 </div>
                 <div className="team-member">
                     <div className="teamImg">
+                        <div className='overlayDiv'></div>
                         <img src={Jade}/>
                     </div>
                     <div className='teamInfor'>
@@ -88,6 +92,7 @@ const Index=()=>{
                 </div>
                 <div className="team-member">
                     <div className="teamImg">
+                         <div className='overlayDiv'></div>
                         <img src={KOby}/>
                     </div>
                     <div className='teamInfor'>
@@ -109,6 +114,7 @@ const Index=()=>{
                 </div>
                 <div className="team-member">
                 <div className="teamImg">
+                        <div className='overlayDiv'></div>
                         <img src={Andrea}/>
                     </div>
                     <div className='teamInfor'>
