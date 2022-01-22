@@ -16,7 +16,7 @@ const Index=()=>{
             <div className="SoleHeader">
 
                 <div className='mylogo'>
-                   <div className='overlayDiv'></div>
+                   {/* <div className='overlayDiv'></div> */}
                     <img src={logo}/>
                 </div>
                 <div className='myTitle'>

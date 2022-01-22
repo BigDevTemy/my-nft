@@ -249,6 +249,9 @@ ul.timeliner {
 .roadmapStyle {
     padding-right: 25px;
 }
+.roadmap-flex-2{
+    position: relative;
+}
 
 .overlayDiv{
     width: 100%;

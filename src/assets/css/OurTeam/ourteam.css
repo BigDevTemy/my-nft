@@ -280,6 +280,7 @@
 .teamImg{
   
   width: 100%;
+  position: relative;
 }
 .teamImg > img{
   

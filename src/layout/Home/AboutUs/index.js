@@ -90,27 +90,27 @@ const Index = ()=>{
                       
                       nav="true">
                       <div class='item'>
-                          <div className='overlayDiv'></div>
+                          {/* <div className='overlayDiv'></div> */}
                           <img src={nft5} className="nft-images"/>
                       </div>
                       <div class='item'>
-                        <div className='overlayDiv'></div>
+                        {/* <div className='overlayDiv'></div> */}
                           <img src={nft2} className="nft-images"/>
                       </div>
                       <div class='item'>
-                          <div className='overlayDiv'></div>
+                          {/* <div className='overlayDiv'></div> */}
                           <img src={nft3} className="nft-images"/>
                       </div>
                       <div class='item'>
-                          <div className='overlayDiv'></div>
+                          {/* <div className='overlayDiv'></div> */}
                           <img src={nft6} className="nft-images" />
                       </div>
                       <div class='item'>
-                         <div className='overlayDiv'></div>
+                         {/* <div className='overlayDiv'></div> */}
                           <img src={nft1} className="nft-images" />
                       </div>
                       <div class='item'>
-                        <div className='overlayDiv'></div>
+                        {/* <div className='overlayDiv'></div> */}
                           <img src={nft4} className="nft-images" />
                       </div>
                   

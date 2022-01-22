@@ -71,11 +71,20 @@
 }
 .mystoryImg{
     flex-grow: 1;
+    position: relative;
     flex-shrink: 1;
     flex-basis:45%;
     display: flex;
     justify-content: center;
     align-items: center;   
+}
+.overlayDiv{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  z-index: 2;
+  border-radius: 15px;
+  background-color: #fff;
 }
 .mystory >p{
     font-family: Sora;
@@ -106,14 +115,7 @@
     
 }
 
-.overlayDiv{
-  width: 100%;
-  height: 100%;
-  position:absolute;
-  z-index: 2;
-  border-radius: 15px;
-  background-color: transparent;
-}
+
 
 @media only screen 
 and (min-device-width: 900px) 
@@ -256,6 +258,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .mystoryImg{
   padding: 30px;  
+  position: relative;
 }
 
 
