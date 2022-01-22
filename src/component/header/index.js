@@ -50,7 +50,7 @@ const Index=()=>{
     return(
         <div className='header'>
               {/* <Drawer sendState={showDrawer}/> */}
-                <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={logo_newest}/></Link></div>
+                <div className="logo" style={{cursor:'pointer'}}><Link to='/'><img src={logo_newest} style={{pointerEvents:'none'}}/></Link></div>
                 <div className='nav-bars'>
                     
                     <Link  to="aboutus" spy={true} smooth={true}>

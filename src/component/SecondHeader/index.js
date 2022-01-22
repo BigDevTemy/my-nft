@@ -43,7 +43,7 @@ const Index=()=>{
     },[])
     return(
         <div className={scroll >= 583 ? 'headerScroll':'Displaynone'}>
-                <div className="logoII" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling} onClick={()=>{window.scroll(0,0)}}/></Link></div>
+                <div className="logoII" style={{cursor:'pointer'}}><Link to='/'><img src={Squirreling} onClick={()=>{window.scroll(0,0)}} style={{pointerEvents:'none'}}/></Link></div>
                 <div className='nav-bars-scroll'>
                     
                     <Link  to="aboutus" spy={true} smooth={true}>
