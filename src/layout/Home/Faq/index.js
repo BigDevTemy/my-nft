@@ -134,7 +134,7 @@ const Index=()=>{
                                    </p>
                                    <p>
                                     <a href="https://ethereum.org/en/nft/" target="_blank"><span>What is an NFT? </span></a> / <a href='https://opensea.io/blog/guides/non-fungible-tokens/' target="_blank"><span>The Non-Fungible Token Bible</span></a> - Your guides to everything that is an NFT 
-                                    Don’t forget that you can always hop  on to our discord where our moderators will help in any additional insights!
+                                    don’t forget that you can always hop  on to our discord where our moderators will help in any additional insights!
 
                                    </p>
                             </div> 
@@ -206,7 +206,7 @@ const Index=()=>{
                     <div>
                         {isOpenEvent5&& 
                             <div className='faq-answer'>
-                                  <p> Squirreling Squirrels will be comprised of 6,600unique NFT’s on the Ethereum Blockchain.</p>
+                                  <p> Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain.</p>
                             </div> 
                         }
                     </div>

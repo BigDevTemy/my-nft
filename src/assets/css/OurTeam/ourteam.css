@@ -320,7 +320,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border:1px solid #fbaf41;
+    border:1px solid #fff;
     cursor: pointer;
 }
 
@@ -415,6 +415,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding-top:50px;
   }
 
+  .twitterIcon{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
+
   .TeamImg{
     flex:1 1 calc(25% - 20px);
     display: flex;
@@ -502,6 +513,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .teamImg > img{
     width: 70%;
+}
+.twitterIcon{
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .mytitle{
    
@@ -638,6 +657,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding-bottom: 30px;
 
   }
+  .twitterIcon{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
   .teamAll{
     display: flex;
     flex-direction: column;
@@ -752,6 +779,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .team-member{
     flex-direction: column;
     display: flex;
+}
+.twitterIcon{
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 }

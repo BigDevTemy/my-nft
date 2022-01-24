@@ -9,6 +9,7 @@ import team6 from '../../../assets/images/team/edit/team6.png'
 
 import logo from '../../../assets/images/logo_100.png'
 import {FiTwitter} from 'react-icons/fi'
+import {FaInstagram} from 'react-icons/fa'
 const Index=()=>{
     return (
         <div className="ourteam" id="team">
@@ -55,16 +56,16 @@ const Index=()=>{
                     </div>
                     <div className='teamInfor'>
                         <div className='mytitle'>
-                            Karim
+                            Karim 
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
                            CMO   <div className='teamposition-span'> Marketing. Entrepreneur. NFT & Crypto Enthusiast. Gamer.</div>
                         </div>
                         <div className='twitterIcon'>
-                            {/* <div className='twitter'>
-                                <FiTwitter size={20} color='#fff' />
-                            </div> */}
+                            <div className='twitter'>
+                                <FaInstagram size={20} color='#fff' className='instagramIcon' />
+                            </div>
                         
                         </div>
                     </div>
@@ -77,6 +78,7 @@ const Index=()=>{
                     <div className='teamInfor'>
                         <div className='mytitle'>
                             Jade
+                            
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
