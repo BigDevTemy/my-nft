@@ -180,7 +180,7 @@ const Index=()=>{
                 </div>
                 <div className='faq-question'>
                     <div className='faq-title' onClick={()=>{_handleOpen('event4')}}>  
-                    4.	&nbsp; How much will it cost to mint a Squirreling Squirrel NFT?
+                    4.	&nbsp; How much will it cost to mint a Squirreling Squirrels NFT?
                     </div>
                     <div className='faq-icon'> 
                     {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/> }
