@@ -86,7 +86,7 @@ const Index = ()=>{
                       loop margin={1} 
                       autoplay="true"
                       items={4} 
-                      autoplayTimeout={1200} 
+                      autoplayTimeout={900} 
                       
                       nav="true">
                       <div class='item'>
