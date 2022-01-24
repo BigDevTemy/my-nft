@@ -63,8 +63,8 @@ const Index=()=>{
                            CMO   <div className='teamposition-span'> Marketing. Entrepreneur. NFT & Crypto Enthusiast. Gamer.</div>
                         </div>
                         <div className='twitterIcon'>
-                            <div className='twitter'>
-                                <FaInstagram size={20} color='#fff' className='instagramIcon' />
+                            <div className='twitter' style={{border:0}}>
+                                <a href="https://www.instagram.com/karim_shaaban/" target='_blank'><FaInstagram size={20} color='#fff' className='instagramIcon' /></a>
                             </div>
                         
                         </div>
