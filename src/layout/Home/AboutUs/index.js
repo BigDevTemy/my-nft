@@ -69,7 +69,7 @@ const Index = ()=>{
             <div className="SoleHeader">
 
                 <div className='mylogo'>
-                     <img src={logo}/>
+                     <img src={logo} style={{pointerEvents:'none'}}/>
                 </div>
                 <div className='myTitle'>
                     <h2>WHO WE ARE</h2>
@@ -90,27 +90,27 @@ const Index = ()=>{
                       
                       nav="true">
                       <div class='item'>
-                          {/* <div className='overlayDiv'></div> */}
+                          <div className='overlayDiv'></div>
                           <img src={nft5} className="nft-images"/>
                       </div>
                       <div class='item'>
-                        {/* <div className='overlayDiv'></div> */}
+                        <div className='overlayDiv'></div>
                           <img src={nft2} className="nft-images"/>
                       </div>
                       <div class='item'>
-                          {/* <div className='overlayDiv'></div> */}
+                          <div className='overlayDiv'></div>
                           <img src={nft3} className="nft-images"/>
                       </div>
                       <div class='item'>
-                          {/* <div className='overlayDiv'></div> */}
+                          <div className='overlayDiv'></div>
                           <img src={nft6} className="nft-images" />
                       </div>
                       <div class='item'>
-                         {/* <div className='overlayDiv'></div> */}
+                         <div className='overlayDiv'></div>
                           <img src={nft1} className="nft-images" />
                       </div>
                       <div class='item'>
-                        {/* <div className='overlayDiv'></div> */}
+                        <div className='overlayDiv'></div>
                           <img src={nft4} className="nft-images" />
                       </div>
                   

@@ -17,7 +17,7 @@ const Index=()=>{
 
                 <div className='mylogo'>
                    {/* <div className='overlayDiv'></div> */}
-                    <img src={logo}/>
+                    <img src={logo} style={{pointerEvents:'none'}}/>
                 </div>
                 <div className='myTitle'>
                     <h2>OUR</h2>

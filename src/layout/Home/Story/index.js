@@ -48,7 +48,7 @@ const Index = ()=>{
             <div className="SoleHeader">
 
                 <div className='mylogo'>
-                    <img src={logo}/>
+                    <img src={logo} style={{pointerEvents:'none'}}/>
                 </div>
                 <div className='myTitle'>
                     <h2>OUR</h2>
