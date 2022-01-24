@@ -172,7 +172,8 @@ const Index=()=>{
                     <div>
                         {isOpenEvent3 && 
                             <div className='faq-answer'>
-                                    <p>Squirreling Squirrels launch date is still TBA. The pre-launch will be available to all whitelisted users 24 hours before launch. Make sure to join our Discord channel to always be up to date!</p>
+                                    <p>Squirreling Squirrels launch date is still TBA. We will be revealing the pre-launch date soon as well.!</p>
+                                    
                             </div> 
                         }
                     </div>
