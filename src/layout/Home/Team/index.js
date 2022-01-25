@@ -5,6 +5,7 @@ import Ceekay from '../../../assets/images/team/team/Ceekay.png'
 import Jade from '../../../assets/images/team/team/Jade.png'
 import Karim from '../../../assets/images/team/team/Karim.png'
 import KOby from '../../../assets/images/team/team/koby.png'
+import Zeuxt from '../../../assets/images/team/team/advisor.png'
 import team6 from '../../../assets/images/team/edit/team6.png'
 
 import logo from '../../../assets/images/logo_100.png'
@@ -114,6 +115,32 @@ const Index=()=>{
                         </div>
                     </div>
                 </div>
+
+                <div className="team-member">
+                    <div className="teamImg">
+                         <div className='overlayDiv'></div>
+                        <img src={Zeuxt}/>
+                    </div>
+                    <div className='teamInfor'>
+                        <div className='mytitle'>
+                            ncg Consulting <br/>
+                            Zeuxt & Rayan
+                        </div>
+                        <div className='teamposition'>
+                            {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                            NFT Consultant<div className='teamposition-span'>Strategic and Marketing Management. </div>
+
+                        </div>
+                        <div className='twitterIcon'>
+                            <div className='twitter' style={{border:0}}>
+                                <a href="https://www.instagram.com/karim_shaaban/" target='_blank' style={{marginRight:10}}><FaInstagram size={20} color='#fff' className='instagramIcon'  /></a>
+                                <a href="https://www.instagram.com/karim_shaaban/" target='_blank'><FaInstagram size={20} color='#fff' className='instagramIcon' /></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
                 <div className="team-member">
                 <div className="teamImg">
                         <div className='overlayDiv'></div>
