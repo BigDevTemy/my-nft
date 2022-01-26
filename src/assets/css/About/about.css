@@ -106,10 +106,15 @@
 }
 
 .item{
-  
   margin-top: 10px;
   width: 90%;
   position: relative;
+  padding-bottom: 20px;
+  
+}
+.item > img{
+  width: 90%;
+  border-radius: 10px;
 }
 
 .nft-images{

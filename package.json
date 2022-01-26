@@ -17,6 +17,7 @@
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.4",
     "react-scroll-progress-bar": "^1.1.13",
+    "react-slideshow-image": "^3.6.1",
     "react-vertical-timeline-component": "^3.5.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.2"

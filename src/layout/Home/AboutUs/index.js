@@ -10,6 +10,10 @@ import nft6 from '../../../assets/images/aboutus_new/NFT6.png'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
 import logo from '../../../assets/images/logo_100.png'
 import { useEffect, useState } from 'react';
 const Index = ()=>{
@@ -31,7 +35,42 @@ const Index = ()=>{
         
     // }
     // setInterval(changeImage(),10000)
+    const slideImages = [
+        {
+          url: nft1,
+          caption: 'NFT1'
+        },
+        {
+          url: nft2,
+          caption: 'NFT2'
+        },
+        {
+          url: nft3,
+          caption: 'NFT3'
+        },
+        {
+            url: nft4,
+            caption: 'NFT4'
+        },
+        {
+            url: nft5,
+            caption: 'NFT5'
+        },
+        {
+            url: nft6,
+            caption: 'NFT6'
+          },
+      ];
 
+      const properties = {
+        duration: 0,
+        transitionDuration: 5000,
+        infinite: true,
+        prevArrow: null,
+        nextArrow:null,
+        slidesToShow:4,
+        arrows:false
+      };
     
 
     const _renderImage=()=>{
@@ -79,9 +118,31 @@ const Index = ()=>{
             </div>
             <div className="aboutusContainer">
 
+            
+
             <div className="carousel-images">
+
+            <div className="slide-container">
+
+                <Slide {...properties}>
+                    {slideImages.map((slideImage, index)=> (
+                        
+                        <div className="each-slide" key={index}>
+                            
+                            {/* <div style={{'backgroundImage': `url(${slideImage.url})`,height:'100%',backgroundPosition:'center',backgroundSize:'cover'}} >
+                                <span>{slideImage.caption}</span>
+                            </div> */}
+                            <div class='item'>
+                                <div className='overlayDiv'></div>
+                                    <img src={slideImage.url}/>
+                                </div>
+                        </div>
+                    ))} 
+                </Slide>
                   
-                  <OwlCarousel 
+            </div>
+                
+                  {/* <OwlCarousel 
                       className='owl-theme' 
                       loop margin={1} 
                       autoplay="true"
@@ -114,7 +175,7 @@ const Index = ()=>{
                           <img src={nft4} className="nft-images" />
                       </div>
                   
-                  </OwlCarousel>
+                  </OwlCarousel> */}
                   
               </div>
                 <div className="aboutus-Text">
