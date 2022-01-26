@@ -64,7 +64,7 @@ const Index = ()=>{
 
       const properties = {
         duration: 0,
-        transitionDuration: 4000,
+        transitionDuration: 2000,
         infinite: true,
         prevArrow: null,
         nextArrow:null,
