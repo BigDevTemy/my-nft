@@ -6,6 +6,7 @@ import Jade from '../../../assets/images/team/team/Jade.png'
 import Karim from '../../../assets/images/team/team/Karim.png'
 import KOby from '../../../assets/images/team/team/koby.png'
 import Zeuxt from '../../../assets/images/team/team/advisor.png'
+import Wael16 from '../../../assets/images/team/team/wael16.jpeg'
 import team6 from '../../../assets/images/team/edit/team6.png'
 
 import logo from '../../../assets/images/logo_100.png'
@@ -96,15 +97,15 @@ const Index=()=>{
                 <div className="team-member">
                     <div className="teamImg">
                          <div className='overlayDiv'></div>
-                        <img src={KOby}/>
+                        <img src={Wael16}/>
                     </div>
                     <div className='teamInfor'>
                         <div className='mytitle'>
-                            Koby
+                           Brand Ambassador
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            Smart Contract Developer<div className='teamposition-span'>Software Engineer. Full Stack Developer. AI & Blockchain Enthusiast. </div>
+                            Professional Basketball Player<div className='teamposition-span'>Business owner. NFT Enthusiast. Gamer. </div>
 
                         </div>
                         <div className='twitterIcon'>
@@ -142,7 +143,30 @@ const Index=()=>{
                 </div>
 
                 <div className="team-member">
-                <div className="teamImg">
+                    <div className="teamImg">
+                         <div className='overlayDiv'></div>
+                        <img src={KOby}/>
+                    </div>
+                    <div className='teamInfor'>
+                        <div className='mytitle'>
+                            Koby
+                        </div>
+                        <div className='teamposition'>
+                            {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
+                            Smart Contract Developer<div className='teamposition-span'>Software Engineer. Full Stack Developer. AI & Blockchain Enthusiast. </div>
+
+                        </div>
+                        <div className='twitterIcon'>
+                            {/* <div className='twitter'>
+                                <FiTwitter size={20} color='#fff' />
+                            </div> */}
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div className="team-member">
+                     <div className="teamImg">
                         <div className='overlayDiv'></div>
                         <img src={Andrea}/>
                     </div>
