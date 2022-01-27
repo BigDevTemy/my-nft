@@ -101,11 +101,12 @@ const Index=()=>{
                     </div>
                     <div className='teamInfor'>
                         <div className='mytitle'>
-                           Brand Ambassador
+                            Wael Arakji
+                           
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            Professional Basketball Player<div className='teamposition-span'>Business owner. NFT Enthusiast. Gamer. </div>
+                            Brand Ambassador<div className='teamposition-span'> Professional Basketball Player Business owner. NFT Enthusiast. Gamer. </div>
 
                         </div>
                         <div className='twitterIcon'>
