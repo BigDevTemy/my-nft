@@ -110,9 +110,9 @@ const Index=()=>{
 
                         </div>
                         <div className='twitterIcon'>
-                            {/* <div className='twitter'>
-                                <FiTwitter size={20} color='#fff' />
-                            </div> */}
+                            <div className='twitter' style={{border:0}}>
+                                <a href="https://www.instagram.com/p/CWthoU9IMk8/?utm_medium=copy_link" target='_blank'><FaInstagram size={20} color='#fff' className='instagramIcon' /></a>
+                            </div>
                         
                         </div>
                     </div>
