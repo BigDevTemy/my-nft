@@ -6,7 +6,7 @@ import Jade from '../../../assets/images/team/team/Jade.png'
 import Karim from '../../../assets/images/team/team/Karim.png'
 import KOby from '../../../assets/images/team/team/koby.png'
 import Zeuxt from '../../../assets/images/team/team/advisor.png'
-import Wael16 from '../../../assets/images/team/team/wael16.jpg'
+import Wael16 from '../../../assets/images/team/team/wael16.png'
 import team6 from '../../../assets/images/team/edit/team6.png'
 
 import logo from '../../../assets/images/logo_100.png'
