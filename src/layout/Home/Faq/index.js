@@ -172,7 +172,10 @@ const Index=()=>{
                     <div>
                         {isOpenEvent3 && 
                             <div className='faq-answer'>
-                                    <p>Squirreling Squirrels launch date is still TBA. We will be revealing the pre-launch date soon as well.!</p>
+                                    <p>
+                                        {/* Squirreling Squirrels launch date is still TBA. We will be revealing the pre-launch date soon as well.! */}
+                                        Squirreling Squirrels’ launch date is still TBA. We will be revealing the pre-launch date soon!
+                                    </p>
                                     
                             </div> 
                         }
@@ -206,7 +209,10 @@ const Index=()=>{
                     <div>
                         {isOpenEvent5&& 
                             <div className='faq-answer'>
-                                  <p> Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain.</p>
+                                  <p> 
+                                      {/* Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain. */}
+                                      Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain & hosted on IPFS.
+                                    </p>
                             </div> 
                         }
                     </div>

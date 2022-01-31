@@ -106,12 +106,12 @@ const Index=()=>{
                         </div>
                         <div className='teamposition'>
                             {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            Brand Ambassador<div className='teamposition-span'> Professional Basketball Player Business owner. NFT Enthusiast. Gamer. </div>
+                            Project Ambassador<div className='teamposition-span'> Professional Basketball Player. Business Owner. NFT Enthusiast. Gamer. </div>
 
                         </div>
                         <div className='twitterIcon'>
                             <div className='twitter' style={{border:0}}>
-                                <a href="https://www.instagram.com/p/CWthoU9IMk8/?utm_medium=copy_link" target='_blank'><FaInstagram size={20} color='#fff' className='instagramIcon' /></a>
+                                <a href="https://www.instagram.com/waelarakji/" target='_blank'><FaInstagram size={20} color='#fff' className='instagramIcon' /></a>
                             </div>
                         
                         </div>
