@@ -92,7 +92,7 @@ const Index=()=>{
                 </div>
                 <div className="connect">
                     <div className="game">
-                      <a href="https://discord.com/invite/squirrelingsquirrels" target="_blank">  <FaDiscord size={20} color="#FFF"/></a>
+                      <a href="https://discord.gg/5JgjnY6mUa" target="_blank">  <FaDiscord size={20} color="#FFF"/></a>
                     </div>
                     <div className="game">
                          <a href="https://twitter.com/SquirrelingSQRL" target="_blank"><VscTwitter size={20} color="#FFF"/></a>
@@ -100,9 +100,9 @@ const Index=()=>{
                     <div className="game">
                          <a href="https://www.instagram.com/squirrelingsquirrels/" target="_blank"><FaInstagram size={20} color="#FFF"/></a>
                     </div>
-                    <div className="game">
+                    {/* <div className="game">
                          <a href="https://opensea.io/collection/squirrelingsquirrels" target="_blank"><img src={opensea} style={{width:25}}/></a>
-                    </div>
+                    </div> */}
                     {/* <div className="gaming">
                             Connect to Wallet
                     </div> */}

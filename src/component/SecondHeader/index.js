@@ -93,9 +93,9 @@ const Index=()=>{
                     <div className="game">
                          <a href="https://www.instagram.com/squirrelingsquirrels/" target="_blank"><FaInstagram size={20} color="#FFF"/></a>
                     </div>
-                    <div className="game">
+                    {/* <div className="game">
                          <a href="https://www.opensea.io/" target="_blank"><img src={opensea} style={{width:25}}/></a>
-                    </div>
+                    </div> */}
                     {/* <div className="gaming">
                             Connect to Wallet
                     </div> */}
@@ -170,7 +170,7 @@ const Index=()=>{
                                 <div className='tagName'>Faq</div>
                             </div>
                         </Link>
-                        <a href="https://discord.gg/JPwkNtvgqd" style={{ textDecoration: 'none'}}>
+                        <a href="https://discord.gg/5JgjnY6mUa" style={{ textDecoration: 'none'}}>
                             <div className='tag'>
                                     <div className='tagIcon'>
                                         
