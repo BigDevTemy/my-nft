@@ -24,6 +24,9 @@ html, body  {
   padding-right: 50px;
   
 }
+.rarity{
+  width: 50%;
+}
 
 .scroll{
   background-color:#000;
@@ -69,6 +72,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+  }
+  .rarity{
+    width: 25%;
   }
 
 }

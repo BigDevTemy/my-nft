@@ -200,7 +200,7 @@ const Index=()=>{
                             </div>
                         </a>
                         
-                        <a href="https://opensea.io/collection/squirrelingsquirrels" style={{ textDecoration: 'none'}}>
+                        {/* <a href="https://opensea.io/collection/squirrelingsquirrels" style={{ textDecoration: 'none'}}>
                             <div className='tag'>
                                     <div className='tagIcon'>
                                         
@@ -208,7 +208,7 @@ const Index=()=>{
                                     </div>
                                     <div className='tagName'>Opensea</div>
                             </div>
-                        </a>    
+                        </a>     */}
                           
                         </div>
                     </Offcanvas.Body>
