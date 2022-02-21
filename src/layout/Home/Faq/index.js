@@ -15,7 +15,8 @@ const Index=()=>{
     const [isOpenEvent3, setOpenEvent3] = useState(false);
     const [isOpenEvent4, setOpenEvent4] = useState(false);
     const [isOpenEvent5, setOpenEvent5] = useState(false);
-
+    const [isOpenEvent6, setOpenEvent6] = useState(false);
+    const [isOpenEvent7, setOpenEvent7] = useState(false);
     const _handleOpen =(event)=>{
         console.log(event)
         switch (event) {
@@ -25,6 +26,8 @@ const Index=()=>{
                 setOpenEvent3(false)
                 setOpenEvent4(false)
                 setOpenEvent5(false)
+                setOpenEvent6(false)
+                setOpenEvent7(false)
                 break;
             case 'event2':
                 setOpenEvent2(!isOpenEvent2)
@@ -32,6 +35,9 @@ const Index=()=>{
                 setOpenEvent3(false)
                 setOpenEvent4(false)
                 setOpenEvent5(false)
+                setOpenEvent6(false)
+                setOpenEvent7(false)
+
                 break;
             case 'event3':
                 setOpenEvent3(!isOpenEvent3)
@@ -39,6 +45,8 @@ const Index=()=>{
                 setOpenEvent1(false)
                 setOpenEvent4(false)
                 setOpenEvent5(false)
+                setOpenEvent6(false)
+                setOpenEvent7(false)
                 break;
             case 'event4':
                 setOpenEvent4(!isOpenEvent4)
@@ -46,6 +54,8 @@ const Index=()=>{
                 setOpenEvent3(false)
                 setOpenEvent1(false)
                 setOpenEvent5(false)
+                setOpenEvent6(false)
+                setOpenEvent7(false)
                 break;
             case 'event5':
                 setOpenEvent5(!isOpenEvent5)
@@ -53,6 +63,26 @@ const Index=()=>{
                 setOpenEvent3(false)
                 setOpenEvent1(false)
                 setOpenEvent4(false)
+                setOpenEvent6(false)
+                setOpenEvent7(false)
+                break;
+            case 'event6':
+                setOpenEvent5(false)
+                setOpenEvent2(false)
+                setOpenEvent3(false)
+                setOpenEvent1(false)
+                setOpenEvent4(false)
+                setOpenEvent6(!isOpenEvent6)
+                setOpenEvent7(false)
+                break;
+            case 'event7':
+                setOpenEvent5(false)
+                setOpenEvent2(false)
+                setOpenEvent3(false)
+                setOpenEvent1(false)
+                setOpenEvent4(false)
+                setOpenEvent6(false)
+                setOpenEvent7(!isOpenEvent7)
                 break;
                 
             default:
@@ -204,7 +234,7 @@ const Index=()=>{
                     5.	&nbsp; How many Squirreling Squirrels NFT’s will there be?
                     </div>
                     <div className='faq-icon'> 
-                    {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
+                    {isOpenEvent5 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
                     </div>
                     <div>
                         {isOpenEvent5&& 
@@ -213,6 +243,55 @@ const Index=()=>{
                                       {/* Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain. */}
                                       Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain & hosted on IPFS.
                                     </p>
+                            </div> 
+                        }
+                    </div>
+                    
+                </div>
+
+                <div className='faq-question'>
+                    <div className='faq-title' onClick={()=>{_handleOpen('event6')}}>  
+                    6.	&nbsp; Why Mint SS NFT?
+                    </div>
+                    <div className='faq-icon'> 
+                    {isOpenEvent6 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event6')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
+                    </div>
+                    <div>
+                        {isOpenEvent6&& 
+                            <div className='faq-answer'>
+                                     <p> 
+                                      {/* Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain. */}
+                                      {/* Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain & hosted on IPFS. */}
+                                      Our unique and one of a kind NFTs are not just affordable, but their value is found within our hand-draw art, and our unique roadmap!
+                                    </p>
+                                    <p>
+                                        Schedule for many giveaways & airdrops during and after minting.
+                                    </p>
+                            </div> 
+                        }
+                    </div>
+                    
+                </div>
+
+                <div className='faq-question'>
+                    <div className='faq-title' onClick={()=>{_handleOpen('event7')}}>  
+                    7.	&nbsp; Why Hold SS NFT?
+                    </div>
+                    <div className='faq-icon'> 
+                    {isOpenEvent7 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event7')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
+                    </div>
+                    <div>
+                        {isOpenEvent7&& 
+                            <div className='faq-answer'>
+                                     <p> 
+                                        Holders are owning special digital fully hand-drawn art, where each NFT has a unique touch, in addition to rarity. We are growing our community to build trust among future holders, to increase and maintain floor price.
+                                     </p>
+                                     <p>
+                                         Squirreling Squirrels NFT holders will not only have access to our land on Sandbox, and our play to earn game & $ACORN token but will also take part in the planting of a million trees (collaborating with Tree Nation to achieve this milestone).
+                                     </p>
+                                     <p>
+                                        Our goal is to reward long term holders by doing what we promise to do, and more.
+                                     </p>
                             </div> 
                         }
                     </div>
