@@ -18,11 +18,10 @@ const Index=()=>{
                     {/* <BsFileArrowUp size={15} color="#fff" style={{cursor:'pointer'}} onClick={()=>window.scroll(0,0)}/> */}
                     {/* <a href='https://raritysniper.com' target='_blank'><img src={Rarity} className='rarity'/></a>                    */}
                     
-                    <a href="https://tree-nation.com/profile/impact/squirreling-squirrels#co2" target="_blank" style="position:relative;cursor:pointer;display:block;z-index:999;">
-                        <img src="https://tree-nation.com/images/tracking/label-co2-website-white-en.png" style="width:157px;height:auto;"/>
-                    </a>
-                    <script src="https://tree-nation.com/js/track.js"></script>
-                    <script>treenation_track("61fd51cfdb789");</script>
+                    <a href="https://tree-nation.com/profile/impact/squirreling-squirrels#co2" target="_blank" className='treeNation'>
+                        <img src="https://tree-nation.com/images/tracking/label-co2-website-white-en.png" style={{width:157,height:'auto'}}/>
+                        </a>
+                        
                 </div>
             </div>
             <Header/>
