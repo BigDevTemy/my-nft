@@ -20,7 +20,7 @@ const Index=()=>{
                     
                     <a href="https://tree-nation.com/profile/impact/squirreling-squirrels#co2" target="_blank" className='treeNation'>
                         <img src="https://tree-nation.com/images/tracking/label-co2-website-white-en.png" style={{width:157,height:'auto'}}/>
-                        </a>
+                    </a>
                         
                 </div>
             </div>
