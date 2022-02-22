@@ -18,6 +18,9 @@ import item4 from '../../../assets/images/roadmap/edit/4.png'
 import item5 from '../../../assets/images/roadmap/edit/5.png'
 const Index = ()=>{
     
+    const openTreeNation = ()=>{
+        window.open('https://tree-nation.com/profile/impact/squirreling-squirrels')
+    }
     return(
         <div className="roadmap" id="roadmap">
            <div className="SoleHeader">
@@ -53,7 +56,7 @@ const Index = ()=>{
                                             </div>
                                             <div className='roadmap-flex-2'>
                                                 <div className='overlayDiv'></div>
-                                                <img src={item1}/>
+                                                    <img src={item1}/>
                                             </div>
                                         </div>
                                     </li>
@@ -99,11 +102,11 @@ const Index = ()=>{
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className='roadmap-flex-2'>
-                                            <a href="https://tree-nation.com/profile/impact/squirreling-squirrels" target='_blank'>
+                                            <div className='roadmap-flex-2' onClick={openTreeNation} style={{cursor:'pointer'}}>
+                                            {/* <a href="https://tree-nation.com/profile/impact/squirreling-squirrels" target='_blank'> */}
                                                 <div className='overlayDiv'></div>
                                                     <img src={item5} style={{borderRadius:20}}/>
-                                            </a>
+                                            {/* </a> */}
                                             </div>
                                            
                                         </div>
