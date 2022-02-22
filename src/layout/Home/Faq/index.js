@@ -254,7 +254,7 @@ const Index=()=>{
                     6.	&nbsp; Why Mint SS NFT?
                     </div>
                     <div className='faq-icon'> 
-                    {isOpenEvent6 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event6')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
+                    {isOpenEvent6 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event6')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event6')}}/> }
                     </div>
                     <div>
                         {isOpenEvent6&& 
@@ -278,7 +278,7 @@ const Index=()=>{
                     7.	&nbsp; Why Hold SS NFT?
                     </div>
                     <div className='faq-icon'> 
-                    {isOpenEvent7 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event7')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
+                    {isOpenEvent7 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event7')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event7')}}/> }
                     </div>
                     <div>
                         {isOpenEvent7&& 
