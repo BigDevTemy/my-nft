@@ -5,8 +5,10 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import Home from './container/Home'
+import ReactGA from 'react-ga';
 function App() {
-
+  const TRACKING_ID = "UA-12341234-1"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
   const [isLoading, setLoading] = useState(true);
 
   function fakeRequest() {
