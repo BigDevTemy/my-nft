@@ -270,7 +270,7 @@ const Index=()=>{
                     {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/> }
                     </div>
                     <div>
-                        {isOpenEvent4&& 
+                        {isOpenEvent4 && 
                             <div className='faq-answer'>
                                   <p> Squirreling Squirrels prices are TBA. Whitelisted people will benefit from a discounted price.</p>
                             </div> 
