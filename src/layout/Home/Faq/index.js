@@ -147,111 +147,9 @@ const Index=()=>{
                         section!
                     </p>
                 </Collapsible> */}
-
-                <div className='faq-question'>
-                    <div className='faq-title' onClick={()=>{_handleOpen('event1')}}>  
-                        1. &nbsp;	I am new to NFT’s where do I start?
-                    </div>
-                    <div className='faq-icon'> 
-                    {isOpenEvent1 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/> }
-                    </div>
-                    <div>
-                        {isOpenEvent1 && 
-                            <div className='faq-answer'>
-                                   <p>Welcome to the wild west of Web3! There is so much to write but it has been explained by great journalists around the globe.</p>
-                                   <p>
-                                   The following links can give you everything you want to know and more. As you read, remember; the Squirreling Squirrels project is a series of NFT’s, we are forming a community with the goal of creating a new positive impact to the NFT universe both virtually and physically. We are incredibly excited for you to join us in the process.
-                                   </p>
-                                   <p>
-                                    <a href="https://ethereum.org/en/nft/" target="_blank"><span>What is an NFT? </span></a> / <a href='https://opensea.io/blog/guides/non-fungible-tokens/' target="_blank"><span>The Non-Fungible Token Bible</span></a> - Your guides to everything that is an NFT 
-                                    don’t forget that you can always hop  on to our discord where our moderators will help in any additional insights!
-
-                                   </p>
-                            </div> 
-                        }
-                    </div>
-                    
-                </div>
-                <div className='faq-question'>
-                    <div className='faq-title' onClick={()=>{_handleOpen('event2')}}>  
-                        2. &nbsp;	What is Squirreling Squirrels?
-                    </div>
-                    <div className='faq-icon'> 
-                    {isOpenEvent2 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/> }
-                    </div>
-                    <div>
-                        {isOpenEvent2 && 
-                            <div className='faq-answer'>
-                                  <p>Squirreling Squirrels "SS" is an NFT collection of 6,600 fully hand drawn squirrels.</p>
-                                  <p>Two species of squirrels: 1,600 ice age squirrels and 5,000 current age squirrels. Rarity can be found in 200 plus hand drawn traits.</p>
-                                  <p>It has been a few years after the last ice age and the squirrels are currently living in joy and peace in their new homeland. They are fun, active, curious and sometimes weird; THEY ARE NUT BEYOND NUTS!</p>
-                                 
-                            </div> 
-                        }
-                    </div>
-                    
-                </div>
-
-                <div className='faq-question'>
-                    <div className='faq-title' onClick={()=>{_handleOpen('event3')}}>  
-                        3. &nbsp;	When is the launch date? 
-                    </div>
-                    <div className='faq-icon'> 
-                        {isOpenEvent3 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/> }
-                    </div>
-                    <div>
-                        {isOpenEvent3 && 
-                            <div className='faq-answer'>
-                                    <p>
-                                        {/* Squirreling Squirrels launch date is still TBA. We will be revealing the pre-launch date soon as well.! */}
-                                        Squirreling Squirrels’ launch date is still TBA. We will be revealing the pre-launch date soon!
-                                    </p>
-                                    
-                            </div> 
-                        }
-                    </div>
-                    
-                </div>
-                <div className='faq-question'>
-                    <div className='faq-title' onClick={()=>{_handleOpen('event4')}}>  
-                    4.	&nbsp; How much will it cost to mint a Squirreling Squirrels NFT?
-                    </div>
-                    <div className='faq-icon'> 
-                    {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/> }
-                    </div>
-                    <div>
-                        {isOpenEvent4&& 
-                            <div className='faq-answer'>
-                                  <p> Squirreling Squirrels prices are TBA. Whitelisted people will benefit from a discounted price.</p>
-                            </div> 
-                        }
-                    </div>
-                    
-                </div>
-                
-                <div className='faq-question'>
-                    <div className='faq-title' onClick={()=>{_handleOpen('event5')}}>  
-                    5.	&nbsp; How many Squirreling Squirrels NFT’s will there be?
-                    </div>
-                    <div className='faq-icon'> 
-                    {isOpenEvent5 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
-                    </div>
-                    <div>
-                        {isOpenEvent5&& 
-                            <div className='faq-answer'>
-                                  <p> 
-                                      {/* Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain. */}
-                                      Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain & hosted on IPFS.
-                                    </p>
-                            </div> 
-                        }
-                    </div>
-                    
-                </div>
-
                 <div className='faq-question'>
                     <div className='faq-title' onClick={()=>{_handleOpen('event6')}}>  
-                    6.	&nbsp; Why Mint SS NFT?
+                    1.	&nbsp; Why Mint SS NFT?
                     </div>
                     <div className='faq-icon'> 
                     {isOpenEvent6 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event6')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event6')}}/> }
@@ -275,7 +173,7 @@ const Index=()=>{
 
                 <div className='faq-question'>
                     <div className='faq-title' onClick={()=>{_handleOpen('event7')}}>  
-                    7.	&nbsp; Why Hold SS NFT?
+                    2.	&nbsp; Why Hold SS NFT?
                     </div>
                     <div className='faq-icon'> 
                     {isOpenEvent7 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event7')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event7')}}/> }
@@ -297,6 +195,111 @@ const Index=()=>{
                     </div>
                     
                 </div>
+
+
+
+                <div className='faq-question'>
+                    <div className='faq-title' onClick={()=>{_handleOpen('event1')}}>  
+                        3. &nbsp;	I am new to NFT’s where do I start?
+                    </div>
+                    <div className='faq-icon'> 
+                    {isOpenEvent1 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event1')}}/> }
+                    </div>
+                    <div>
+                        {isOpenEvent1 && 
+                            <div className='faq-answer'>
+                                   <p>Welcome to the wild west of Web3! There is so much to write but it has been explained by great journalists around the globe.</p>
+                                   <p>
+                                   The following links can give you everything you want to know and more. As you read, remember; the Squirreling Squirrels project is a series of NFT’s, we are forming a community with the goal of creating a new positive impact to the NFT universe both virtually and physically. We are incredibly excited for you to join us in the process.
+                                   </p>
+                                   <p>
+                                    <a href="https://ethereum.org/en/nft/" target="_blank"><span>What is an NFT? </span></a> / <a href='https://opensea.io/blog/guides/non-fungible-tokens/' target="_blank"><span>The Non-Fungible Token Bible</span></a> - Your guides to everything that is an NFT 
+                                    don’t forget that you can always hop  on to our discord where our moderators will help in any additional insights!
+
+                                   </p>
+                            </div> 
+                        }
+                    </div>
+                    
+                </div>
+                <div className='faq-question'>
+                    <div className='faq-title' onClick={()=>{_handleOpen('event2')}}>  
+                        4. &nbsp;	What is Squirreling Squirrels?
+                    </div>
+                    <div className='faq-icon'> 
+                    {isOpenEvent2 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event2')}}/> }
+                    </div>
+                    <div>
+                        {isOpenEvent2 && 
+                            <div className='faq-answer'>
+                                  <p>Squirreling Squirrels "SS" is an NFT collection of 6,600 fully hand drawn squirrels.</p>
+                                  <p>Two species of squirrels: 1,600 ice age squirrels and 5,000 current age squirrels. Rarity can be found in 200 plus hand drawn traits.</p>
+                                  <p>It has been a few years after the last ice age and the squirrels are currently living in joy and peace in their new homeland. They are fun, active, curious and sometimes weird; THEY ARE NUT BEYOND NUTS!</p>
+                                 
+                            </div> 
+                        }
+                    </div>
+                    
+                </div>
+
+                <div className='faq-question'>
+                    <div className='faq-title' onClick={()=>{_handleOpen('event3')}}>  
+                        5. &nbsp;	When is the launch date? 
+                    </div>
+                    <div className='faq-icon'> 
+                        {isOpenEvent3 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event3')}}/> }
+                    </div>
+                    <div>
+                        {isOpenEvent3 && 
+                            <div className='faq-answer'>
+                                    <p>
+                                        {/* Squirreling Squirrels launch date is still TBA. We will be revealing the pre-launch date soon as well.! */}
+                                        Squirreling Squirrels’ launch date is still TBA. We will be revealing the pre-launch date soon!
+                                    </p>
+                                    
+                            </div> 
+                        }
+                    </div>
+                    
+                </div>
+                <div className='faq-question'>
+                    <div className='faq-title' onClick={()=>{_handleOpen('event4')}}>  
+                    6.	&nbsp; How much will it cost to mint a Squirreling Squirrels NFT?
+                    </div>
+                    <div className='faq-icon'> 
+                    {isOpenEvent4 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event4')}}/> }
+                    </div>
+                    <div>
+                        {isOpenEvent4&& 
+                            <div className='faq-answer'>
+                                  <p> Squirreling Squirrels prices are TBA. Whitelisted people will benefit from a discounted price.</p>
+                            </div> 
+                        }
+                    </div>
+                    
+                </div>
+                
+                <div className='faq-question'>
+                    <div className='faq-title' onClick={()=>{_handleOpen('event5')}}>  
+                    7.	&nbsp; How many Squirreling Squirrels NFT’s will there be?
+                    </div>
+                    <div className='faq-icon'> 
+                    {isOpenEvent5 ? <MdArrowDropUp size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/>:<RiArrowDropDownFill size={25} color='#fff' onClick={()=>{_handleOpen('event5')}}/> }
+                    </div>
+                    <div>
+                        {isOpenEvent5&& 
+                            <div className='faq-answer'>
+                                  <p> 
+                                      {/* Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain. */}
+                                      Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain & hosted on IPFS.
+                                    </p>
+                            </div> 
+                        }
+                    </div>
+                    
+                </div>
+
+                
 
 
 
