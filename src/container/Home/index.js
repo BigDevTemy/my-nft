@@ -16,7 +16,7 @@ const TRACKING_ID = process.env.REACT_APP_GOOGLE_TRACKING_ID; // YOUR_OWN_TRACKI
 const REACT_APP_MEASUREMENT_ID = process.env.REACT_APP_MEASUREMENT_ID
 
 const Index=()=>{
-    ReactGA.initialize(REACT_APP_MEASUREMENT_ID);
+    ReactGA.initialize(TRACKING_ID);
    
     useEffect(()=>{
         ///ReactGA.pageview(window.location.pathname + window.location.search);
