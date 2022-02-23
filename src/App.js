@@ -5,22 +5,9 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import Home from './container/Home'
-import ReactGA from 'react-ga';
-import Analytics from './analytics'
+
 function App() {
-  const TRACKING_ID = process.env.REACT_APP_GOOGLE_TRACKING_ID; // YOUR_OWN_TRACKING_ID
-  console.log(process.env.REACT_APP_GOOGLE_TRACKING_ID)
-  ReactGA.initialize(TRACKING_ID);
-  ReactGA.event({
-    category: 'User',
-    action: 'Created an Account'
-  });
-
-  ReactGA.exception({
-    description: 'An error ocurred',
-    fatal: true
-  });
-
+ 
   const [isLoading, setLoading] = useState(true);
 
   function fakeRequest() {

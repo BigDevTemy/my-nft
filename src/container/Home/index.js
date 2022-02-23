@@ -10,7 +10,17 @@ import SecondHeader from '../../component/SecondHeader'
 import '../../../src/App.css'
 import {BsFileArrowUp} from 'react-icons/bs'
 import Rarity  from '../../assets/images/rarity.png'
+import ReactGA from 'react-ga';
+import { useEffect } from 'react';
+const TRACKING_ID = process.env.REACT_APP_GOOGLE_TRACKING_ID; // YOUR_OWN_TRACKING_ID
+  
+ReactGA.initialize(TRACKING_ID);
 const Index=()=>{
+    
+    useEffect(()=>{
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    })
+
     return(
         <div className="homeDiv">
             <div className='scroller'>
