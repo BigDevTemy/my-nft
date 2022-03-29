@@ -40,7 +40,7 @@ const Index = ()=>{
                     <div class="col-md-12 styledRoadmap">
                         <div className='coverDiv'>
                             <div className="newtimeline">
-                                <div>Q1 2022</div>
+                                <div>Q2 2022</div>
                                 <ul className='me'>
                                     <li>
                                
@@ -50,7 +50,7 @@ const Index = ()=>{
                                                 <div className='roadmapComponent-text'>
                                                     <p>
                                                         {/* Our goal is to build a long lasting community of Squirreling Squirrels, through creating value and trust. As an appreciation, our community will be rewarded with many upcoming surprises, giveaways and airdrops before, during and after our launch! Stay tuned and follow our Discord for the chance to experience the premiere of the Squirreling Squirrels! */}
-                                                        Our goal is to build a long lasting community of Squirreling Squirrels, through creating value and trust. As an appreciation, our community will be rewarded with many upcoming surprises, giveaways, & airdrops; before, during & after our launch! Stay tuned and follow our Discord for the chance to experience the premiere of the Squirreling Squirrels!
+                                                        Our goal is to build a long lasting community of Squirreling Squirrels, through creating value and trust. Our team is doxxed and our main drive is the SS community. All assets fall under the SS community wallet. As an appreciation, our community is being rewarded with many upcoming surprises, giveaways, & airdrops; before, during & after our launch! 
                                                     </p>
                                                 </div>
                                             </div>
@@ -64,7 +64,7 @@ const Index = ()=>{
         
                             </div>
                             <div className="newtimeline">
-                                <div>Q1 2022</div>
+                                <div>Q2 2022</div>
                                 <ul className='me'>
                                     <li>
                                         <div className='roadmapComponent'>
@@ -73,8 +73,8 @@ const Index = ()=>{
                                                 <div className='roadmapComponent-text'>
                                                     <p>
                                                     {/* Acquire land on Sandbox, to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land will be open to all holders for them to experience a new and beautiful adventure on the metaverse full of surprises! Key access to social & gaming events, art galleries, and more! Join our Discord for more on what's to come! */}
-                                                    Acquire land on Sandbox to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land will be open to all holders for them to experience a new and beautiful adventure on the Metaverse full of surprises! Key access to social & gaming events, art galleries, and more! Join our Discord for more on what's to come!
-                                                    
+                                                    {/* Acquire land on Sandbox to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land is open to all holders for them to experience a new and beautiful adventure on the Metaverse full of surprises! Key access to social & gaming events, art galleries, and more! All income generated from said events is to be reimbursed in the SS community wallet, which holders decide on how to invest back into the Metaverse. */}
+                                                    Acquire land on Sandbox to build our Squirreling Squirrels Park, where each holder has access to join and have fun. The land is open to all holders for them to experience a new and beautiful adventure on the Metaverse full of surprises! Key access to social & gaming events, art galleries, and more! All income generated from said events is to be reimbursed in the SS community wallet, where all assets also fall under. Holders decide on how to invest it back into the Metaverse
                                                     </p>
                                                 </div>
                                             </div>
@@ -88,7 +88,7 @@ const Index = ()=>{
         
                             </div>
                             <div className="newtimeline">
-                                <div>Q2 2022</div>
+                                <div>Q3 2022</div>
                                 <ul className='me'>
                                     <li>
                                         <div className='roadmapComponent'>
@@ -98,7 +98,7 @@ const Index = ()=>{
                                                     <p>
                                                     {/* A million starts with one, that one starts with each holder of our SS collection. As part of our commitment to help the global community, we will start by planting 100,000 trees as a first milestone, with a goal of reaching up to a million trees. And as a thank you to our community, All SS holders will get a certificate for the trees that they have contributed in planting. More glamorous details & collabs to be revealed soon, and you know where to find us! */}
                                                     {/* A million starts with one; that one starts with each holder of our SS collection. As part of our commitment to help the global community, we will start by planting 100,000 trees as a first milestone with a goal of reaching up to a million trees. And as a thank you to our community, all SS holders will get a certificate for the trees that they have contributed to planting. More glamorous details & collabs are to be revealed soon, and you know where to find us! */}
-                                                    A million starts with one; that one starts with each holder of our SS collection. As part of our commitment to help the global community, we will start by planting 100,000 trees as a first milestone with a goal of reaching up to a million trees. Therefore, we are proudly collaborating with <span><a href="https://tree-nation.com/profile/impact/squirreling-squirrels" target="_blank">Tree Nation</a></span> to help in effectively accomplishing this milestone. And as a thank you to our community, all SS holders will get a certificate for the trees that they have contributed to planting. More details to be revealed soon, and you know where to find us!
+                                                    A million starts with one; that one starts with each holder of our SS collection. As part of our commitment to help the global community, we are starting by planting 100,000 trees as a first milestone with a goal of reaching up to a million trees. Therefore, we are proudly collaborating with <span><a href="https://tree-nation.com/profile/impact/squirreling-squirrels" target="_blank">Tree Nation</a></span> to help in effectively accomplishing this milestone. And as a thank you to our community, all SS holders are getting a certificate for the trees that they have contributed to planting.
                                                     </p>
                                                 </div>
                                             </div>
@@ -115,7 +115,7 @@ const Index = ()=>{
         
                             </div>
                             <div className="newtimeline">
-                                <div className='timeState'>Q3 2022</div>
+                                <div className='timeState'>Q4 2022</div>
                                 <ul className='me'>
                                     <li>
                                     
@@ -126,7 +126,7 @@ const Index = ()=>{
                                                 <div className='roadmapComponent-text'>
                                                     <p>
                                                      {/* Our goal is to develop a play to earn game on our Metaverse land. Game & Token ($ACORN) development stages are ongoing, and all our SS community will be able to join in on the fun. Nevertheless, SS NFT holders will have additional benefits with their unique characters and more. The game will consist of different levels where players will progress by completing certain games, tasks and challenges to find the Acorn. */}
-                                                     Our goal is to develop a play-to-earn game on our Metaverse land. Game & Token ($ACORN) development stages are ongoing, and all our SS community will be able to join in on the fun! Nevertheless, SS NFT holders will have additional benefits with their unique characters and more. The game will consist of different levels where players will progress by completing certain games, tasks, and challenges to find the Acorn.
+                                                     Our Metaverse land is also dedicated for our play-to-earn game. Game & Token ($ACORN) development stages are ongoing, and all our SS community can join in on the fun! Nevertheless, SS holders can access the game with their unique NFT characters and prior $ACORN tokens in hand. The game consists of different levels where players will progress by completing certain games, tasks, and challenges to find the Acorn.
                                                     </p>
                                                 </div>
                                             </div>

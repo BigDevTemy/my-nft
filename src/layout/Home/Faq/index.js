@@ -92,10 +92,7 @@ const Index=()=>{
 
     return (
         <div className="faq" id="faq">
-            {/* <div className="faq-title">
-                <h1>Faq</h1>
-                <small>You have questions, we have answers!</small>
-            </div> */}
+            
                <div className="SoleHeader">
 
                     <div className='mylogo'>

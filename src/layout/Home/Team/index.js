@@ -118,30 +118,7 @@ const Index=()=>{
                     </div>
                 </div>
 
-                <div className="team-member">
-                    <div className="teamImg">
-                         <div className='overlayDiv'></div>
-                        <img src={Zeuxt}/>
-                    </div>
-                    <div className='teamInfor'>
-                        <div className='mytitle'>
-                            ncg Consulting <br/>
-                            Zeuxt & Rayan
-                        </div>
-                        <div className='teamposition'>
-                            {/* Co-Founder of PP. Co-Creative Director and Operations Manager. NFT Collector and Computer Science Student. */}
-                            NFT Consultants<div className='teamposition-span'>Strategic and Marketing Management. </div>
-
-                        </div>
-                        <div className='twitterIcon'>
-                            <div className='twitter' style={{border:0}}>
-                                <a href="https://instagram.com/zeuxt?utm_medium=copy_link" target='_blank' style={{marginRight:10}}><FaInstagram size={20} color='#fff' className='instagramIcon'  /></a>
-                                <a href="https://instagram.com/rayan_sme?utm_medium=copy_link" target='_blank'><FaInstagram size={20} color='#fff' className='instagramIcon' /></a>
-                            </div>
-                        
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div className="team-member">
                     <div className="teamImg">
