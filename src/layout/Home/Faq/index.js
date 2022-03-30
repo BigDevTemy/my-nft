@@ -229,8 +229,8 @@ const Index=()=>{
                     <div>
                         {isOpenEvent2 && 
                             <div className='faq-answer'>
-                                  <p>Squirreling Squirrels "SS" is an NFT collection of 6,600 fully hand drawn squirrels.</p>
-                                  <p>Two species of squirrels: 1,600 ice age squirrels and 5,000 current age squirrels. Rarity can be found in 200 plus hand drawn traits.</p>
+                                  <p>Squirreling Squirrels "SS" is an NFT collection of 2,200 fully hand drawn squirrels.</p>
+                                  <p>Two species of squirrels: 500 ice age squirrels and 1,700 current age squirrels. Rarity can be found in 200 plus hand drawn traits.</p>
                                   <p>It has been a few years after the last ice age and the squirrels are currently living in joy and peace in their new homeland. They are fun, active, curious and sometimes weird; THEY ARE NUT BEYOND NUTS!</p>
                                  
                             </div> 
@@ -288,7 +288,7 @@ const Index=()=>{
                             <div className='faq-answer'>
                                   <p> 
                                       {/* Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain. */}
-                                      Squirreling Squirrels will be comprised of 6,600 unique NFT’s on the Ethereum Blockchain & hosted on IPFS.
+                                      Squirreling Squirrels will be comprised of 2,200 unique NFT’s on the Ethereum Blockchain & hosted on IPFS.
                                     </p>
                             </div> 
                         }
