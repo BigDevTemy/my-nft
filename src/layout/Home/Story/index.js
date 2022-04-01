@@ -74,8 +74,11 @@ const Index = ()=>{
                     Abas emerges as the first squirrel from the underground at the end of the ice age and travels the longest distance with his community until they reach their playing grounds; North America! Filled with trees, greenery, and all the food one can dream of. 
                     </p>
                     <p>
-                    Thus, Abas settled with his initially small community until they grew to 6,600 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration.
+                    Thus, Abas settled with his initially small community until they grew to 2,200 squirrels. The squirrels survived through the intelligent search of their nuts; However, with a failure to recover 74% of the nuts they bury, the community can be called responsible for the oak forest regeneration.
                     </p>
+
+                    
+
                     
                    
                </div>

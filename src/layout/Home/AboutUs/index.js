@@ -188,7 +188,9 @@ const Index = ()=>{
                         {/* Join us on our adventure in creating a positive community. Our journey will be full of surprises such as acquiring land on Sandbox, where we will base our community & game on along with many more projects, events and airdrops! <span>All this to help shape the future of the Squirreling Squirrels!</span> */}
                         Join us on our adventure in creating a positive community. Our journey will be full of surprises, such as acquiring land on Sandbox, where we will base our community & game, along with many more projects, events, and airdrops! All this to help shape the future of the Squirreling Squirrels!
                     </p>
-
+                    <p className='ourMission'>
+                     <i>Our mission is to educate and unite NFT & Web3 communities to thrive together and create international awareness on the need to fight climate change.</i>
+                    </p>
                    
                 </div>
                 
